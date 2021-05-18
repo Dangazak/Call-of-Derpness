@@ -38,12 +38,17 @@
   <ItemGroup>
      <Compile Include="Assets\Rana\poisondartfrog\ToxicFrogs\RotateCamFrog.cs" />
      <Compile Include="Assets\Rana\poisondartfrog\ToxicFrogs\FrogController.cs" />
-     <Compile Include="Assets\Agua\Simple Water Shader\Resources\WaterReflection.cs" />
      <Compile Include="Assets\Agua\Simple Water Shader\Info\Scripts\Readme.cs" />
      <Compile Include="Assets\GlowingForest\Glowing_Forest\Scripts\WaterGroup.cs" />
      <Compile Include="Assets\RootVegetables\Scripts\Rotate.cs" />
-     <Compile Include="Assets\_GameAssets\Script\ControladorSonidoAmbiente.cs" />
-     <Compile Include="Assets\_GameAssets\Script\ZigZagAmortiguado.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\ControladorSonidoAmbiente.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\ZigZagAmortiguado.cs" />
+     <Compile Include="Assets\Agua\Simple Water Shader\Resources\WaterReflection.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\ColorChange.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\DissolveChanger.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Player\Linterna.cs" />
+     <Compile Include="Assets\_GameAssets\Script\GameManager.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\ReverbZoneActivator.cs" />
      <None Include="Assets\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Crystales\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
      <None Include="Assets\Crystales\TranslucentCrystals\Readme.txt" />
@@ -54,6 +59,7 @@
      <None Include="Assets\_GameAssets\Shaders\Sea.shader" />
      <None Include="Assets\Mushroom house\StandardDoubleSided.shader" />
      <None Include="Assets\FantasyEnvironments\Environments\README.txt" />
+     <None Include="Assets\_GameAssets\Shaders\DissolveShaderTiling.shader" />
      <None Include="Assets\_GameAssets\Shaders\DissolveShader.shader" />
      <None Include="Assets\_GameAssets\Shaders\Water.shader" />
     <Reference Include="UnityEngine">
@@ -626,6 +632,9 @@
     <Reference Include="Unity.Postprocessing.Runtime">
         <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -644,8 +653,17 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Toolchain.Linux-x86_64">
         <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
         <HintPath>/home/dangazak/Dev/Curso Unity/Call of Derpness/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
