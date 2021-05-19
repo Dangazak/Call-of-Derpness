@@ -2194,6 +2194,8 @@ MonoBehaviour:
     - Assets/RootVegetables/Materials.meta
     - Assets/RootVegetables/Materials/RootVegetables.mat
     - Assets/RootVegetables/Materials/RootVegetables.mat.meta
+    - Assets/RootVegetables/Materials/Vegetales.mat
+    - Assets/RootVegetables/Materials/Vegetales.mat.meta
     - Assets/RootVegetables/Models.meta
     - Assets/RootVegetables/Models/Beet.fbx
     - Assets/RootVegetables/Models/Beet.fbx.meta
@@ -2567,6 +2569,20 @@ MonoBehaviour:
     - Assets/Witch House/Witchs_house/Prefabs/vessel_3.prefab.meta
     - Assets/Witch House/Witchs_house/Prefabs/well.prefab
     - Assets/Witch House/Witchs_house/Prefabs/well.prefab.meta
+    - Assets/_GameAssets/Audio/FXs/131263__timbre__fireball3.flac
+    - Assets/_GameAssets/Audio/FXs/131263__timbre__fireball3.flac.meta
+    - Assets/_GameAssets/Audio/FXs/136542__joelaudio__electric-zap-001.wav
+    - Assets/_GameAssets/Audio/FXs/136542__joelaudio__electric-zap-001.wav.meta
+    - Assets/_GameAssets/Audio/FXs/221495__lloydevans09__plunger-air.wav
+    - Assets/_GameAssets/Audio/FXs/221495__lloydevans09__plunger-air.wav.meta
+    - Assets/_GameAssets/Audio/FXs/321101__nsstudios__laser2.wav
+    - Assets/_GameAssets/Audio/FXs/321101__nsstudios__laser2.wav.meta
+    - Assets/_GameAssets/Audio/FXs/334237__liamg-sfx__fireball-cast-3.wav
+    - Assets/_GameAssets/Audio/FXs/334237__liamg-sfx__fireball-cast-3.wav.meta
+    - Assets/_GameAssets/Audio/FXs/396890__pugaeme__flamethrower.wav
+    - Assets/_GameAssets/Audio/FXs/396890__pugaeme__flamethrower.wav.meta
+    - Assets/_GameAssets/Audio/FXs/Boing__magnuswaker.wav
+    - Assets/_GameAssets/Audio/FXs/Boing__magnuswaker.wav.meta
     - Assets/_GameAssets/Audio/FXs/pasoAgua1.mp3
     - Assets/_GameAssets/Audio/FXs/pasoAgua1.mp3.meta
     - Assets/_GameAssets/Audio/FXs/pasoAgua2.mp3
@@ -2577,6 +2593,20 @@ MonoBehaviour:
     - Assets/_GameAssets/Audio/FXs/pasoAgua4.mp3.meta
     - Assets/_GameAssets/Audio/Mezclador.mixer
     - Assets/_GameAssets/Audio/Mezclador.mixer.meta
+    - Assets/_GameAssets/Audio/Music/108956__fons__trains142melo.wav
+    - Assets/_GameAssets/Audio/Music/108956__fons__trains142melo.wav.meta
+    - Assets/_GameAssets/Audio/Music/415804__sunsai__mushroom-background-music.wav
+    - Assets/_GameAssets/Audio/Music/415804__sunsai__mushroom-background-music.wav.meta
+    - Assets/_GameAssets/Audio/Music/497011__danlucaz__dark-loop-1.wav
+    - Assets/_GameAssets/Audio/Music/497011__danlucaz__dark-loop-1.wav.meta
+    - Assets/_GameAssets/Audio/Music/524042__alienwall__dark-melody.wav
+    - Assets/_GameAssets/Audio/Music/524042__alienwall__dark-melody.wav.meta
+    - Assets/_GameAssets/Audio/Music/569059__josefpres__dark-loops-201-simple-mix-1-short-loop-60-bpm.wav
+    - Assets/_GameAssets/Audio/Music/569059__josefpres__dark-loops-201-simple-mix-1-short-loop-60-bpm.wav.meta
+    - Assets/_GameAssets/Audio/Music/569726__josefpres__dark-loops-202-piano-with-melody-short-loop-60-bpm.wav
+    - Assets/_GameAssets/Audio/Music/569726__josefpres__dark-loops-202-piano-with-melody-short-loop-60-bpm.wav.meta
+    - Assets/_GameAssets/Audio/Music/570791__josefpres__dark-loops-204-piano-short-loop-60-bpm.wav
+    - Assets/_GameAssets/Audio/Music/570791__josefpres__dark-loops-204-piano-short-loop-60-bpm.wav.meta
     - Assets/_GameAssets/Audio/TechnoSamples.meta
     - Assets/_GameAssets/Audio/TechnoSamples/Bass.meta
     - Assets/_GameAssets/Audio/TechnoSamples/Bass/MF-RDTF-07-Bass Loops-125bpm Am.wav
@@ -2598,19 +2628,90 @@ MonoBehaviour:
       G#m.wav
     - Assets/_GameAssets/Audio/TechnoSamples/Synth/MF-RDTF-06-Synth Loops-125bpm
       G#m.wav.meta
+    - Assets/_GameAssets/Fonts/Back To The Fantasy.otf
+    - Assets/_GameAssets/Fonts/Back To The Fantasy.otf.meta
     - Assets/_GameAssets/Materials/Cristl azul.mat
     - Assets/_GameAssets/Materials/DisolveMat.mat
     - Assets/_GameAssets/Materials/DisolveMat.mat.meta
     - Assets/_GameAssets/Materials/MetalOscuro.mat
     - Assets/_GameAssets/Materials/MetalOscuro.mat.meta
+    - Assets/_GameAssets/Materials/MiniMapa.mat
+    - Assets/_GameAssets/Materials/MiniMapa.mat.meta
+    - Assets/_GameAssets/Materials/New Material.mat
+    - Assets/_GameAssets/Materials/New Material.mat.meta
     - Assets/_GameAssets/Prefabs/Ballesta.prefab
     - Assets/_GameAssets/Prefabs/Ballesta.prefab.meta
     - Assets/_GameAssets/Prefabs/Cristal Azul.prefab
+    - Assets/_GameAssets/Prefabs/Cristales.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal01.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal01.prefab.meta
     - Assets/_GameAssets/Prefabs/Desatascador.prefab
     - Assets/_GameAssets/Prefabs/Mano.prefab
     - Assets/_GameAssets/Prefabs/Mano.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca01.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca01.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca02.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca02.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca03.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca03.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca04.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca04.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca05.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca05.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca06.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca06.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca07.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca07.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca08.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca08.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca09.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca09.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca10.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca10.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca11.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca11.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca12.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca12.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca13.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca13.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca14.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca14.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca15.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca15.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca16.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca16.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca17.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca17.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca18.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca18.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca19.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca19.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca20.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca20.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca21.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca21.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca22.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca22.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca23.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca23.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca24.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca24.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca25.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca25.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca26.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca26.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca27.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca27.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca28.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca28.prefab.meta
+    - Assets/_GameAssets/Prefabs/Rocks/Roca29.prefab
+    - Assets/_GameAssets/Prefabs/Rocks/Roca29.prefab.meta
     - Assets/_GameAssets/Prefabs/Varita.prefab
     - Assets/_GameAssets/Prefabs/Varita.prefab.meta
+    - Assets/_GameAssets/RenderTextures.meta
+    - Assets/_GameAssets/RenderTextures/REndTexMap.renderTexture
+    - Assets/_GameAssets/RenderTextures/REndTexMap.renderTexture.meta
     - Assets/_GameAssets/Scenes/Escena Interior.meta
     - Assets/_GameAssets/Scenes/Escena Interior.unity
     - Assets/_GameAssets/Scenes/Escena Interior.unity.meta
@@ -2622,8 +2723,169 @@ MonoBehaviour:
     - Assets/_GameAssets/Scenes/Escena Interior/Lightmap-0_comp_light.exr.meta
     - Assets/_GameAssets/Scenes/Escena Interior/ReflectionProbe-0.exr
     - Assets/_GameAssets/Scenes/Escena Interior/ReflectionProbe-0.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego.meta
     - Assets/_GameAssets/Scenes/Escena Juego.unity
     - Assets/_GameAssets/Scenes/Escena Juego.unity.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/LightingData.asset
+    - Assets/_GameAssets/Scenes/Escena Juego/LightingData.asset.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-0_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-0_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-0_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-0_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-0_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-0_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-10_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-10_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-10_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-10_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-10_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-10_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-11_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-11_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-11_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-11_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-11_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-11_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-12_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-12_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-12_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-12_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-12_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-12_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-13_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-13_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-13_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-13_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-13_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-13_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-14_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-14_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-14_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-14_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-14_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-14_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-15_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-15_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-15_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-15_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-15_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-15_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-16_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-16_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-16_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-16_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-16_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-16_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-17_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-17_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-17_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-17_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-17_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-17_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-18_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-18_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-18_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-18_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-18_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-18_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-19_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-19_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-19_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-19_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-19_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-19_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-1_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-1_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-1_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-1_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-1_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-1_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-20_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-20_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-20_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-20_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-20_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-20_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-21_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-21_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-21_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-21_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-21_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-21_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-22_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-22_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-22_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-22_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-22_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-22_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-23_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-23_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-23_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-23_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-23_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-23_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-24_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-24_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-24_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-24_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-24_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-24_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-25_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-25_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-25_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-25_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-25_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-25_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-2_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-2_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-2_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-2_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-2_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-2_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-3_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-3_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-3_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-3_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-3_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-3_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-4_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-4_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-4_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-4_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-4_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-4_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-5_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-5_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-5_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-5_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-5_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-5_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-6_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-6_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-6_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-6_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-6_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-6_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-7_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-7_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-7_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-7_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-7_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-7_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-8_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-8_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-8_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-8_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-8_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-8_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_dir.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_dir.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_light.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_light.exr.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_shadowmask.png
+    - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_shadowmask.png.meta
+    - Assets/_GameAssets/Scenes/Escena Juego/ReflectionProbe-0.exr
+    - Assets/_GameAssets/Scenes/Escena Juego/ReflectionProbe-0.exr.meta
     - Assets/_GameAssets/Script/FXs.meta
     - Assets/_GameAssets/Script/FXs/ColorChange.cs
     - Assets/_GameAssets/Script/FXs/ColorChange.cs.meta
@@ -2640,12 +2902,23 @@ MonoBehaviour:
     - Assets/_GameAssets/Script/Player.meta
     - Assets/_GameAssets/Script/Player/Linterna.cs
     - Assets/_GameAssets/Script/Player/Linterna.cs.meta
+    - Assets/_GameAssets/Script/UI.meta
+    - Assets/_GameAssets/Script/UI/MinimapManager.cs
+    - Assets/_GameAssets/Script/UI/MinimapManager.cs.meta
+    - Assets/_GameAssets/Script/UI/UIManager.cs
+    - Assets/_GameAssets/Script/UI/UIManager.cs.meta
     - Assets/_GameAssets/Shaders/DissolveShader.shader
     - Assets/_GameAssets/Shaders/DissolveShader.shader.meta
     - Assets/_GameAssets/Shaders/DissolveShaderTiling.shader
     - Assets/_GameAssets/Shaders/DissolveShaderTiling.shader.meta
     - Assets/_GameAssets/Textures/12167.jpg
     - Assets/_GameAssets/Textures/12167.jpg.meta
+    - Assets/_GameAssets/Textures/Circ.png
+    - Assets/_GameAssets/Textures/Circ.png.meta
+    - Assets/_GameAssets/Textures/MapChar.png
+    - Assets/_GameAssets/Textures/MapChar.png.meta
+    - Assets/_GameAssets/Textures/MiniMap.png
+    - Assets/_GameAssets/Textures/MiniMap.png.meta
     - Assets/_GameAssets/Textures/PerlinNoise2d.png
     - Assets/_GameAssets/Textures/PerlinNoise2d.png.meta
     - Assets/_TerrainAutoUpgrade.meta
@@ -2671,7 +2944,7 @@ MonoBehaviour:
     - ProjectSettings/ProjectSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

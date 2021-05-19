@@ -37,18 +37,20 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Rana\poisondartfrog\ToxicFrogs\RotateCamFrog.cs" />
+     <Compile Include="Assets\_GameAssets\Script\GameManager.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Player\Linterna.cs" />
      <Compile Include="Assets\Rana\poisondartfrog\ToxicFrogs\FrogController.cs" />
      <Compile Include="Assets\Agua\Simple Water Shader\Info\Scripts\Readme.cs" />
      <Compile Include="Assets\GlowingForest\Glowing_Forest\Scripts\WaterGroup.cs" />
      <Compile Include="Assets\RootVegetables\Scripts\Rotate.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\ColorChange.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ControladorSonidoAmbiente.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ZigZagAmortiguado.cs" />
      <Compile Include="Assets\Agua\Simple Water Shader\Resources\WaterReflection.cs" />
-     <Compile Include="Assets\_GameAssets\Script\FXs\ColorChange.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\DissolveChanger.cs" />
-     <Compile Include="Assets\_GameAssets\Script\Player\Linterna.cs" />
-     <Compile Include="Assets\_GameAssets\Script\GameManager.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ReverbZoneActivator.cs" />
+     <Compile Include="Assets\_GameAssets\Script\UI\MinimapManager.cs" />
+     <Compile Include="Assets\_GameAssets\Script\UI\UIManager.cs" />
      <None Include="Assets\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Crystales\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
      <None Include="Assets\Crystales\TranslucentCrystals\Readme.txt" />
