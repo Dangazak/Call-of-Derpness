@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33000013629962810}
   - component: {fileID: 23000011310366672}
   - component: {fileID: 136000011571503686}
+  - component: {fileID: 8561218194045067840}
   m_Layer: 0
   m_Name: Fir
   m_TagString: Untagged
@@ -97,3 +98,30 @@ CapsuleCollider:
   m_Height: 8.04
   m_Direction: 1
   m_Center: {x: -8.076666e-15, y: 2.51, z: -0.00000011920929}
+--- !u!205 &8561218194045067840
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010042709864}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 3.0999691, z: 0}
+  m_Size: 11.772724
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23000011310366672}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23000011310366672}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23000011310366672}
+  m_Enabled: 1

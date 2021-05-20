@@ -14,48 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Agua.meta
-    - Assets/Agua/Simple Water Shader.meta
-    - Assets/Agua/Simple Water Shader/Demo.unity
-    - Assets/Agua/Simple Water Shader/Demo.unity.meta
-    - Assets/Agua/Simple Water Shader/Info.meta
-    - Assets/Agua/Simple Water Shader/Info/Icons.meta
-    - Assets/Agua/Simple Water Shader/Info/Icons/Help_Icon.png
-    - Assets/Agua/Simple Water Shader/Info/Icons/Help_Icon.png.meta
-    - Assets/Agua/Simple Water Shader/Info/Icons/Water Shader icon.PNG
-    - Assets/Agua/Simple Water Shader/Info/Icons/Water Shader icon.PNG.meta
-    - Assets/Agua/Simple Water Shader/Info/Readme.asset
-    - Assets/Agua/Simple Water Shader/Info/Readme.asset.meta
-    - Assets/Agua/Simple Water Shader/Info/Scripts.meta
-    - Assets/Agua/Simple Water Shader/Info/Scripts/Editor.meta
-    - Assets/Agua/Simple Water Shader/Info/Scripts/Editor/ReadmeEditor.cs
-    - Assets/Agua/Simple Water Shader/Info/Scripts/Editor/ReadmeEditor.cs.meta
-    - Assets/Agua/Simple Water Shader/Info/Scripts/Readme.cs
-    - Assets/Agua/Simple Water Shader/Info/Scripts/Readme.cs.meta
-    - Assets/Agua/Simple Water Shader/Prefabs.meta
-    - Assets/Agua/Simple Water Shader/Prefabs/WaterBlock_50m.prefab
-    - Assets/Agua/Simple Water Shader/Prefabs/WaterBlock_50m.prefab.meta
-    - Assets/Agua/Simple Water Shader/Prefabs/WaterReflectionCamera.prefab
-    - Assets/Agua/Simple Water Shader/Prefabs/WaterReflectionCamera.prefab.meta
-    - Assets/Agua/Simple Water Shader/Resources.meta
-    - Assets/Agua/Simple Water Shader/Resources/WaterBlock_50m.mesh
-    - Assets/Agua/Simple Water Shader/Resources/WaterBlock_50m.mesh.meta
-    - Assets/Agua/Simple Water Shader/Resources/WaterReflection.cs
-    - Assets/Agua/Simple Water Shader/Resources/WaterReflection.cs.meta
-    - Assets/Agua/Simple Water Shader/Resources/WaterReflection.renderTexture
-    - Assets/Agua/Simple Water Shader/Resources/WaterReflection.renderTexture.meta
-    - Assets/Agua/Simple Water Shader/Resources/WaterShader.shadergraph
-    - Assets/Agua/Simple Water Shader/Resources/WaterShader.shadergraph.meta
-    - Assets/Agua/Simple Water Shader/Resources/WaterSurface_atlas.tif
-    - Assets/Agua/Simple Water Shader/Resources/WaterSurface_atlas.tif.meta
-    - Assets/Agua/Simple Water Shader/Resources/WaterSurface_single.tif
-    - Assets/Agua/Simple Water Shader/Resources/WaterSurface_single.tif.meta
-    - Assets/Agua/Simple Water Shader/Resources/Water_mat_01.mat
-    - Assets/Agua/Simple Water Shader/Resources/Water_mat_01.mat.meta
-    - Assets/Agua/Simple Water Shader/Resources/Water_mat_02.mat
-    - Assets/Agua/Simple Water Shader/Resources/Water_mat_02.mat.meta
-    - Assets/Agua/Simple Water Shader/Resources/Water_mat_03.mat
-    - Assets/Agua/Simple Water Shader/Resources/Water_mat_03.mat.meta
     - Assets/Cartoon Castle Building Kit.meta
     - Assets/Cartoon Castle Building Kit/Fbx.meta
     - Assets/Cartoon Castle Building Kit/Fbx/Blocks.meta
@@ -1201,186 +1159,6 @@ MonoBehaviour:
     - Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Metallic.png.meta
     - Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Normal.png
     - Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Normal.png.meta
-    - Assets/Crystales.meta
-    - Assets/Crystales/PostProcessingV2.meta
-    - Assets/Crystales/PostProcessingV2/New Post-processing Profile.asset
-    - Assets/Crystales/PostProcessingV2/New Post-processing Profile.asset.meta
-    - Assets/Crystales/TranslucentCrystals.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv01.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv01.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv02.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv02.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv03.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv03.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv04.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv04.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv05.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv05.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv06.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv06.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv07.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv07.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv08.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv08.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv09.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv09.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv10.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Crystalsv10.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv01.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv01.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv02.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv02.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv03.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv03.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv04.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv04.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv05.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv05.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv06.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv06.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv07.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv07.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv08.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv08.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv09.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv09.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv10.prefab
-    - Assets/Crystales/TranslucentCrystals/Prefabs/Gamma/Crystalsv10.prefab.meta
-    - Assets/Crystales/TranslucentCrystals/Readme.txt
-    - Assets/Crystales/TranslucentCrystals/Readme.txt.meta
-    - Assets/Crystales/TranslucentCrystals/Resources.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/GlowingSphere.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/GlowingSphere.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Albedo.png
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Albedo.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Emission.png
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGrid_Emission.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv01.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv01.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv02.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/PrototypeGridv02.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Day.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Day.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Day_Desaturated.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Day_Desaturated.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Night.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Night.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Night_Desaturated.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/EnvironmentMaterials/Skybox_Night_Desaturated.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv01.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv01.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv01Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv01Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv02Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv03Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv04Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv05.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv05.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv05Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv05Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv06Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv07Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv08.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv08.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv08Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv08Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv09Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv10.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv10.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv10Gamma.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Materials/TranslucentCrystalv10Gamma.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/Materials.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal01.mat
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/Materials/TranslucentCrystal01.mat.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/TranslucentCrystal01.mtl
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/TranslucentCrystal01.mtl.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/TranslucentCrystal01.obj
-    - Assets/Crystales/TranslucentCrystals/Resources/Meshes/TranslucentCrystal01.obj.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Shaders.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Shaders/Crystal.shader
-    - Assets/Crystales/TranslucentCrystals/Resources/Shaders/Crystal.shader.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Shaders/SkyboxProceduralDesaturated.shader
-    - Assets/Crystales/TranslucentCrystals/Resources/Shaders/SkyboxProceduralDesaturated.shader.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Emission.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Emission.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Mask.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Mask.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_MetallicSmoothness.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_MetallicSmoothness.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp01.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp01.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp02.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp02.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp03.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp04.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp04.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp05.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp05.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp06.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp06.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp07.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp07.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp07v2.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp07v2.png.meta
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp08.png
-    - Assets/Crystales/TranslucentCrystals/Resources/Textures/Ramps/Ramp08.png.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene.unity
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene.unity.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene/LightingData.asset
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene/LightingData.asset.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-0.exr
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-0.exr.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-1.exr
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoScene/ReflectionProbe-1.exr.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma.unity
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma.unity.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma/LightingData.asset
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma/LightingData.asset.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-0.exr
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-0.exr.meta
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-1.exr
-    - Assets/Crystales/TranslucentCrystals/Scenes/DemoSceneGamma/ReflectionProbe-1.exr.meta
-    - Assets/Crystales/TranslucentCrystals/_SRP.meta
-    - Assets/Crystales/TranslucentCrystals/_SRP/!!!_ReadBeforeImport_!!!.txt
-    - Assets/Crystales/TranslucentCrystals/_SRP/!!!_ReadBeforeImport_!!!.txt.meta
-    - Assets/Crystales/TranslucentCrystals/_SRP/TranslucentCrystals_HDRP_Patch.unitypackage
-    - Assets/Crystales/TranslucentCrystals/_SRP/TranslucentCrystals_HDRP_Patch.unitypackage.meta
-    - Assets/Crystales/TranslucentCrystals/_SRP/TranslucentCrystals_URP_Patch.unitypackage
-    - Assets/Crystales/TranslucentCrystals/_SRP/TranslucentCrystals_URP_Patch.unitypackage.meta
     - Assets/Fantasy Skybox FREE.meta
     - Assets/Fantasy Skybox FREE/Materials.meta
     - Assets/Fantasy Skybox FREE/Materials/Classic.meta
@@ -1693,6 +1471,285 @@ MonoBehaviour:
     - Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga.meta
     - Assets/FantasyEnvironments/Environments/Textures/ground_road.tga
     - Assets/FantasyEnvironments/Environments/Textures/ground_road.tga.meta
+    - Assets/FourEvilDragonsHP.meta
+    - Assets/FourEvilDragonsHP/Animations.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Basic Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Basic Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Claw Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Claw Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Horn Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Horn Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Jump.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Jump.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Sleep.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/Sleep.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/defend.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/defend.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/die.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/die.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/getHit.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/getHit.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/idle01.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/idle01.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/idle02.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/idle02.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/run.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/run.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/scream.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/scream.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walk.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walk.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walkBack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walkBack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walkLeft.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walkLeft.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walkRight.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonNightMare/walkRight.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Basic Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Basic Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Defend.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Defend.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Die.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Die.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fireball Shoot.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fireball Shoot.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Fireball Shoot.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Fireball Shoot.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Float.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Float.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Forward.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Forward.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Glide.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Glide.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Get Hit.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Get Hit.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Idle.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Idle.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Land.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Land.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Run.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Run.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Scream.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Scream.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Sleeping.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Sleeping.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Tail Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Tail Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Take Off.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Take Off.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Walk.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Walk.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/AttackWingClaw.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/AttackWingClaw.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Basic Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Basic Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Defend.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Defend.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Flame Attack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Flame Attack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyAttack.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyAttack.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyForward.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyForward.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyGlide.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyGlide.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyIdle.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/FlyIdle.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/GetHit.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/GetHit.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Landing.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Landing.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Run.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/Run.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/TakeOff.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/TakeOff.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/die.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/die.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/idle01.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/idle01.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/idle02.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/idle02.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/scream.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/scream.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/sleep.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/sleep.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/walk.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonTerrorBringer/walk.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Defend.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Defend.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Die.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Die.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyFlame.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyFlame.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyForward.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyForward.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyGlide.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyGlide.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyIdle.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyIdle.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Land.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Land.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Run.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Run.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Scream.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Scream.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Sleep.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Sleep.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Walk.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/Walk.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackFlame.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackFlame.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackHand.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackHand.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackMouth.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackMouth.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/getHit.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/getHit.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle01.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle01.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle02.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle02.fbx.meta
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/takeOff.fbx
+    - Assets/FourEvilDragonsHP/Animations/DragonUsurper/takeOff.fbx.meta
+    - Assets/FourEvilDragonsHP/Animators.meta
+    - Assets/FourEvilDragonsHP/Animators/NightmareCTRL.controller
+    - Assets/FourEvilDragonsHP/Animators/NightmareCTRL.controller.meta
+    - Assets/FourEvilDragonsHP/Animators/SouleaterCTRL.controller
+    - Assets/FourEvilDragonsHP/Animators/SouleaterCTRL.controller.meta
+    - Assets/FourEvilDragonsHP/Animators/TerrorbringerCTRL.controller
+    - Assets/FourEvilDragonsHP/Animators/TerrorbringerCTRL.controller.meta
+    - Assets/FourEvilDragonsHP/Animators/UsurperCTRL.controller
+    - Assets/FourEvilDragonsHP/Animators/UsurperCTRL.controller.meta
+    - Assets/FourEvilDragonsHP/Materials.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/AlbinoHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/AlbinoHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/BlueHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/BlueHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/DarkBlueHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/DarkBlueHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/GreenHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonNightmare/GreenHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/BlueHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/BlueHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/GreenHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/GreenHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/GreyHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/GreyHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/RedHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonSoulEater/RedHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/BlueHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/BlueHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/GreenHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/GreenHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/PurpleHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/PurpleHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/RedHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/RedHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/BlueHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/BlueHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/GreenHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/GreenHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/PurpleHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/PurpleHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/RedHP.mat
+    - Assets/FourEvilDragonsHP/Materials/DragonUsurper/RedHP.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/Skybox_Mat.mat
+    - Assets/FourEvilDragonsHP/Materials/Skybox_Mat.mat.meta
+    - Assets/FourEvilDragonsHP/Materials/Stage.mat
+    - Assets/FourEvilDragonsHP/Materials/Stage.mat.meta
+    - Assets/FourEvilDragonsHP/Mesh.meta
+    - Assets/FourEvilDragonsHP/Mesh/DragonSoulEaterMesh.fbx
+    - Assets/FourEvilDragonsHP/Mesh/DragonSoulEaterMesh.fbx.meta
+    - Assets/FourEvilDragonsHP/Mesh/DragonTerrorBringerMesh.fbx
+    - Assets/FourEvilDragonsHP/Mesh/DragonTerrorBringerMesh.fbx.meta
+    - Assets/FourEvilDragonsHP/Mesh/DragonTheNightmareMesh.fbx
+    - Assets/FourEvilDragonsHP/Mesh/DragonTheNightmareMesh.fbx.meta
+    - Assets/FourEvilDragonsHP/Mesh/DragonUsurperMesh.fbx
+    - Assets/FourEvilDragonsHP/Mesh/DragonUsurperMesh.fbx.meta
+    - Assets/FourEvilDragonsHP/Mesh/Stage.fbx
+    - Assets/FourEvilDragonsHP/Mesh/Stage.fbx.meta
+    - Assets/FourEvilDragonsHP/Prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Albino.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Albino.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/DarkBlue.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/DarkBlue.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Green.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonNightmare/Green.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Grey.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Grey.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Red.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonSoulEater/Red.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab.meta
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab
+    - Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab.meta
+    - Assets/FourEvilDragonsHP/Texture.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/AlbinoHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/AlbinoHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/BlueHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/BlueHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/DarkblueHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/DarkblueHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/GreenHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonNightmare/GreenHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/BlueHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/BlueHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/GreenHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/GreenHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/GreyHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/GreyHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/RedHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonSoulEater/RedHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/BlueHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/BlueHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/GreenHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/GreenHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/RedHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/RedHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/purpleHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/purpleHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/BlueHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/BlueHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/GreenHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/GreenHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/PurpleHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/PurpleHP.png.meta
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/RedHP.png
+    - Assets/FourEvilDragonsHP/Texture/DragonUsurper/RedHP.png.meta
     - Assets/GlowingForest.meta
     - Assets/GlowingForest/Glowing_Forest.meta
     - Assets/GlowingForest/Glowing_Forest/DEMO.meta
@@ -2038,6 +2095,494 @@ MonoBehaviour:
     - Assets/Mushroom house/texture/pine_tree_specular.tga
     - Assets/Mushroom house/texture/pine_tree_specular.tga.meta
     - Assets/New Terrain.asset
+    - Assets/New Terrain.asset.meta
+    - Assets/ParticleFX.meta
+    - Assets/ParticleFX/Cartoon FX Easy Editor.meta
+    - Assets/ParticleFX/Cartoon FX Easy Editor/CartoonFX Easy Editor Readme.txt
+    - Assets/ParticleFX/Cartoon FX Easy Editor/CartoonFX Easy Editor Readme.txt.meta
+    - Assets/ParticleFX/Cartoon FX Easy Editor/Editor.meta
+    - Assets/ParticleFX/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs
+    - Assets/ParticleFX/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs.meta
+    - Assets/ParticleFX/Cartoon FX.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Electric.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Electric/CFX_ElectricityBall.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Electric/CFX_ElectricityBall.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Explosions.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Explosions/CFX_Firework_Trails_Gravity.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Explosions/CFX_Firework_Trails_Gravity.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Hits.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Hits/CFX_Hit_A Red+RandomText.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Hits/CFX_Hit_A Red+RandomText.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Hits/CFX_Hit_C White.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Hits/CFX_Hit_C White.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_MagicPoof.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_MagicPoof.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Magical_Source.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Magical_Source.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Poof.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Poof.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Tornado.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Tornado.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Virus.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX Prefabs/Misc/CFX_Virus.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Blood.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Blood/CFX2_Blood.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Blood/CFX2_Blood.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Debris Hits.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Debris Hits/CFX2_RockHit.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Debris Hits/CFX2_RockHit.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Electric.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Electric/CFX2_SparksHit_B Sphere.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Electric/CFX2_SparksHit_B Sphere.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Explosions.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Explosions/CFX2_WWExplosion_C.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Explosions/CFX2_WWExplosion_C.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc/CFX2_BatsCloud.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc/CFX2_BatsCloud.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc/CFX2_BrokenHeart.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc/CFX2_BrokenHeart.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc/CFX2_Wandering_Spirits.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Misc/CFX2_Wandering_Spirits.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupDiamond2.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupDiamond2.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupHeart.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupHeart.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupSmiley2.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupSmiley2.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupStar.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Pickup Items/CFX2_PickupStar.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Skull & Ghosts Effects.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Skull & Ghosts Effects/CFX2_EnemyDeathSkull.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Skull & Ghosts Effects/CFX2_EnemyDeathSkull.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Water.meta
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Water/CFX2_Big_Splash (No Collision).prefab
+    - Assets/ParticleFX/Cartoon FX/CFX2 Prefabs/Water/CFX2_Big_Splash (No Collision).prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Electric.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Electric/CFX3_Hit_Electric_A_Ground.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Electric/CFX3_Hit_Electric_A_Ground.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Electric/CFX3_Hit_Electric_C_Air.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Electric/CFX3_Hit_Electric_C_Air.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Environment.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Environment/CFX3_Snow_Dense.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Environment/CFX3_Snow_Dense.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Upward.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Upward.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Light.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Light/CFX3_Hit_Light_C_Air.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Light/CFX3_Hit_Light_C_Air.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Light/CFX3_ResurrectionLight_Circle.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Light/CFX3_ResurrectionLight_Circle.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Dark.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Dark/CFX3_DarkMagicAura_A.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Dark/CFX3_DarkMagicAura_A.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_B_Runic.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_B_Runic.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_D_Runic.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_D_Runic.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_Vortex_Ground.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Magic Misc/CFX3_Vortex_Ground.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_Misc_B_Gravity.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_Misc_B_Gravity.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_SmokePuff.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_SmokePuff.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Skull_Explosion.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Skull_Explosion.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Electric.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Electric/CFX4 Sparks Explosion B.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Electric/CFX4 Sparks Explosion B.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire/CFX4 Fire.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire/CFX4 Fire.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Light.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Light/CFX4 Aura Bubble C.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Light/CFX4 Aura Bubble C.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Magic.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Magic/CFX4 Disruptive Force.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Magic/CFX4 Disruptive Force.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Magic/CFX4 Magic Hit.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Magic/CFX4 Magic Hit.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Drill Air Hit (NO COLLISION).prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Drill Air Hit (NO COLLISION).prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit B (Orange).prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit B (Orange).prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit Paint C (Cyan).prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit Paint C (Cyan).prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit Pow.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Misc/CFX4 Hit Pow.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Water.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Water/CFX4 Bubbles Whirl.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Water/CFX4 Bubbles Whirl.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Water/CFX4 Environment Bubbles Denser.prefab
+    - Assets/ParticleFX/Cartoon FX/CFX4 Prefabs/Water/CFX4 Environment Bubbles Denser.prefab.meta
+    - Assets/ParticleFX/Cartoon FX/CartoonFX Free.txt
+    - Assets/ParticleFX/Cartoon FX/CartoonFX Free.txt.meta
+    - Assets/ParticleFX/Cartoon FX/Materials.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX2_Anim_Bat Multiply.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX2_Anim_Bat Multiply.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Bubble_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Bubble_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Electricity_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Electricity_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Poof_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Poof_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Poof_AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Poof_AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle2_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle2_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle2_AlphaBlendedPremult.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle2_AlphaBlendedPremult.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle3_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle3_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle3_Mult.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle3_Mult.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle_AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Animated/CFX_Anim_Triangle_AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Blood.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Blood/CFX2_Blood AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Blood/CFX2_Blood AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric/CFX_ElectricBolt_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric/CFX_ElectricBolt_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric/CFX_Sparkles_Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric/CFX_Sparkles_Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric/CFX_YellowStar.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Electric/CFX_YellowStar.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireBulk ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireBulk ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX4_FireSoft AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Fire/CFX4_FireSoft AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_AuraRays MULT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_AuraRays MULT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_AuraRunic ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_AuraRunic ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_CircleSoft ADDSOFT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_CircleSoft ADDSOFT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowDot MULT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowDot MULT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowSpike ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowSpike ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_HollowCircle ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_HollowCircle ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_RayStraight ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_RayStraight ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_SmallRay ADDSOFT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX3_SmallRay ADDSOFT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX4_AuraBubble ADD.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Light/CFX4_AuraBubble ADD.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_Debris_SmallRocks AB 4Frames.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_Debris_SmallRocks AB 4Frames.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_Glow Soft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_Glow Soft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_Glow.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_Glow.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_ShinyStar Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_ShinyStar Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WWSmoke AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WWSmoke AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WWSmoke ABP.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WWSmoke ABP.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WWSmoke2 AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WWSmoke2 AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WhiteCircle AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX2_WhiteCircle AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX3_SmokePuff ADDSOFT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX3_SmokePuff ADDSOFT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX3_SmokePuff MULT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX3_SmokePuff MULT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_Anim_WiggleLine Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_Anim_WiggleLine Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_Circle AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_Circle AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_GroundDebris AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_GroundDebris AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_PaintHit AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_PaintHit AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_PowHit AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_PowHit AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_SmokePuff AB.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_SmokePuff AB.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_SparksHit AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX4_SparksHit AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Bubble.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Bubble.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Skull.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Skull.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Smoke_4frms.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Smoke_4frms.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Star Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Star Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Tornado.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_Tornado.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_WhiteCircle.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Misc/CFX_WhiteCircle.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX2_Faded Ray.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX2_Faded Ray.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX3_Ray MULT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX3_Ray MULT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX_RayRounded.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX_RayRounded.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX_SmallSpike_AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX_SmallSpike_AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX_SpacedLine.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Stretched/CFX_SpacedLine.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_BrokenHeart Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_BrokenHeart Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Diamond Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Diamond Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Diamond Outline Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Diamond Outline Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Heart Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Heart Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Heart Outline Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Heart Outline Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_HeartBrokenSlice.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_HeartBrokenSlice.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_SkullStretched Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_SkullStretched Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Smiley Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Smiley Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Smiley Outline Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Smiley Outline Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Star Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Star Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Star Outline Add.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX2_Star Outline Add.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX3_Skull ADDSOFT.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Symbols/CFX3_Skull ADDSOFT.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Texts.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Texts/CFX_Text_Boom.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Texts/CFX_Text_Boom.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Texts/CFX_Text_Hit_Random.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Texts/CFX_Text_Hit_Random.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Water.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX4_BubbleSubtle AddA8.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX4_BubbleSubtle AddA8.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX4_Foam AddA8.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX4_Foam AddA8.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX_Anim_Splash_4frms.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX_Anim_Splash_4frms.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX_Foam_AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX_Foam_AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX_Ripple_AddSoft.mat
+    - Assets/ParticleFX/Cartoon FX/Materials/Water/CFX_Ripple_AddSoft.mat.meta
+    - Assets/ParticleFX/Cartoon FX/Mesh.meta
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_Circular.FBX
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_Circular.FBX.meta
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_Circular1.5.asset
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_Circular1.5.asset.meta
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_Circular2.FBX
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_Circular2.FBX.meta
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_CircularAngle.FBX
+    - Assets/ParticleFX/Cartoon FX/Mesh/CFX_Mesh_CircularAngle.FBX.meta
+    - Assets/ParticleFX/Cartoon FX/Scripts.meta
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs.meta
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_AutoRotate.cs
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_AutoRotate.cs.meta
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_LightFlicker.cs
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_LightFlicker.cs.meta
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_LightIntensityFade.cs
+    - Assets/ParticleFX/Cartoon FX/Scripts/CFX_LightIntensityFade.cs.meta
+    - Assets/ParticleFX/Cartoon FX/Shaders.meta
+    - Assets/ParticleFX/Cartoon FX/Shaders/CFX3 Multiply Color.shader
+    - Assets/ParticleFX/Cartoon FX/Shaders/CFX3 Multiply Color.shader.meta
+    - Assets/ParticleFX/Cartoon FX/Shaders/CFXM_MobileParticleAdd_Alpha8.shader
+    - Assets/ParticleFX/Cartoon FX/Shaders/CFXM_MobileParticleAdd_Alpha8.shader.meta
+    - Assets/ParticleFX/Cartoon FX/Textures.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Bat.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Bat.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Blood_AB.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Blood_AB.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Decal_BloodPuddle_AB.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Decal_BloodPuddle_AB.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Diamond Outline.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Diamond Outline.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Diamond.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Diamond.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_FadedRay.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_FadedRay.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Glow.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Glow.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_GlowSoft.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_GlowSoft.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Heart.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Heart.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_HeartBrokenSlice.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_HeartBrokenSlice.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_HeartBroken_2Frames.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_HeartBroken_2Frames.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_HeartOutline.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_HeartOutline.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_ShinyStar.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_ShinyStar.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_SkullStretch.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_SkullStretch.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_SmallRocks_4Frames.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_SmallRocks_4Frames.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Smiley Happy Outline.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Smiley Happy Outline.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Smiley Happy.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Smiley Happy.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Star Outline.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Star Outline.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Star.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Star.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_WWInvSmoke ABP.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_WWInvSmoke ABP.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_WWInvSmoke2 AB.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_WWInvSmoke2 AB.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_WWSmoke Glow AB.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_WWSmoke Glow AB.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Wood.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX2_T_Wood.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_AuraRays.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_AuraRays.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_AuraRunic.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_AuraRunic.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_CircleSoft.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_CircleSoft.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_FireBulk.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_FireBulk.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_FireSparkle.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_FireSparkle.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_GlowDot.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_GlowDot.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_GlowSpike.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_GlowSpike.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_GlowStar.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_GlowStar.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_HollowCircle.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_HollowCircle.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_Leaf.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_Leaf.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_RayStraight.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_RayStraight.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_Skull.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_Skull.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_SmallRay.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_SmallRay.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_SmokePuff.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX3_T_SmokePuff.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_Anim_WiggleLine.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_Anim_WiggleLine.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_AuraBubble.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_AuraBubble.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_BubbleSubtle A8.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_BubbleSubtle A8.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_Circle.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_Circle.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_FireBulk AB.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_FireBulk AB.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_FireSoft RGB.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_FireSoft RGB.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_Foam A8.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_Foam A8.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_GroundDebris AB.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_GroundDebris AB.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_PaintHit.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_PaintHit.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_PowHit.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_PowHit.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_SmokePuff AB.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_SmokePuff AB.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_SparksHit.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX4_T_SparksHit.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_ElectricSparkle.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_ElectricSparkle.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_Bubble.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_Bubble.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_RoundedLines.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_RoundedLines.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_Triangle1.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_Triangle1.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_Triangle3.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim4_Triangle3.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim7_Electricity.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim7_Electricity.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim8_Triangle2.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Anim8_Triangle2.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Bolt.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Bolt.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Bubble.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Bubble.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Flame1_ABP.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Flame1_ABP.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Foam.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Foam.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Ray.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Ray.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_RayRounded.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_RayRounded.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Ripple.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Ripple.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Skull.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Skull.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Smoke_4Frames.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Smoke_4Frames.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_SpacedLine.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_SpacedLine.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_SpacedSpike.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_SpacedSpike.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Splash_4Frames.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Splash_4Frames.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Star Add.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Star Add.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Star.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Star.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Boom.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Boom.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_HitRandom.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_HitRandom.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Poof.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Poof.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Slash.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Slash.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Splash.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Splash.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Woooshh.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Woooshh.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Zap.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Text_Zap.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Thunderbolt.tga
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Thunderbolt.tga.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Tornado.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_Tornado.png.meta
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_WhiteCircleSmall.png
+    - Assets/ParticleFX/Cartoon FX/Textures/CFX_T_WhiteCircleSmall.png.meta
+    - Assets/ParticleFX/Editor.meta
     - Assets/ProBuilder Data.meta
     - Assets/ProBuilder Data/Default Material Palette.asset
     - Assets/ProBuilder Data/Default Material Palette.asset.meta
@@ -2247,6 +2792,40 @@ MonoBehaviour:
     - Assets/RunePillar/Prefabs/RunePillar 1.prefab.meta
     - Assets/RunePillar/RunePillarMayaLo.obj
     - Assets/RunePillar/RunePillarMayaLo.obj.meta
+    - Assets/Slime.meta
+    - Assets/Slime/FreeSlime.meta
+    - Assets/Slime/FreeSlime/Materials.meta
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_blue.mat
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_blue.mat.meta
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_green.mat
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_green.mat.meta
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_purple.mat
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_purple.mat.meta
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_red.mat
+    - Assets/Slime/FreeSlime/Materials/FreeSlime_red.mat.meta
+    - Assets/Slime/FreeSlime/Models.meta
+    - Assets/Slime/FreeSlime/Models/FreeSlime.fbx
+    - Assets/Slime/FreeSlime/Models/FreeSlime.fbx.meta
+    - Assets/Slime/FreeSlime/Models/FreeSlime_controller.controller
+    - Assets/Slime/FreeSlime/Models/FreeSlime_controller.controller.meta
+    - Assets/Slime/FreeSlime/Prefabs.meta
+    - Assets/Slime/FreeSlime/Prefabs/FreeSlime_blue.prefab
+    - Assets/Slime/FreeSlime/Prefabs/FreeSlime_blue.prefab.meta
+    - Assets/Slime/FreeSlime/Prefabs/FreeSlime_green.prefab
+    - Assets/Slime/FreeSlime/Prefabs/FreeSlime_green.prefab.meta
+    - Assets/Slime/FreeSlime/Prefabs/FreeSlime_purple.prefab
+    - Assets/Slime/FreeSlime/Prefabs/FreeSlime_purple.prefab.meta
+    - Assets/Slime/FreeSlime/Prefabs/Slime Red.prefab
+    - Assets/Slime/FreeSlime/Prefabs/Slime Red.prefab.meta
+    - Assets/Slime/FreeSlime/Textures.meta
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_blue.tga
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_blue.tga.meta
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_green.tga
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_green.tga.meta
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_purple.tga
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_purple.tga.meta
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_red.tga
+    - Assets/Slime/FreeSlime/Textures/FreeSlime_red.tga.meta
     - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
     - Assets/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare
     - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
@@ -2454,8 +3033,6 @@ MonoBehaviour:
     - Assets/Terrain Tools/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif.meta
     - Assets/Terrain Tools/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt
     - Assets/Terrain Tools/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt.meta
-    - Assets/Tree 1.prefab
-    - Assets/Tree 1.prefab.meta
     - Assets/Tree 1_Textures.meta
     - Assets/Tree 1_Textures/diffuse.png
     - Assets/Tree 1_Textures/diffuse.png.meta
@@ -2465,8 +3042,6 @@ MonoBehaviour:
     - Assets/Tree 1_Textures/shadow.png.meta
     - Assets/Tree 1_Textures/translucency_gloss.png
     - Assets/Tree 1_Textures/translucency_gloss.png.meta
-    - Assets/Tree.prefab
-    - Assets/Tree.prefab.meta
     - Assets/Tree_Textures.meta
     - Assets/Tree_Textures/diffuse.png
     - Assets/Tree_Textures/diffuse.png.meta
@@ -2569,6 +3144,9 @@ MonoBehaviour:
     - Assets/Witch House/Witchs_house/Prefabs/vessel_3.prefab.meta
     - Assets/Witch House/Witchs_house/Prefabs/well.prefab
     - Assets/Witch House/Witchs_house/Prefabs/well.prefab.meta
+    - Assets/_GameAssets/3DModels/Crystals.meta
+    - Assets/_GameAssets/3DModels/Crystals/TranslucentCrystal01.obj
+    - Assets/_GameAssets/3DModels/Crystals/TranslucentCrystal01.obj.meta
     - Assets/_GameAssets/Audio/FXs/131263__timbre__fireball3.flac
     - Assets/_GameAssets/Audio/FXs/131263__timbre__fireball3.flac.meta
     - Assets/_GameAssets/Audio/FXs/136542__joelaudio__electric-zap-001.wav
@@ -2591,6 +3169,8 @@ MonoBehaviour:
     - Assets/_GameAssets/Audio/FXs/pasoAgua3.mp3.meta
     - Assets/_GameAssets/Audio/FXs/pasoAgua4.mp3
     - Assets/_GameAssets/Audio/FXs/pasoAgua4.mp3.meta
+    - Assets/_GameAssets/Audio/FXs/poof__justinvoke.wav
+    - Assets/_GameAssets/Audio/FXs/poof__justinvoke.wav.meta
     - Assets/_GameAssets/Audio/Mezclador.mixer
     - Assets/_GameAssets/Audio/Mezclador.mixer.meta
     - Assets/_GameAssets/Audio/Music/108956__fons__trains142melo.wav
@@ -2630,24 +3210,64 @@ MonoBehaviour:
       G#m.wav.meta
     - Assets/_GameAssets/Fonts/Back To The Fantasy.otf
     - Assets/_GameAssets/Fonts/Back To The Fantasy.otf.meta
+    - Assets/_GameAssets/Materials/Cristal Naranja.mat
+    - Assets/_GameAssets/Materials/Cristal Naranja.mat.meta
+    - Assets/_GameAssets/Materials/Cristal Rojo.mat
+    - Assets/_GameAssets/Materials/Cristal Rojo.mat.meta
+    - Assets/_GameAssets/Materials/Cristal Rojo2.mat
+    - Assets/_GameAssets/Materials/Cristal Rojo2.mat.meta
+    - Assets/_GameAssets/Materials/Cristal Verde.mat
+    - Assets/_GameAssets/Materials/Cristal Verde.mat.meta
+    - Assets/_GameAssets/Materials/Cristal acido.mat
+    - Assets/_GameAssets/Materials/Cristal acido.mat.meta
+    - Assets/_GameAssets/Materials/Cristal azul2.mat
+    - Assets/_GameAssets/Materials/Cristal azul2.mat.meta
+    - Assets/_GameAssets/Materials/Cristal lila.mat
+    - Assets/_GameAssets/Materials/Cristal lila.mat.meta
     - Assets/_GameAssets/Materials/Cristl azul.mat
     - Assets/_GameAssets/Materials/DisolveMat.mat
     - Assets/_GameAssets/Materials/DisolveMat.mat.meta
+    - Assets/_GameAssets/Materials/MatEnemigo tonto.mat
+    - Assets/_GameAssets/Materials/MatEnemigo tonto.mat.meta
+    - Assets/_GameAssets/Materials/MatEnemigoListo.mat
+    - Assets/_GameAssets/Materials/MatEnemigoListo.mat.meta
     - Assets/_GameAssets/Materials/MetalOscuro.mat
     - Assets/_GameAssets/Materials/MetalOscuro.mat.meta
     - Assets/_GameAssets/Materials/MiniMapa.mat
     - Assets/_GameAssets/Materials/MiniMapa.mat.meta
     - Assets/_GameAssets/Materials/New Material.mat
     - Assets/_GameAssets/Materials/New Material.mat.meta
+    - Assets/_GameAssets/Materials/TerrainMat.mat
+    - Assets/_GameAssets/Materials/TerrainMat.mat.meta
     - Assets/_GameAssets/Prefabs/Ballesta.prefab
     - Assets/_GameAssets/Prefabs/Ballesta.prefab.meta
     - Assets/_GameAssets/Prefabs/Cristal Azul.prefab
+    - Assets/_GameAssets/Prefabs/Cristal Azul.prefab.meta
     - Assets/_GameAssets/Prefabs/Cristales.meta
     - Assets/_GameAssets/Prefabs/Cristales/Cristal01.prefab
     - Assets/_GameAssets/Prefabs/Cristales/Cristal01.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal02.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal02.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal03.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal03.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal04.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal04.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal05.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal05.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal06.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal06.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal07.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal07.prefab.meta
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal08.prefab
+    - Assets/_GameAssets/Prefabs/Cristales/Cristal08.prefab.meta
     - Assets/_GameAssets/Prefabs/Desatascador.prefab
     - Assets/_GameAssets/Prefabs/Mano.prefab
     - Assets/_GameAssets/Prefabs/Mano.prefab.meta
+    - Assets/_GameAssets/Prefabs/PartFX.meta
+    - Assets/_GameAssets/Prefabs/PartFX/DeathEnemy01.prefab
+    - Assets/_GameAssets/Prefabs/PartFX/DeathEnemy01.prefab.meta
+    - Assets/_GameAssets/Prefabs/PartFX/DeathEnemy02.prefab
+    - Assets/_GameAssets/Prefabs/PartFX/DeathEnemy02.prefab.meta
     - Assets/_GameAssets/Prefabs/Rocks.meta
     - Assets/_GameAssets/Prefabs/Rocks/Roca01.prefab
     - Assets/_GameAssets/Prefabs/Rocks/Roca01.prefab.meta
@@ -2707,11 +3327,15 @@ MonoBehaviour:
     - Assets/_GameAssets/Prefabs/Rocks/Roca28.prefab.meta
     - Assets/_GameAssets/Prefabs/Rocks/Roca29.prefab
     - Assets/_GameAssets/Prefabs/Rocks/Roca29.prefab.meta
+    - Assets/_GameAssets/Prefabs/Tree 1.prefab
+    - Assets/_GameAssets/Prefabs/Tree 1.prefab.meta
     - Assets/_GameAssets/Prefabs/Varita.prefab
     - Assets/_GameAssets/Prefabs/Varita.prefab.meta
     - Assets/_GameAssets/RenderTextures.meta
     - Assets/_GameAssets/RenderTextures/REndTexMap.renderTexture
     - Assets/_GameAssets/RenderTextures/REndTexMap.renderTexture.meta
+    - Assets/_GameAssets/Scenes/AI Scene.unity
+    - Assets/_GameAssets/Scenes/AI Scene.unity.meta
     - Assets/_GameAssets/Scenes/Escena Interior.meta
     - Assets/_GameAssets/Scenes/Escena Interior.unity
     - Assets/_GameAssets/Scenes/Escena Interior.unity.meta
@@ -2886,11 +3510,22 @@ MonoBehaviour:
     - Assets/_GameAssets/Scenes/Escena Juego/Lightmap-9_comp_shadowmask.png.meta
     - Assets/_GameAssets/Scenes/Escena Juego/ReflectionProbe-0.exr
     - Assets/_GameAssets/Scenes/Escena Juego/ReflectionProbe-0.exr.meta
+    - Assets/_GameAssets/Script/Enemies.meta
+    - Assets/_GameAssets/Script/Enemies/Enemy.cs
+    - Assets/_GameAssets/Script/Enemies/Enemy.cs.meta
+    - Assets/_GameAssets/Script/Enemies/GoofyEnemy.cs
+    - Assets/_GameAssets/Script/Enemies/GoofyEnemy.cs.meta
+    - Assets/_GameAssets/Script/Enemies/MobileEnemy.cs
+    - Assets/_GameAssets/Script/Enemies/MobileEnemy.cs.meta
+    - Assets/_GameAssets/Script/Enemies/SmartEnemy.cs
+    - Assets/_GameAssets/Script/Enemies/SmartEnemy.cs.meta
     - Assets/_GameAssets/Script/FXs.meta
     - Assets/_GameAssets/Script/FXs/ColorChange.cs
     - Assets/_GameAssets/Script/FXs/ColorChange.cs.meta
     - Assets/_GameAssets/Script/FXs/ControladorSonidoAmbiente.cs
     - Assets/_GameAssets/Script/FXs/ControladorSonidoAmbiente.cs.meta
+    - Assets/_GameAssets/Script/FXs/DestroyOnTimer.cs
+    - Assets/_GameAssets/Script/FXs/DestroyOnTimer.cs.meta
     - Assets/_GameAssets/Script/FXs/DissolveChanger.cs
     - Assets/_GameAssets/Script/FXs/DissolveChanger.cs.meta
     - Assets/_GameAssets/Script/FXs/ReverbZoneActivator.cs
@@ -2911,16 +3546,73 @@ MonoBehaviour:
     - Assets/_GameAssets/Shaders/DissolveShader.shader.meta
     - Assets/_GameAssets/Shaders/DissolveShaderTiling.shader
     - Assets/_GameAssets/Shaders/DissolveShaderTiling.shader.meta
-    - Assets/_GameAssets/Textures/12167.jpg
-    - Assets/_GameAssets/Textures/12167.jpg.meta
-    - Assets/_GameAssets/Textures/Circ.png
-    - Assets/_GameAssets/Textures/Circ.png.meta
-    - Assets/_GameAssets/Textures/MapChar.png
-    - Assets/_GameAssets/Textures/MapChar.png.meta
-    - Assets/_GameAssets/Textures/MiniMap.png
-    - Assets/_GameAssets/Textures/MiniMap.png.meta
-    - Assets/_GameAssets/Textures/PerlinNoise2d.png
-    - Assets/_GameAssets/Textures/PerlinNoise2d.png.meta
+    - Assets/_GameAssets/Textures/Crystals.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad1.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad1.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad2.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad2.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad3.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad3.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad4.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad4.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad5.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad5.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad6.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad6.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad7.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad7.png.meta
+    - Assets/_GameAssets/Textures/Crystals/Degrad8.png
+    - Assets/_GameAssets/Textures/Crystals/Degrad8.png.meta
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_Emission.png
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_Emission.png.meta
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_Mask.png
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_Mask.png.meta
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_MetallicSmoothness.png
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_MetallicSmoothness.png.meta
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_Normal.png
+    - Assets/_GameAssets/Textures/Crystals/TranslucentCrystal01_Normal.png.meta
+    - Assets/_GameAssets/Textures/MascarasYCookies.meta
+    - Assets/_GameAssets/Textures/MascarasYCookies/12167.jpg
+    - Assets/_GameAssets/Textures/MascarasYCookies/12167.jpg.meta
+    - Assets/_GameAssets/Textures/MascarasYCookies/Circ.png
+    - Assets/_GameAssets/Textures/MascarasYCookies/Circ.png.meta
+    - Assets/_GameAssets/Textures/Ruido.meta
+    - Assets/_GameAssets/Textures/Ruido/PerlinNoise2d.png
+    - Assets/_GameAssets/Textures/Ruido/PerlinNoise2d.png.meta
+    - Assets/_GameAssets/Textures/TextArbol.meta
+    - Assets/_GameAssets/Textures/TextArbol/bark1.jpg
+    - Assets/_GameAssets/Textures/TextArbol/bark1.jpg.meta
+    - Assets/_GameAssets/Textures/TextArbol/bark2.jpg
+    - Assets/_GameAssets/Textures/TextArbol/bark2.jpg.meta
+    - Assets/_GameAssets/Textures/TextArbol/bark3.jpg
+    - Assets/_GameAssets/Textures/TextArbol/bark3.jpg.meta
+    - Assets/_GameAssets/Textures/TextArbol/bark4.jpg
+    - Assets/_GameAssets/Textures/TextArbol/bark4.jpg.meta
+    - Assets/_GameAssets/Textures/TextArbol/bark5.png
+    - Assets/_GameAssets/Textures/TextArbol/bark5.png.meta
+    - Assets/_GameAssets/Textures/TextArbol/cartoon-bark.jpg
+    - Assets/_GameAssets/Textures/TextArbol/cartoon-bark.jpg.meta
+    - Assets/_GameAssets/Textures/TextArbol/cartoon-leaf.png
+    - Assets/_GameAssets/Textures/TextArbol/cartoon-leaf.png.meta
+    - Assets/_GameAssets/Textures/TextArbol/leaf1.png
+    - Assets/_GameAssets/Textures/TextArbol/leaf1.png.meta
+    - Assets/_GameAssets/Textures/TextArbol/leaf2.png
+    - Assets/_GameAssets/Textures/TextArbol/leaf2.png.meta
+    - Assets/_GameAssets/Textures/TextArbol/leaf3.png
+    - Assets/_GameAssets/Textures/TextArbol/leaf3.png.meta
+    - Assets/_GameAssets/Textures/TextArbol/leaf4.png
+    - Assets/_GameAssets/Textures/TextArbol/leaf4.png.meta
+    - Assets/_GameAssets/Textures/TextArbol/leaf5.png
+    - Assets/_GameAssets/Textures/TextArbol/leaf5.png.meta
+    - Assets/_GameAssets/Textures/UI.meta
+    - Assets/_GameAssets/Textures/UI/MapChar.png
+    - Assets/_GameAssets/Textures/UI/MapChar.png.meta
+    - Assets/_GameAssets/Textures/UI/MiniMap.png
+    - Assets/_GameAssets/Textures/UI/MiniMap.png.meta
+    - Assets/_GameAssets/Textures/enemigoListo.jpg
+    - Assets/_GameAssets/Textures/enemigoListo.jpg.meta
+    - Assets/_GameAssets/Textures/enemigoTonto.jpg
+    - Assets/_GameAssets/Textures/enemigoTonto.jpg.meta
     - Assets/_TerrainAutoUpgrade.meta
     - Assets/_TerrainAutoUpgrade/layer_Grass_flowerse32965c36f070e45.terrainlayer
     - Assets/_TerrainAutoUpgrade/layer_Grass_flowerse32965c36f070e45.terrainlayer.meta
@@ -2944,7 +3636,7 @@ MonoBehaviour:
     - ProjectSettings/ProjectSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
