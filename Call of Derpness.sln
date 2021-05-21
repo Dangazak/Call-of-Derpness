@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{bcfbd166-6254-731e-3b55-bcff0a482788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{6b9a009d-0a1e-49db-b8c6-db262b5d2ad5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4272546f-acfb-8756-a064-2484f1d7b34f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{6b9a009d-0a1e-49db-b8c6-db262b5d2ad5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +26,10 @@ Global
 		{5ce5a80e-6042-f417-3533-97dc2bdc3237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{bcfbd166-6254-731e-3b55-bcff0a482788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{bcfbd166-6254-731e-3b55-bcff0a482788}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6b9a009d-0a1e-49db-b8c6-db262b5d2ad5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6b9a009d-0a1e-49db-b8c6-db262b5d2ad5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4272546f-acfb-8756-a064-2484f1d7b34f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4272546f-acfb-8756-a064-2484f1d7b34f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6b9a009d-0a1e-49db-b8c6-db262b5d2ad5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6b9a009d-0a1e-49db-b8c6-db262b5d2ad5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
