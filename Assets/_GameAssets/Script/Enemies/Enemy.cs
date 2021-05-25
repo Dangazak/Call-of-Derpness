@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     public int health;
+    public int maxHealth;
     public GameObject prefabPSDamage;
     public GameObject prefabPSDeath;
     [HideInInspector]
@@ -14,8 +15,10 @@ public abstract class Enemy : MonoBehaviour
 
     void Awake()
     {
+        health = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player");
-        if(player == null){
+        if (player == null)
+        {
             Debug.LogError("Player not found");
         }
     }
@@ -37,9 +40,25 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Inflinge un da�o al enemigo
     /// </summary>
-    public void ReceiveDamage()
+    public void ReceiveDamage(int dmg, Collision collision)
     {
-        //TODO sistema de part�culas, emitir un sonido, quitar salud, comprobar si ha muerto
+        health -= dmg;
+        if (health <= 0)
+        {
+            Death();
+        }
+        else
+        {
+            if (collision == null){
+                GameObject damagePS = Instantiate(prefabPSDamage, transform.position, transform.rotation);
+                damagePS.transform.SetParent(gameObject.transform);
+            } 
+            else{
+                GameObject damagePS = Instantiate(prefabPSDamage, collision.GetContact(0).point, Quaternion.LookRotation(collision.GetContact(0).normal));
+                damagePS.transform.SetParent(gameObject.transform);
+            }
+            
+        }
     }
 
     /// <summary>
@@ -47,7 +66,8 @@ public abstract class Enemy : MonoBehaviour
     /// </summary>
     public void Death()
     {
-        //TODO sistema de part�culas, emitir un sonido y destruir el objeto
+        Destroy(gameObject);
+        Instantiate(prefabPSDeath, transform.position, transform.rotation);
     }
 
     /// <summary>

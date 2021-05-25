@@ -11,7 +11,8 @@ public class SmartEnemy : MobileEnemy
     {
         base.Update();
         if(distanceToPlayer <= distChase){
-            transform.LookAt(player.transform.position);
+            Vector3 target = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+            transform.LookAt(target);
         }
         Move();
     }

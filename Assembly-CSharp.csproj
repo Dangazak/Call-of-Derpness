@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ParticleFX\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\_GameAssets\Script\CloseDoor.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\DestroyOnTimer.cs" />
      <Compile Include="Assets\Rana\poisondartfrog\ToxicFrogs\RotateCamFrog.cs" />
      <Compile Include="Assets\_GameAssets\Script\Enemies\SmartEnemy.cs" />
@@ -47,6 +48,7 @@
      <Compile Include="Assets\ParticleFX\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
      <Compile Include="Assets\Rana\poisondartfrog\ToxicFrogs\FrogController.cs" />
      <Compile Include="Assets\GlowingForest\Glowing_Forest\Scripts\WaterGroup.cs" />
+     <Compile Include="Assets\_GameAssets\Script\OpenDoor.cs" />
      <Compile Include="Assets\RootVegetables\Scripts\Rotate.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\StayGlued.cs" />
      <Compile Include="Assets\_GameAssets\Script\UI\UIManager.cs" />
@@ -62,8 +64,9 @@
      <Compile Include="Assets\_GameAssets\Script\FXs\DissolveChanger.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ReverbZoneActivator.cs" />
      <Compile Include="Assets\_GameAssets\3DModels\TestChar\PatrolManager.cs" />
-     <Compile Include="Assets\_GameAssets\Script\OpenDoor.cs" />
-     <Compile Include="Assets\_GameAssets\Script\CloseDoor.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\Orientator.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Enemies\HealthBarUpdater.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Weapons\BallisticProyectile.cs" />
      <None Include="Assets\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\ParticleFX\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\ParticleFX\Cartoon FX\CartoonFX Free.txt" />

@@ -17,8 +17,9 @@ public abstract class MobileEnemy : Enemy
     public override void Attack()
     {
         if(distanceToPlayer <= distExplo){
-            Destroy(gameObject);
-            Instantiate(prefabPSDeath,transform.position,transform.rotation);
+            //Destroy(gameObject);
+            //Instantiate(prefabPSDeath,transform.position,transform.rotation);
+            Death();
         }
     }
     public virtual void Rotate()

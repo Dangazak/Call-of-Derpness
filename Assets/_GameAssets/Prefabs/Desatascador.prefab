@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2866368174552731486}
   - component: {fileID: 3402197517258398646}
   - component: {fileID: -2161137858512459076}
-  - component: {fileID: -9055249312568696162}
+  - component: {fileID: 7252856585297551541}
   m_Layer: 0
   m_Name: Desatascador
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToDestroy: 3
---- !u!114 &-9055249312568696162
+--- !u!114 &7252856585297551541
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,9 +73,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2866368174552731481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7469a0b76c702d233adc8bd37b6bfedf, type: 3}
+  m_Script: {fileID: 11500000, guid: 389e7838fa1deb1ccac6de83c60a17f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 15
+  isSticky: 0
 --- !u!1 &2866368176303291933
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2866368176303291933}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.336}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 2866368174552731486}
@@ -167,7 +169,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2866368176303291933}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.19
   m_Height: 6.18
   m_Direction: 2
@@ -199,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2866368176437936130}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.405}
+  m_LocalPosition: {x: 0, y: 0, z: 0.069}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 2866368174552731486}
