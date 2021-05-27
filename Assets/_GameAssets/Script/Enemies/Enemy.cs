@@ -40,7 +40,7 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Inflinge un da�o al enemigo
     /// </summary>
-    public void ReceiveDamage(int dmg, Collision collision)
+    public void ReceiveDamage(int dmg, Vector3 point, Vector3 normal)
     {
         health -= dmg;
         if (health <= 0)
@@ -49,12 +49,12 @@ public abstract class Enemy : MonoBehaviour
         }
         else
         {
-            if (collision == null){
+            if (point == null){
                 GameObject damagePS = Instantiate(prefabPSDamage, transform.position, transform.rotation);
                 damagePS.transform.SetParent(gameObject.transform);
             } 
             else{
-                GameObject damagePS = Instantiate(prefabPSDamage, collision.GetContact(0).point, Quaternion.LookRotation(collision.GetContact(0).normal));
+                GameObject damagePS = Instantiate(prefabPSDamage, point, Quaternion.LookRotation(normal));
                 damagePS.transform.SetParent(gameObject.transform);
             }
             

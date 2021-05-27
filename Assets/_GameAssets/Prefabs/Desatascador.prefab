@@ -50,7 +50,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!114 &-2161137858512459076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,7 +77,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 15
-  isSticky: 0
+  isSticky: 1
+  impactOffset: 0.04
 --- !u!1 &2866368176303291933
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +90,6 @@ GameObject:
   - component: {fileID: 2866368176303291922}
   - component: {fileID: 2866368176303291921}
   - component: {fileID: 2866368176303291920}
-  - component: {fileID: 2866368176303291923}
   m_Layer: 0
   m_Name: Mango
   m_TagString: Untagged
@@ -105,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2866368176303291933}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -0.336}
+  m_LocalPosition: {x: 0, y: 0, z: -0.393}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 2866368174552731486}
@@ -160,20 +160,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &2866368176303291923
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2866368176303291933}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.19
-  m_Height: 6.18
-  m_Direction: 2
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &2866368176437936130
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2866368176437936130}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.069}
+  m_LocalPosition: {x: 0, y: 0, z: 0.005}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 2866368174552731486}

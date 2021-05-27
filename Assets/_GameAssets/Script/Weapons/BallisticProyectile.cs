@@ -7,24 +7,43 @@ public class BallisticProyectile : MonoBehaviour
     public int damage;
     public bool isSticky;
 
+    private bool damgeActive = true;
+
     void OnCollisionEnter(Collision collision)
     {
-        if(IsEnemy(collision.gameObject)){
-            collision.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, collision);
+        if (IsPlayer(collision.gameObject)) return;
+        if (IsEnemy(collision.gameObject) && damgeActive)
+        {
+            collision.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, collision.GetContact(0).point, collision.GetContact(0).normal);
+            damgeActive = false;
         }
-        if(isSticky){
+        if (isSticky)
+        {
             gameObject.transform.SetParent(collision.gameObject.transform);
-            Rigidbody rb = gameObject.GetComponentInParent<Rigidbody>();
-            rb.isKinematic = true;
-            rb.velocity = Vector3.zero;
-            Debug.Log(collision.gameObject.name);
+            gameObject.transform.rotation = Quaternion.LookRotation(collision.GetContact(0).normal);
+            //gameObject.transform.Translate(Vector3.forward * -impactOffset);
+            gameObject.transform.Rotate(0, 180, 0);
+            gameObject.transform.position = collision.GetContact(0).point;
+            Destroy(gameObject.GetComponentInParent<Rigidbody>());
+            //Rigidbody rb = gameObject.GetComponentInParent<Rigidbody>();
+            //rb.isKinematic = true;
+            //rb.velocity = Vector3.zero;
+            //gameObject.GetComponentInChildren<Collider>().enabled = false;
+            //Debug.Log(collision.gameObject.name);
             Destroy(this);
         }
-        else{
+        else
+        {
             Destroy(gameObject);
         }
+        //Debug.Log(collision.gameObject.name);
     }
-    private bool IsEnemy(GameObject candidate){
+    private bool IsEnemy(GameObject candidate)
+    {
         return candidate.CompareTag("Enemy");
+    }
+    private bool IsPlayer(GameObject candidate)
+    {
+        return candidate.CompareTag("Player");
     }
 }
