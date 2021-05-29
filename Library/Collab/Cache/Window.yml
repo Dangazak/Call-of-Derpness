@@ -3370,8 +3370,6 @@ MonoBehaviour:
     - Assets/_GameAssets/3DModels/TestChar/Animations.meta
     - Assets/_GameAssets/3DModels/TestChar/Animations/Vamp Anim Control.controller
     - Assets/_GameAssets/3DModels/TestChar/Animations/Vamp Anim Control.controller.meta
-    - Assets/_GameAssets/3DModels/TestChar/PatrolManager.cs
-    - Assets/_GameAssets/3DModels/TestChar/PatrolManager.cs.meta
     - Assets/_GameAssets/3DModels/TestChar/materials.meta
     - Assets/_GameAssets/3DModels/TestChar/materials/Vampire_MAT.mat
     - Assets/_GameAssets/3DModels/TestChar/materials/Vampire_MAT.mat.meta
@@ -3823,6 +3821,8 @@ MonoBehaviour:
     - Assets/_GameAssets/Script/Enemies/HealthBarUpdater.cs.meta
     - Assets/_GameAssets/Script/Enemies/MobileEnemy.cs
     - Assets/_GameAssets/Script/Enemies/MobileEnemy.cs.meta
+    - Assets/_GameAssets/Script/Enemies/PatrolManager.cs
+    - Assets/_GameAssets/Script/Enemies/PatrolManager.cs.meta
     - Assets/_GameAssets/Script/Enemies/SmartEnemy.cs
     - Assets/_GameAssets/Script/Enemies/SmartEnemy.cs.meta
     - Assets/_GameAssets/Script/FXs.meta
