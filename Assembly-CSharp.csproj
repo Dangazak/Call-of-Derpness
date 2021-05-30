@@ -68,6 +68,7 @@
      <Compile Include="Assets\_GameAssets\Script\FXs\DissolveChanger.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ReverbZoneActivator.cs" />
      <Compile Include="Assets\_GameAssets\Script\Enemies\PatrolManager.cs" />
+     <Compile Include="Assets\SimpleSkeletonFree\Script\Character\PlayerController.cs" />
      <None Include="Assets\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\ParticleFX\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\ParticleFX\Cartoon FX\CartoonFX Free.txt" />

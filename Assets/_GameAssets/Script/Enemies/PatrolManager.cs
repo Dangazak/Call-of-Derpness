@@ -84,22 +84,25 @@ public class PatrolManager : MonoBehaviour
 
     void GetTargetAngle()
     {
-        Vector3 movementDirection = nma.steeringTarget - transform.position;
-        targetAngle = Vector3.SignedAngle(transform.forward, movementDirection, transform.up);
+        Vector3 movementDirection = new Vector3(nma.steeringTarget.x - transform.position.x,0,nma.steeringTarget.y - transform.position.y);
+        targetAngle = Vector3.SignedAngle(movementDirection, transform.forward, Vector3.up);
         if (Mathf.Abs(targetAngle) > angleOffset && !turning)
         {
             turning = true;
             nma.isStopped = true;
-            if (targetAngle > 0)
+            agentAnimator.SetBool(PARAM_WALK, false);
+            /*if (targetAngle < 0)
             {
+                Debug.Log("giraIzq" + targetAngle);
                 agentAnimator.SetBool(PARAM_TURNLEFT, true);
                 agentAnimator.SetBool(PARAM_WALK, false);
             }
             else
             {
+                Debug.Log("giraDer" + targetAngle);
                 agentAnimator.SetBool(PARAM_TURNRIGHT, true);
                 agentAnimator.SetBool(PARAM_WALK, false);
-            }
+            }*/
         }
         else if (Mathf.Abs(targetAngle) < angleOffset && turning)
         {
@@ -113,11 +116,16 @@ public class PatrolManager : MonoBehaviour
     {
         if (targetAngle < 0)
         {
-            transform.Rotate(0, -turnSpeed * Time.deltaTime, 0);
+            agentAnimator.SetBool(PARAM_TURNRIGHT, true);
+            agentAnimator.SetBool(PARAM_TURNLEFT, false);
+            transform.Rotate(0, turnSpeed * Time.deltaTime, 0);
         }
         else if (targetAngle > 0)
         {
-            transform.Rotate(0, turnSpeed * Time.deltaTime, 0);
+            agentAnimator.SetBool(PARAM_TURNLEFT, true);
+            agentAnimator.SetBool(PARAM_TURNRIGHT, false);
+            
+            transform.Rotate(0, -1f * turnSpeed * Time.deltaTime, 0);
         }
         GetTargetAngle();
     }
