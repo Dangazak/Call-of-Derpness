@@ -66,9 +66,12 @@ public class PatrolManager : MonoBehaviour
             }
         }
     }
-    void SetNewDestination()
+    void SetNewDestination(){
+        StartCoroutine("NewDestinationCoroutine");
+    }
+
+    IEnumerator NewDestinationCoroutine()
     {
-        hasDestination = false;
         currentPoint++;
         if (currentPoint == patrolPoints.Length) currentPoint = 0;
         if (randomRoute)
@@ -79,11 +82,17 @@ public class PatrolManager : MonoBehaviour
         {
             nma.SetDestination(patrolPoints[currentPoint].transform.position);
         }
+        while(nma.pathPending){
+            Debug.Log("Calculating Path");
+            yield return null;
+        }
         GetTargetAngle();
+        hasDestination = false;
     }
 
     void GetTargetAngle()
     {
+        
         Vector3 movementDirection = new Vector3(nma.steeringTarget.x - transform.position.x,0,nma.steeringTarget.y - transform.position.y);
         targetAngle = Vector3.SignedAngle(movementDirection, transform.forward, Vector3.up);
         if (Mathf.Abs(targetAngle) > angleOffset && !turning)
@@ -91,18 +100,19 @@ public class PatrolManager : MonoBehaviour
             turning = true;
             nma.isStopped = true;
             agentAnimator.SetBool(PARAM_WALK, false);
-            /*if (targetAngle < 0)
+            agentAnimator.SetBool(PARAM_RUN, false);
+            if (targetAngle < 0)
             {
-                Debug.Log("giraIzq" + targetAngle);
-                agentAnimator.SetBool(PARAM_TURNLEFT, true);
+                agentAnimator.SetBool(PARAM_TURNRIGHT, true);
                 agentAnimator.SetBool(PARAM_WALK, false);
+                agentAnimator.SetBool(PARAM_RUN, false);
             }
             else
             {
-                Debug.Log("giraDer" + targetAngle);
-                agentAnimator.SetBool(PARAM_TURNRIGHT, true);
+                agentAnimator.SetBool(PARAM_TURNLEFT, true);
                 agentAnimator.SetBool(PARAM_WALK, false);
-            }*/
+                agentAnimator.SetBool(PARAM_RUN, false);
+            }
         }
         else if (Mathf.Abs(targetAngle) < angleOffset && turning)
         {
@@ -116,15 +126,10 @@ public class PatrolManager : MonoBehaviour
     {
         if (targetAngle < 0)
         {
-            agentAnimator.SetBool(PARAM_TURNRIGHT, true);
-            agentAnimator.SetBool(PARAM_TURNLEFT, false);
             transform.Rotate(0, turnSpeed * Time.deltaTime, 0);
         }
         else if (targetAngle > 0)
         {
-            agentAnimator.SetBool(PARAM_TURNLEFT, true);
-            agentAnimator.SetBool(PARAM_TURNRIGHT, false);
-            
             transform.Rotate(0, -1f * turnSpeed * Time.deltaTime, 0);
         }
         GetTargetAngle();
