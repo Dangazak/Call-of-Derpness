@@ -14,12 +14,14 @@ public abstract class MobileEnemy : Enemy
     public float timeToRotation;
     [Range(1, 5)]
     public float distExplo;
+    public int damage;
     public override void Attack()
     {
         if(distanceToPlayer <= distExplo){
             //Destroy(gameObject);
             //Instantiate(prefabPSDeath,transform.position,transform.rotation);
             Death();
+            gameManager.TakeDamage(damage);
         }
     }
     public virtual void Rotate()
@@ -28,8 +30,9 @@ public abstract class MobileEnemy : Enemy
         int sign = det > 50 ? 1 : -1;
         transform.Rotate(0, Random.Range(minAngle, maxAngle) * sign, 0);
     }
-    private void Start()
+    public override void Start()
     {
+        base.Start();
         InvokeRepeating("Rotate", timeToRotation, timeToRotation);
     }
     public void Move()

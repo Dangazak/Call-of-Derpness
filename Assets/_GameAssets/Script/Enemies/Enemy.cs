@@ -12,6 +12,7 @@ public abstract class Enemy : MonoBehaviour
     public float distanceToPlayer;
     [HideInInspector]
     public GameObject player;
+    public GameManager gameManager;
 
     void Awake()
     {
@@ -21,6 +22,10 @@ public abstract class Enemy : MonoBehaviour
         {
             Debug.LogError("Player not found");
         }
+    }
+    public virtual void Start()
+    {
+        gameManager = GameManager.Instance;
     }
     public virtual void Update()
     {

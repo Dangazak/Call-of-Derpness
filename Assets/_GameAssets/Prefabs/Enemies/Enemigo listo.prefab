@@ -374,11 +374,13 @@ MonoBehaviour:
   prefabPSDeath: {fileID: 6164469955533058167, guid: a3c97153363a7e8afa31cceb99eb9b13, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}
+  gameManager: {fileID: 0}
   minAngle: 0
   maxAngle: 50
   speed: 3
   timeToRotation: 2
   distExplo: 5
+  damage: 25
   distChase: 10
 --- !u!1 &5856455575826732697
 GameObject:
