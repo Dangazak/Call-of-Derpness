@@ -44,7 +44,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.99264705, g: 0.9404979, b: 0.72258866, a: 1}
   m_Intensity: 4.03
-  m_Range: 5.72
+  m_Range: 11.04
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -82,7 +82,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0

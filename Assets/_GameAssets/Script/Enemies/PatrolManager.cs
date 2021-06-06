@@ -83,7 +83,7 @@ public class PatrolManager : MonoBehaviour
             nma.SetDestination(patrolPoints[currentPoint].transform.position);
         }
         while(nma.pathPending){
-            Debug.Log("Calculating Path");
+            //Debug.Log("Calculating Path");
             yield return null;
         }
         GetTargetAngle();

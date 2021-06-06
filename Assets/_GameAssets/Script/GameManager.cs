@@ -23,22 +23,28 @@ public class GameManager : MonoBehaviour
             _instance = this;
         }
     }
-    public int GetLife(){
+    public int GetLife()
+    {
         return life;
     }
-    public int GetMaxLife(){
+    public int GetMaxLife()
+    {
         return maxLife;
     }
-    public void TakeDamage(int Damage){
+    public void TakeDamage(int Damage)
+    {
         life -= Damage;
-        if(LifeUpdateEvent != null) LifeUpdateEvent();
-        if(life <= 0){
+        if (life <= 0)
+        {
+            life = 0;
+            if (LifeUpdateEvent != null) LifeUpdateEvent();
             //GameOver
         }
     }
-    public void Heal(int Amount){
+    public void Heal(int Amount)
+    {
         life += Amount;
-        if(life > maxLife) life = maxLife;
-        if(LifeUpdateEvent != null) LifeUpdateEvent();
+        if (life > maxLife) life = maxLife;
+        if (LifeUpdateEvent != null) LifeUpdateEvent();
     }
 }
