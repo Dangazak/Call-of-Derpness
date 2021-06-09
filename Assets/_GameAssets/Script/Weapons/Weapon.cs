@@ -4,52 +4,56 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
-   [SerializeField] int maxAmmo;
-   [SerializeField] int Ammo;
-   [SerializeField] int maxMagAmmo;
-   [SerializeField] int magAmmo;
-   [SerializeField] float damage;
-   [SerializeField] float cad;
-   [SerializeField] Animator animator;
-   [SerializeField] bool auto = false;
-   [SerializeField] Transform shootPoint;
-   private AudioSource audioSource;
-   [SerializeField] AudioClip shootSound;
-   [SerializeField] AudioClip jammingSound;
-   [SerializeField] AudioClip reloadSound;
-   private bool canShoot = true;
+    public int maxAmmo;
+    public int Ammo;
+    //[SerializeField] int maxMagAmmo;
+    //[SerializeField] int magAmmo;
+    public float damage;
+    public float cadence;
+    public Animator animator;
+    //[SerializeField] bool auto = false;
+    public Transform shootPoint;
+    public AudioSource audioSource;
+    public AudioClip shootSound;
+    public AudioClip jammingSound;
+    public AudioClip reloadSound;
+    public bool canShoot = false;
 
-    private void Awake()
+    void Awake()
     {
-        audioSource = GetComponent<AudioSource>();    
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
-    void Update()
+    public virtual void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
             if (canShoot)
             {
                 Shoot();
-            } else
+            }
+            else
             {
                 PlayJammingSound();
             }
         }
     }
-
-    private void RestoreStatus()
-    {
-        canShoot = true;
-    }
-
-    private void PlayJammingSound()
+    public void PlayJammingSound()
     {
         audioSource.PlayOneShot(jammingSound);
     }
-    private void PlayShootSound()
+    public void PlayShootSound()
     {
         audioSource.PlayOneShot(shootSound);
     }
-   public abstract void Shoot();
+    public void PlayReloadSound()
+    {
+        audioSource.PlayOneShot(reloadSound);
+    }
+    public void ActivateShooting()
+    {
+        canShoot = true;
+    }
+    public abstract void Shoot();
 }

@@ -40,6 +40,7 @@
      <Compile Include="Assets\_GameAssets\Script\Objects\HPRecharge.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_GameAssets\Script\Weapons\Weapon.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Weapons\WeaponController.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
      <Compile Include="Assets\Asset Store Downloads\ParticleFX\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
@@ -144,7 +145,7 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\_GameAssets\Script\Player\WeaponController.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Weapons\Crossbow.cs" />
      <None Include="Assets\Asset Store Downloads\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />

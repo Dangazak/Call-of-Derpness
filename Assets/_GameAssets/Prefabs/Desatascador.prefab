@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3402197517258398646}
   - component: {fileID: -2161137858512459076}
   - component: {fileID: 7252856585297551541}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Desatascador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 15
   isSticky: 1
-  impactOffset: 0.04
 --- !u!1 &2866368176303291933
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +89,7 @@ GameObject:
   - component: {fileID: 2866368176303291922}
   - component: {fileID: 2866368176303291921}
   - component: {fileID: 2866368176303291920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mango
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +171,7 @@ GameObject:
   - component: {fileID: 2866368176437936129}
   - component: {fileID: 2866368176437936128}
   - component: {fileID: 2643137276309408379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ventosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
