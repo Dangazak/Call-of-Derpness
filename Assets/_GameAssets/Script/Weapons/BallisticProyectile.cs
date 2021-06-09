@@ -12,6 +12,7 @@ public class BallisticProyectile : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (IsPlayer(collision.gameObject)) return;
+        //Debug.Log(collision.gameObject.name);
         if (IsEnemy(collision.gameObject) && damgeActive)
         {
             collision.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, collision.GetContact(0).point, collision.GetContact(0).normal);
@@ -36,7 +37,6 @@ public class BallisticProyectile : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        //Debug.Log(collision.gameObject.name);
     }
     private bool IsEnemy(GameObject candidate)
     {

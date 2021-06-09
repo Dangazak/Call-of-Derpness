@@ -7,6 +7,7 @@ public class HPRecharge : MonoBehaviour
     [SerializeField] private float rechargeRate = 10;
     private bool charging = false;
     private GameManager gameManager;
+    private float hpBuffer = 0;
     private void Start()
     {
         gameManager = GameManager.Instance;
@@ -15,9 +16,13 @@ public class HPRecharge : MonoBehaviour
     {
         if (charging)
         {
-            int hp = (int)(rechargeRate * Time.deltaTime);
-            if(hp < 1) hp=1;
-            gameManager.Heal(hp);
+            hpBuffer += (rechargeRate * Time.deltaTime);
+            int hp = (int)Mathf.Floor(hpBuffer);
+            if (hp >= 1)
+            {
+                hpBuffer -= (float)hp;
+                gameManager.Heal(hp);
+            }
         }
     }
     void OnTriggerEnter(Collider other)

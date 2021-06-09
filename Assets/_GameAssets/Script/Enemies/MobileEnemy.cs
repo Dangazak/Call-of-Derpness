@@ -21,8 +21,8 @@ public abstract class MobileEnemy : Enemy
         {
             //Destroy(gameObject);
             //Instantiate(prefabPSDeath,transform.position,transform.rotation);
-            Death();
             gameManager.TakeDamage(damage);
+            Death();
         }
     }
     public virtual void Rotate()

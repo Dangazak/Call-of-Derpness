@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
         if (life <= 0)
         {
             life = 0;
-            if (LifeUpdateEvent != null) LifeUpdateEvent();
             //GameOver
         }
+        if (LifeUpdateEvent != null) LifeUpdateEvent();
     }
     public void Heal(int Amount)
     {
