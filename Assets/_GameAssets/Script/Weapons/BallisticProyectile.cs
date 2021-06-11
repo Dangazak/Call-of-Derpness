@@ -17,20 +17,16 @@ public class BallisticProyectile : MonoBehaviour
         {
             collision.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, collision.GetContact(0).point, collision.GetContact(0).normal);
             damgeActive = false;
+            Destroy(gameObject);
+            return;
         }
         if (isSticky)
         {
             gameObject.transform.SetParent(collision.gameObject.transform);
             gameObject.transform.rotation = Quaternion.LookRotation(collision.GetContact(0).normal);
-            //gameObject.transform.Translate(Vector3.forward * -impactOffset);
             gameObject.transform.Rotate(0, 180, 0);
             gameObject.transform.position = collision.GetContact(0).point;
             Destroy(gameObject.GetComponentInParent<Rigidbody>());
-            //Rigidbody rb = gameObject.GetComponentInParent<Rigidbody>();
-            //rb.isKinematic = true;
-            //rb.velocity = Vector3.zero;
-            //gameObject.GetComponentInChildren<Collider>().enabled = false;
-            //Debug.Log(collision.gameObject.name);
             Destroy(this);
         }
         else

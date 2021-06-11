@@ -7,12 +7,22 @@ public class Crossbow : Weapon
     const string SHOOT = "Shoot";
     [SerializeField] GameObject proyectilePrefab;
     [SerializeField] [Range(5, 50)] float shotForce;
+    GameManager gameManager;
+
+    private void Start()
+    {
+        gameManager = GameManager.Instance;
+    }
     public override void Shoot()
     {
-        canShoot = false;
-        PlayShootSound();
-        InstantiateBullet();
-        animator.SetTrigger(SHOOT);
+        if (gameManager.GetAmmo() > 0)
+        {
+            canShoot = false;
+            PlayShootSound();
+            InstantiateBullet();
+            animator.SetTrigger(SHOOT);
+            gameManager.UseAmmo();
+        }
     }
 
     private void InstantiateBullet()

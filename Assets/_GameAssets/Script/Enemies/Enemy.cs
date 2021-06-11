@@ -35,11 +35,11 @@ public abstract class Enemy : MonoBehaviour
     /// Determina si el player est� a la vista o no
     /// </summary>
     /// <returns></returns>
-    public bool PlayerDetected()
+    /*public bool PlayerDetected()
     {
         //TODO Programar si est� viendo al Player
         return true;
-    }
+    }*/
 
 
     /// <summary>
@@ -54,15 +54,17 @@ public abstract class Enemy : MonoBehaviour
         }
         else
         {
-            if (point == null){
+            if (point == null)
+            {
                 GameObject damagePS = Instantiate(prefabPSDamage, transform.position, transform.rotation);
                 damagePS.transform.SetParent(gameObject.transform);
-            } 
-            else{
+            }
+            else
+            {
                 GameObject damagePS = Instantiate(prefabPSDamage, point, Quaternion.LookRotation(normal));
                 damagePS.transform.SetParent(gameObject.transform);
             }
-            
+
         }
     }
 
@@ -71,6 +73,7 @@ public abstract class Enemy : MonoBehaviour
     /// </summary>
     public void Death()
     {
+        gameManager.EnemyKilled();
         Destroy(gameObject);
         Instantiate(prefabPSDeath, transform.position, transform.rotation);
     }

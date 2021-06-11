@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(SphereCollider))]
 
-public class VisionDecetion : MonoBehaviour
+public class VisionDetection : MonoBehaviour
 {
     [SerializeField] GameObject visionAlert;
     [SerializeField] float detectionDistance;

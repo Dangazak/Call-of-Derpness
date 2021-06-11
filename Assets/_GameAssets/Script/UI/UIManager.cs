@@ -5,18 +5,23 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private Slider sliderHP;
+    [SerializeField] Slider sliderHP;
     //[SerializeField] private GameObject botonReiniciar;
-    //[SerializeField]
-    //private Text municion;
+    [SerializeField] Text ammoText;
     private GameManager gameManager;
     private void Start()
     {
         gameManager = GameManager.Instance;
 
         gameManager.LifeUpdateEvent += HealthBarUpdate;
+        gameManager.AmmoUpdateEvent += AmmoUpdate;
     }
-    private void HealthBarUpdate(){
-        sliderHP.value = (float) gameManager.GetLife() / (float) gameManager.GetMaxLife();
+    private void HealthBarUpdate()
+    {
+        sliderHP.value = (float)gameManager.GetLife() / (float)gameManager.GetMaxLife();
+    }
+    private void AmmoUpdate()
+    {
+        ammoText.text = gameManager.GetAmmo().ToString();
     }
 }

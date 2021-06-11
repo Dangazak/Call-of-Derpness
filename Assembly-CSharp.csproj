@@ -38,7 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\_GameAssets\Script\FXs\Orientator.cs" />
      <Compile Include="Assets\_GameAssets\Script\Objects\HPRecharge.cs" />
-     <Compile Include="Assets\Asset Store Downloads\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Player\FirstPersonController.cs" />
      <Compile Include="Assets\_GameAssets\Script\Weapons\Weapon.cs" />
      <Compile Include="Assets\_GameAssets\Script\Weapons\WeaponController.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
@@ -92,7 +92,7 @@
      <Compile Include="Assets\_GameAssets\Script\UI\UIManager.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ColorChange.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-     <Compile Include="Assets\_GameAssets\Script\Enemies\VisionDecetion.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Enemies\VisionDetection.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
      <Compile Include="Assets\_GameAssets\Script\Test\Randomizer.cs" />
      <Compile Include="Assets\_GameAssets\Script\Test\HealthManager.cs" />
@@ -101,6 +101,7 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Cameras\Scripts\AutoCam.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Asset Store Downloads\LightningBolt\LightningBoltScript.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
      <Compile Include="Assets\_GameAssets\Script\UI\MinimapManager.cs" />
@@ -133,11 +134,13 @@
      <Compile Include="Assets\Asset Store Downloads\ParticleFX\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
      <Compile Include="Assets\Asset Store Downloads\ParticleFX\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Weapons\Crossbow.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\DissolveChanger.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Enemies\DragonBoss.cs" />
      <Compile Include="Assets\Asset Store Downloads\SimpleSkeletonFree\Script\Character\PlayerController.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ReverbZoneActivator.cs" />
@@ -145,12 +148,13 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\_GameAssets\Script\Weapons\Crossbow.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Objects\AmmoRecharge.cs" />
      <None Include="Assets\Asset Store Downloads\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Asset Store Downloads\ParticleFX\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Asset Store Downloads\LightningBolt\Readme.txt" />
      <None Include="Assets\Asset Store Downloads\ParticleFX\Cartoon FX\CartoonFX Free.txt" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

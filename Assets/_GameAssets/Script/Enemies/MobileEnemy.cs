@@ -38,6 +38,7 @@ public abstract class MobileEnemy : Enemy
     public override void Start()
     {
         base.Start();
+        gameManager.AddEnemy();
         InvokeRepeating("Rotate", timeToRotation, timeToRotation);
     }
     public void Move()

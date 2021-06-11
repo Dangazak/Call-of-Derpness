@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 389e7838fa1deb1ccac6de83c60a17f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 15
+  damage: 25
   isSticky: 1
 --- !u!1 &2866368176303291933
 GameObject:

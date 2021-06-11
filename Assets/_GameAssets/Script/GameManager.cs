@@ -12,6 +12,12 @@ public class GameManager : MonoBehaviour
 
     private int maxLife = 100;
     private int life = 100;
+    public delegate void DelegatedAmmoUpdate();
+    public event DelegatedLifeUpdate AmmoUpdateEvent;
+    private int ammo = 50;
+    private int maxAmmo = 50;
+
+    private int remainingEnemies;
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -22,6 +28,7 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
+        DontDestroyOnLoad(gameObject); //Not recomended
     }
     public int GetLife()
     {
@@ -44,7 +51,39 @@ public class GameManager : MonoBehaviour
     public void Heal(int Amount)
     {
         life += Amount;
-        if (life > maxLife) life = maxLife;
-        if (LifeUpdateEvent != null) LifeUpdateEvent();
+        if (life > maxLife)
+            life = maxLife;
+        if (LifeUpdateEvent != null)
+            LifeUpdateEvent();
+    }
+    public int GetAmmo()
+    {
+        return ammo;
+    }
+    public void AddAmmo(int Amount)
+    {
+        ammo += Amount;
+        if (ammo > maxAmmo)
+            ammo = maxAmmo;
+        if (AmmoUpdateEvent != null)
+            AmmoUpdateEvent();
+    }
+    public void UseAmmo()
+    {
+        ammo--;
+        if (AmmoUpdateEvent != null)
+            AmmoUpdateEvent();
+    }
+    public void EnemyKilled()
+    {
+        remainingEnemies--;
+        if (remainingEnemies <= 0)
+        {
+            //activate final boss
+        }
+    }
+    public void AddEnemy()
+    {
+        remainingEnemies++;
     }
 }
