@@ -15,11 +15,11 @@ C:/Dev/Curso Unity/Call-of-Derpness
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53312
+51926
 Successfully changed project path to: C:/Dev/Curso Unity/Call-of-Derpness
 C:/Dev/Curso Unity/Call-of-Derpness
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,56 +35,160 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001738 seconds.
+Registered in 0.002089 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  1.114 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003443 seconds.
+Registered in 0.004225 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
+- Completed reload, in  1.129 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2056 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.4 MB.
-System memory in use after: 129.0 MB.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.4 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 2.534800 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.078900 ms MarkObjects: 1.715800 ms  DeleteObjects: 0.536400 ms)
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 3.133900 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.101900 ms  DeleteObjects: 0.691000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/_GameAssets/Script/Weapons
-  artifactKey: Guid(cff1046ddd06985b98473a3c3015141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Script/Weapons using Guid(cff1046ddd06985b98473a3c3015141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838eccb38f26d41ec6114a54a79a1d04') in 0.010307 seconds
-  Import took 0.013664 seconds .
+  path: Assets/_GameAssets/Prefabs/PartFX/DeathEnemy01.prefab
+  artifactKey: Guid(a3c97153363a7e8afa31cceb99eb9b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX/DeathEnemy01.prefab using Guid(a3c97153363a7e8afa31cceb99eb9b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb4424d783d0a12d864267ee91cff27') in 0.036335 seconds
+  Import took 0.041130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.567256 seconds.
+  path: Assets/_GameAssets/Prefabs/PartFX
+  artifactKey: Guid(2383d0b7a3c3cd726acd514b5a3f9c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX using Guid(2383d0b7a3c3cd726acd514b5a3f9c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cb083ba317a06af8eedf50e1011c6a') in 0.006923 seconds
+  Import took 0.011756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/_GameAssets/Prefabs/PartFX
+  artifactKey: Guid(2383d0b7a3c3cd726acd514b5a3f9c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX using Guid(2383d0b7a3c3cd726acd514b5a3f9c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cb083ba317a06af8eedf50e1011c6a') in 0.001494 seconds
+  Import took 0.005084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.005829 seconds.
+  path: Assets/_GameAssets/Prefabs/PartFX/ElectricImpact.prefab
+  artifactKey: Guid(12f3c65746b61774192c181ce1806411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX/ElectricImpact.prefab using Guid(12f3c65746b61774192c181ce1806411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd94bd386c805676e9677df1d7a8a90a') in 0.061542 seconds
+  Import took 0.066639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013956 seconds.
+  path: Assets/_GameAssets/Prefabs/PartFX/ElectricImpact.prefab
+  artifactKey: Guid(12f3c65746b61774192c181ce1806411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX/ElectricImpact.prefab using Guid(12f3c65746b61774192c181ce1806411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd94bd386c805676e9677df1d7a8a90a') in 0.012471 seconds
+  Import took 0.016996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.959011 seconds.
+  path: Assets/_GameAssets/Prefabs/PartFX/ElectricImpact.prefab
+  artifactKey: Guid(12f3c65746b61774192c181ce1806411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX/ElectricImpact.prefab using Guid(12f3c65746b61774192c181ce1806411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a96308e6c586c8048efc6faece6675') in 0.020561 seconds
+  Import took 0.025806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1380.799806 seconds.
+  path: Assets/_GameAssets/Textures/ImpactFX.png
+  artifactKey: Guid(b1632585a01c31b468c78db302d2b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Textures/ImpactFX.png using Guid(b1632585a01c31b468c78db302d2b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6876bdc61f05a1e57c1c27dcd296840') in 0.048257 seconds
+  Import took 0.053338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.953121 seconds.
+  path: Assets/_GameAssets/Textures/ImpactFX.png
+  artifactKey: Guid(b1632585a01c31b468c78db302d2b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Textures/ImpactFX.png using Guid(b1632585a01c31b468c78db302d2b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596a72fdf0112c5161dea740b4780b9e') in 0.007599 seconds
+  Import took 0.013205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.550102 seconds.
+  path: Assets/_GameAssets/Textures/ImpactFX.png
+  artifactKey: Guid(b1632585a01c31b468c78db302d2b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Textures/ImpactFX.png using Guid(b1632585a01c31b468c78db302d2b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552dc7ff159abb728805695d4ddba622') in 0.026241 seconds
+  Import took 0.030534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.409015 seconds.
+  path: Assets/_GameAssets/Script/FXs
+  artifactKey: Guid(225cb8f33ddc94d78a4cdaa602ff1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/FXs using Guid(225cb8f33ddc94d78a4cdaa602ff1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d0c59a28bbcaba978450b8e36b2362') in 0.007323 seconds
+  Import took 0.014940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/_GameAssets/Script/FXs
+  artifactKey: Guid(225cb8f33ddc94d78a4cdaa602ff1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/FXs using Guid(225cb8f33ddc94d78a4cdaa602ff1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d0c59a28bbcaba978450b8e36b2362') in 0.002354 seconds
+  Import took 0.010526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 366.332322 seconds.
+  path: Assets/_GameAssets/Script/Enemies/SmartEnemy.cs
+  artifactKey: Guid(d58081f27db81cb4eb1d7a10901d6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/SmartEnemy.cs using Guid(d58081f27db81cb4eb1d7a10901d6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b66e0203cf863d5e51a8548420e0d2') in 0.010343 seconds
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003280 seconds.
+  path: Assets/_GameAssets/Script/Enemies/SmartEnemy.cs
+  artifactKey: Guid(d58081f27db81cb4eb1d7a10901d6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/SmartEnemy.cs using Guid(d58081f27db81cb4eb1d7a10901d6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b66e0203cf863d5e51a8548420e0d2') in 0.001713 seconds
+  Import took 0.005950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.797348 seconds.
+  path: Assets/_GameAssets/Script/Enemies/DragonBoss.cs
+  artifactKey: Guid(cd2917c51d5835f439ea344f92d945d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/DragonBoss.cs using Guid(cd2917c51d5835f439ea344f92d945d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbc771ae5ecff20788c002080867302') in 0.009133 seconds
+  Import took 0.016435 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003116 seconds.
+Registered in 0.002903 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -96,15 +200,387 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
+- Completed reload, in  0.858 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1971 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 121.7 MB.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 124.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 3.058200 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.923100 ms  DeleteObjects: 0.843300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 2.741700 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.973100 ms  DeleteObjects: 0.494500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 3.005800 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.133000 ms MarkObjects: 2.032900 ms  DeleteObjects: 0.471600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.239662 seconds.
+  path: Assets/_GameAssets/Script/Enemies/EnemySpawner.cs
+  artifactKey: Guid(23e7b9e52562f910dba37945f7c027c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/EnemySpawner.cs using Guid(23e7b9e52562f910dba37945f7c027c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f55d861dafcef1876ea32639765a3a') in 0.009021 seconds
+  Import took 0.013973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.141208 seconds.
+  path: Assets/_GameAssets/Script/Enemies/VisionDecetion.cs
+  artifactKey: Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/VisionDecetion.cs using Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4157bbede9d448d80944321e1838b5bf') in 0.006044 seconds
+  Import took 0.012123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018833 seconds.
+  path: Assets/_GameAssets/Script/Enemies/VisionDecetion.cs
+  artifactKey: Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/VisionDecetion.cs using Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4157bbede9d448d80944321e1838b5bf') in 0.001886 seconds
+  Import took 0.005565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.633333 seconds.
+  path: Assets/_GameAssets/Script/Enemies/DragonBoss.cs
+  artifactKey: Guid(cd2917c51d5835f439ea344f92d945d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/DragonBoss.cs using Guid(cd2917c51d5835f439ea344f92d945d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3517cb761b9a89ead704821715aeb0') in 0.002133 seconds
+  Import took 0.007613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.187626 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonSoulEater
+  artifactKey: Guid(8d080fb65bf4b9d4b890aefb0b412a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonSoulEater using Guid(8d080fb65bf4b9d4b890aefb0b412a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c08417aa2fda1a3c9e946c74f31ee8') in 0.008795 seconds
+  Import took 0.015183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.509449 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab
+  artifactKey: Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonSoulEater/Green.prefab using Guid(88e480c990c9d6a458b5fc85fe1da2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205b18358f2d2445d7c4555edc5db224') in 0.244900 seconds
+  Import took 0.250566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.116989 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer
+  artifactKey: Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer using Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2181505a3aad6509a915df48130c4a7') in 0.007982 seconds
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer
+  artifactKey: Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer using Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2181505a3aad6509a915df48130c4a7') in 0.001822 seconds
+  Import took 0.006239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.248645 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab
+  artifactKey: Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Green.prefab using Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a608d37d48c255b096064794450af18') in 0.041362 seconds
+  Import took 0.047306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.925691 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab
+  artifactKey: Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Purple.prefab using Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c234f0c10906522167709da5241d9') in 0.076586 seconds
+  Import took 0.082311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524680 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab
+  artifactKey: Guid(59c100dd669d88f46b60555886d4dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Red.prefab using Guid(59c100dd669d88f46b60555886d4dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eca2cd8f9d6efc5a3dfabd80b2c3440') in 0.061122 seconds
+  Import took 0.066397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.359073 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Animators/TerrorbringerCTRL.controller
+  artifactKey: Guid(d44a18fbb4c18cb40b8732baf53d96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Animators/TerrorbringerCTRL.controller using Guid(d44a18fbb4c18cb40b8732baf53d96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65c53d8559235934fa4c7859795bcbc') in 0.022142 seconds
+  Import took 0.028134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.527494 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper
+  artifactKey: Guid(da286c563d238e04c94cb6f9aa0a8331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper using Guid(da286c563d238e04c94cb6f9aa0a8331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4c9fe155060a36183f318f3c1ee821') in 0.008324 seconds
+  Import took 0.014152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.343455 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab
+  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0252e586390e6590505b322d2ac9746c') in 0.044625 seconds
+  Import took 0.051827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab
+  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0252e586390e6590505b322d2ac9746c') in 0.040237 seconds
+  Import took 0.045852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.168364 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Animators/UsurperCTRL.controller
+  artifactKey: Guid(5bd61d42e42f44b4a922495212e06f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Animators/UsurperCTRL.controller using Guid(5bd61d42e42f44b4a922495212e06f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6751ffa2ea3d5388e3231afda68ef519') in 0.026826 seconds
+  Import took 0.032656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.754628 seconds.
+  path: Assets/_GameAssets/Animations
+  artifactKey: Guid(17f661c9138120fccb871616105d3596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations using Guid(17f661c9138120fccb871616105d3596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7998725126e1759cb7114a0e37d92172') in 0.007608 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.326608 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Animators/UsurperCTRL 1.controller
+  artifactKey: Guid(94e46ac28e9a55644836a00f3588e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Animators/UsurperCTRL 1.controller using Guid(94e46ac28e9a55644836a00f3588e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c69070841ccc066ab1841875896368') in 0.027093 seconds
+  Import took 0.032779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.796018 seconds.
+  path: Assets/_GameAssets/Animations/UsurperCTRL 1.controller
+  artifactKey: Guid(94e46ac28e9a55644836a00f3588e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/UsurperCTRL 1.controller using Guid(94e46ac28e9a55644836a00f3588e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932d5572fb046a76e05a4ffaf73bba7d') in 0.023575 seconds
+  Import took 0.030357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.464016 seconds.
+  path: Assets/_GameAssets/Animations/DragonBoss AC.controller
+  artifactKey: Guid(94e46ac28e9a55644836a00f3588e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/DragonBoss AC.controller using Guid(94e46ac28e9a55644836a00f3588e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1a57737b9c75e27e461a877ff193ad') in 0.024050 seconds
+  Import took 0.030131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.397991 seconds.
+  path: Assets/_GameAssets/Animations/Test
+  artifactKey: Guid(a741d5744923209c699a0a979f42e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/Test using Guid(a741d5744923209c699a0a979f42e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfc56f905ce2a15921dda6f1dd1f8ab') in 0.008722 seconds
+  Import took 0.012726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1595.290075 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43524f5cf7f2b2a93f86d7ca610a0c03') in 0.045896 seconds
+  Import took 0.051435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005330 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43524f5cf7f2b2a93f86d7ca610a0c03') in 0.031711 seconds
+  Import took 0.037926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.418837 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Textures/CFX3_T_FireSparkle.png
+  artifactKey: Guid(52c1a422bfc04b543adc653b160af1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Textures/CFX3_T_FireSparkle.png using Guid(52c1a422bfc04b543adc653b160af1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4023e146a23b40731fe70d102cf13eb8') in 0.033341 seconds
+  Import took 0.038615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002698 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Textures/CFX3_T_FireSparkle.png
+  artifactKey: Guid(52c1a422bfc04b543adc653b160af1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Textures/CFX3_T_FireSparkle.png using Guid(52c1a422bfc04b543adc653b160af1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4023e146a23b40731fe70d102cf13eb8') in 0.015619 seconds
+  Import took 0.020091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.553153 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab
+  artifactKey: Guid(7e48ba6b1b968764490bbc70b66e3fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab using Guid(7e48ba6b1b968764490bbc70b66e3fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17c9394d0820f8d454b444418982d07') in 0.011670 seconds
+  Import took 0.015805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044528 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab
+  artifactKey: Guid(7e48ba6b1b968764490bbc70b66e3fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab using Guid(7e48ba6b1b968764490bbc70b66e3fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17c9394d0820f8d454b444418982d07') in 0.006918 seconds
+  Import took 0.013135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004323 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireBulk ADD.mat
+  artifactKey: Guid(67c3db2f0d5b4aa4eaa1d7aec0699d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireBulk ADD.mat using Guid(67c3db2f0d5b4aa4eaa1d7aec0699d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0fb901ee6db737ef61bd720a2f6e45') in 0.043918 seconds
+  Import took 0.048096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.672213 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab
+  artifactKey: Guid(b0bc1b6b391734647b9bb142bafc0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab using Guid(b0bc1b6b391734647b9bb142bafc0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9c8f951ed11686d519b4bfa6d94094') in 0.008927 seconds
+  Import took 0.012895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012270 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab
+  artifactKey: Guid(b0bc1b6b391734647b9bb142bafc0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab using Guid(b0bc1b6b391734647b9bb142bafc0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9c8f951ed11686d519b4bfa6d94094') in 0.006286 seconds
+  Import took 0.013071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.742881 seconds.
+  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Animations/DragonSoulEater/Fireball Shoot.fbx
+  artifactKey: Guid(6e4f9ef5485ccb04299f52ceae24d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Animations/DragonSoulEater/Fireball Shoot.fbx using Guid(6e4f9ef5485ccb04299f52ceae24d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056521d155bf6582fd1a025ee5420c6d') in 0.127231 seconds
+  Import took 0.130938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.322744 seconds.
+  path: Assets/Asset Store Downloads/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
+  artifactKey: Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab using Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac2f783ddba873b1445449261efd9c') in 0.044747 seconds
+  Import took 0.049029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003878 seconds.
+  path: Assets/Asset Store Downloads/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
+  artifactKey: Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab using Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac2f783ddba873b1445449261efd9c') in 0.010671 seconds
+  Import took 0.014691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.374722 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire/CFX4 Fire.prefab
+  artifactKey: Guid(1c20c7996d683754db1f0f62a361952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire/CFX4 Fire.prefab using Guid(1c20c7996d683754db1f0f62a361952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640d812b25b6e642d0ee42c8c6a38865') in 0.009091 seconds
+  Import took 0.012980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008377 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire/CFX4 Fire.prefab
+  artifactKey: Guid(1c20c7996d683754db1f0f62a361952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/CFX4 Prefabs/Fire/CFX4 Fire.prefab using Guid(1c20c7996d683754db1f0f62a361952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640d812b25b6e642d0ee42c8c6a38865') in 0.004418 seconds
+  Import took 0.008302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005109 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat
+  artifactKey: Guid(53e601bdd2cb5434e96ec915a4e30792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat using Guid(53e601bdd2cb5434e96ec915a4e30792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6685054726b5f12193a0fd5d3c773daa') in 0.012610 seconds
+  Import took 0.018595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.519272 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat
+  artifactKey: Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat using Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8308df867dda111677b939eebbe2a622') in 0.012330 seconds
+  Import took 0.016137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004181 seconds.
+  path: Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat
+  artifactKey: Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/ParticleFX/Cartoon FX/Materials/Fire/CFX3_FireSparkle ADD.mat using Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8308df867dda111677b939eebbe2a622') in 0.008261 seconds
+  Import took 0.011776 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.693200 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.098200 ms MarkObjects: 1.920500 ms  DeleteObjects: 0.440800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.393743 seconds.
+  path: Assets/_GameAssets/Prefabs/PartFX/DragonFireball.prefab
+  artifactKey: Guid(5ba6bb7321756214ab0551bf4b9f1b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/PartFX/DragonFireball.prefab using Guid(5ba6bb7321756214ab0551bf4b9f1b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a224a308aae306fa191e5dda877f71') in 0.055693 seconds
+  Import took 0.059520 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

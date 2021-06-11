@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16201 MB
+OS: 'Windows 10 Pro; OS build 19043.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16201 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Dev/Curso Unity/Call-of-Derpness
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50505
+52091
 Successfully changed project path to: C:/Dev/Curso Unity/Call-of-Derpness
 C:/Dev/Curso Unity/Call-of-Derpness
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002142 seconds.
+Registered in 0.002331 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
+- Completed reload, in  1.354 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004041 seconds.
+Registered in 0.004243 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.169 seconds
+- Completed reload, in  1.204 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2056 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.4 MB.
-System memory in use after: 129.0 MB.
+Unloading 2060 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 129.8 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 3.494300 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.459300 ms  DeleteObjects: 0.695000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_GameAssets/Animations/HandAndGuns/CrossbowShot.anim
-  artifactKey: Guid(b00a227cf96f4584eab1861b7e243041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Animations/HandAndGuns/CrossbowShot.anim using Guid(b00a227cf96f4584eab1861b7e243041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c3e5b03d466ae9e60da31df5416a26') in 0.027960 seconds
-  Import took 0.032472 seconds .
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 4.178500 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.120700 ms MarkObjects: 2.694200 ms  DeleteObjects: 1.075500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 351.161849 seconds.
-  path: Assets/_GameAssets/Animations/HandAndGuns/CrossbowStart.anim
-  artifactKey: Guid(5d70ebd02b0e5b045928fdc10c3110d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Animations/HandAndGuns/CrossbowStart.anim using Guid(5d70ebd02b0e5b045928fdc10c3110d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bbfeb49686f6e5598f615c296fdb2') in 0.008923 seconds
-  Import took 0.012991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000609 seconds.
-  path: Assets/_GameAssets/Animations/HandAndGuns/CrossbowStart.anim
-  artifactKey: Guid(5d70ebd02b0e5b045928fdc10c3110d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Animations/HandAndGuns/CrossbowStart.anim using Guid(5d70ebd02b0e5b045928fdc10c3110d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bbfeb49686f6e5598f615c296fdb2') in 0.002368 seconds
-  Import took 0.005855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.979893 seconds.
-  path: Assets/_GameAssets/Animations/HandAndGuns/CrossbowReload.anim
-  artifactKey: Guid(e7cfc14df86756249a7c6b2aa4d1b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Animations/HandAndGuns/CrossbowReload.anim using Guid(e7cfc14df86756249a7c6b2aa4d1b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7789b5e8a584e0b9400383f1b2d342fd') in 0.005959 seconds
-  Import took 0.013148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001171 seconds.
-  path: Assets/_GameAssets/Animations/HandAndGuns/CrossbowReload.anim
-  artifactKey: Guid(e7cfc14df86756249a7c6b2aa4d1b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Animations/HandAndGuns/CrossbowReload.anim using Guid(e7cfc14df86756249a7c6b2aa4d1b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7789b5e8a584e0b9400383f1b2d342fd') in 0.001921 seconds
-  Import took 0.005974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.787760 seconds.
-  path: Assets/_GameAssets/Animations/HandAndGuns/HandAndGunAC.controller
-  artifactKey: Guid(814425da219894cd4873af730ba96936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Animations/HandAndGuns/HandAndGunAC.controller using Guid(814425da219894cd4873af730ba96936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff934c65f023c803561e6084444244f') in 0.011980 seconds
-  Import took 0.016782 seconds .
+  path: Assets/Asset Store Downloads/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store Downloads/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137b365f8fa0316d4b31345c09aeed1d') in 0.050144 seconds
+  Import took 0.054657 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005233 seconds.
+Registered in 0.003950 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -136,299 +96,33 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1971 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 121.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 3.412700 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.490400 ms  DeleteObjects: 0.516600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 565.695001 seconds.
-  path: Assets/_GameAssets/Script/Weapons/Weapon.cs
-  artifactKey: Guid(51fce786d1f36d323860c43de5b3b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Script/Weapons/Weapon.cs using Guid(51fce786d1f36d323860c43de5b3b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff3eaac69a2669d4e52eb2a3a99f9df') in 0.025530 seconds
-  Import took 0.030112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010211 seconds.
-  path: Assets/_GameAssets/Script/Weapons/Weapon.cs
-  artifactKey: Guid(51fce786d1f36d323860c43de5b3b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Script/Weapons/Weapon.cs using Guid(51fce786d1f36d323860c43de5b3b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff3eaac69a2669d4e52eb2a3a99f9df') in 0.002685 seconds
-  Import took 0.006616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1917.000003 seconds.
-  path: Assets/_GameAssets/Script/Weapons/Crossbow.cs
-  artifactKey: Guid(ffd7a2c62fa182444a07994122999d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Script/Weapons/Crossbow.cs using Guid(ffd7a2c62fa182444a07994122999d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca5bb47938966fa15518ef9bace2b6d') in 0.012923 seconds
-  Import took 0.026265 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004237 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.1 MB.
-System memory in use after: 121.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2551.
-Total: 4.610500 ms (FindLiveObjects: 0.326100 ms CreateObjectMapping: 0.139100 ms MarkObjects: 3.440500 ms  DeleteObjects: 0.703000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.951413 seconds.
-  path: Assets/_GameAssets/Script/Enemies/GoofyEnemy.cs
-  artifactKey: Guid(034883f134566cba691aaaf0e73b82fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Script/Enemies/GoofyEnemy.cs using Guid(034883f134566cba691aaaf0e73b82fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4834db2aa99c076efaf9162198eaeb') in 0.011224 seconds
-  Import took 0.018326 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004323 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.376 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.1 MB.
-System memory in use after: 121.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2554.
-Total: 3.424400 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.094600 ms MarkObjects: 2.543600 ms  DeleteObjects: 0.566000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 519.933443 seconds.
-  path: Assets/Asset Store Downloads/FakeWeapon/FakeWeapon.cs
-  artifactKey: Guid(0371b45e8ca38d445ad68a82c3224f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FakeWeapon/FakeWeapon.cs using Guid(0371b45e8ca38d445ad68a82c3224f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75c3ff9c78c15915b13ae0f63460102') in 0.014541 seconds
-  Import took 0.019368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001462 seconds.
-  path: Assets/Asset Store Downloads/FakeWeapon/FakeWeapon.cs
-  artifactKey: Guid(0371b45e8ca38d445ad68a82c3224f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FakeWeapon/FakeWeapon.cs using Guid(0371b45e8ca38d445ad68a82c3224f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75c3ff9c78c15915b13ae0f63460102') in 0.001641 seconds
-  Import took 0.004803 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003863 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.1 MB.
-System memory in use after: 121.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2557.
-Total: 3.065700 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.214600 ms  DeleteObjects: 0.556600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004454 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.278 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 121.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 3.870000 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.806500 ms  DeleteObjects: 0.759500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.082 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.1 MB.
-System memory in use after: 121.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2563.
-Total: 2.707800 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.083200 ms MarkObjects: 1.900900 ms  DeleteObjects: 0.521400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1631.116397 seconds.
-  path: Assets/_GameAssets/Audio/FXs
-  artifactKey: Guid(1e02788c6d38539359f8a23d92f4a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Audio/FXs using Guid(1e02788c6d38539359f8a23d92f4a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d31461e5fe71ad78306754e05b5fb2c') in 0.012639 seconds
-  Import took 0.019329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.749533 seconds.
-  path: Assets/_GameAssets/Audio/FXs/CrossbowLoad_tairblenn.mp3
-  artifactKey: Guid(d1ad2bc01b971cf40862e817642dd817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Audio/FXs/CrossbowLoad_tairblenn.mp3 using Guid(d1ad2bc01b971cf40862e817642dd817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1575291c5a7510fb1e0992333ef8776') in 0.278746 seconds
-  Import took 0.283403 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004120 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2575.
-Total: 4.012600 ms (FindLiveObjects: 0.271300 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.950700 ms  DeleteObjects: 0.669800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003805 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.173 seconds
+- Completed reload, in  1.365 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 122.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2578.
-Total: 3.619300 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.112500 ms MarkObjects: 2.603700 ms  DeleteObjects: 0.630900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 3.103100 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.204500 ms  DeleteObjects: 0.572700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.303707 seconds.
+  path: Assets/_GameAssets/Script/GameManager.cs
+  artifactKey: Guid(727335e0d1f7bf7679bc8ca2188b183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/GameManager.cs using Guid(727335e0d1f7bf7679bc8ca2188b183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9fa2773c06afe2af596a96015d7d34') in 0.026343 seconds
+  Import took 0.030169 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005149 seconds.
+Registered in 0.004470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -440,25 +134,49 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
+- Completed reload, in  1.400 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 122.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 3.714000 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.690900 ms  DeleteObjects: 0.650400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2555.
+Total: 3.229900 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.227800 ms  DeleteObjects: 0.696500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 999.027421 seconds.
+  path: Assets/_GameAssets/Script/Enemies/VisionDecetion.cs
+  artifactKey: Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/VisionDecetion.cs using Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b5b59b3ba4edc1a6a140fa4d6662e') in 0.009171 seconds
+  Import took 0.013940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_GameAssets/Script/GameManager.cs
+  artifactKey: Guid(727335e0d1f7bf7679bc8ca2188b183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/GameManager.cs using Guid(727335e0d1f7bf7679bc8ca2188b183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ce2e2c2ae643a1f400b341e60b502') in 0.007294 seconds
+  Import took 0.011439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.478701 seconds.
+  path: Assets/_GameAssets/Script/Enemies/VisionDetection.cs
+  artifactKey: Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Enemies/VisionDetection.cs using Guid(41bb502c072d8fe938dbbf43ff724636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a0355830240cb80547e3cb88e8c6f6') in 0.010863 seconds
+  Import took 0.014785 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004348 seconds.
+Registered in 0.004190 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -470,51 +188,21 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.213 seconds
+- Completed reload, in  1.445 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.6 MB.
-System memory in use after: 124.3 MB.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 122.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 2.950300 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.091400 ms MarkObjects: 2.090200 ms  DeleteObjects: 0.544800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004203 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 5.044900 ms (FindLiveObjects: 0.596400 ms CreateObjectMapping: 0.294900 ms MarkObjects: 3.447800 ms  DeleteObjects: 0.703200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2558.
+Total: 3.271900 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.311900 ms  DeleteObjects: 0.608000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005201 seconds.
+Registered in 0.006892 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -530,25 +218,41 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.218 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 122.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2590.
-Total: 3.408700 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.115400 ms MarkObjects: 2.349300 ms  DeleteObjects: 0.680800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 3.057400 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.118600 ms MarkObjects: 2.115600 ms  DeleteObjects: 0.556200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 516.874337 seconds.
+  path: Assets/_GameAssets/Script/Weapons/Crossbow.cs
+  artifactKey: Guid(ffd7a2c62fa182444a07994122999d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Weapons/Crossbow.cs using Guid(ffd7a2c62fa182444a07994122999d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907c3c3aeb678410ca3157c49e755d98') in 0.014486 seconds
+  Import took 0.021806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005749 seconds.
+  path: Assets/_GameAssets/Script/Weapons/Crossbow.cs
+  artifactKey: Guid(ffd7a2c62fa182444a07994122999d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Weapons/Crossbow.cs using Guid(ffd7a2c62fa182444a07994122999d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907c3c3aeb678410ca3157c49e755d98') in 0.003430 seconds
+  Import took 0.007869 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003980 seconds.
+Registered in 0.004291 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -560,393 +264,41 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.235 seconds
+- Completed reload, in  1.257 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 122.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2593.
-Total: 6.373800 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.285500 ms MarkObjects: 4.772200 ms  DeleteObjects: 1.030300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 793.903363 seconds.
-  path: Assets/Asset Store Downloads/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
-  artifactKey: Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab using Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b05fa9259de428d3102b4edf95ef79') in 0.171010 seconds
-  Import took 0.174903 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 3.683100 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.105500 ms MarkObjects: 2.672000 ms  DeleteObjects: 0.653300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x5.prefab
-  artifactKey: Guid(c1c15459a9933104e8d188c4fad384b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x5.prefab using Guid(c1c15459a9933104e8d188c4fad384b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c5e7b8d3262b62a7d23a71a8dc46da') in 0.214809 seconds
-  Import took 0.219435 seconds .
+  Time since last request: 300.553224 seconds.
+  path: Assets/_GameAssets/Script/Weapons/BallisticProyectile.cs
+  artifactKey: Guid(389e7838fa1deb1ccac6de83c60a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Weapons/BallisticProyectile.cs using Guid(389e7838fa1deb1ccac6de83c60a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6d9cdc03b41c0db23a65efa8fcea34') in 0.011403 seconds
+  Import took 0.016816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab
-  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6868e0788e6338bd5542f4612d68a1') in 0.206581 seconds
-  Import took 0.213450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Asset Store Downloads/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
-  artifactKey: Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab using Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7fbf876feba46d83d9432b65cdfc35') in 0.010371 seconds
-  Import took 0.014482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/_GameAssets/Prefabs/PartFX/BloodPS.prefab
-  artifactKey: Guid(4ac2d943597590968bc9c8b755f5057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Prefabs/PartFX/BloodPS.prefab using Guid(4ac2d943597590968bc9c8b755f5057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30260f6e6a0b4ed28e0f52e136b1102') in 0.012671 seconds
-  Import took 0.016720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x5.prefab
-  artifactKey: Guid(016070f8ebeb0f94ab6b043647737b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x5.prefab using Guid(016070f8ebeb0f94ab6b043647737b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34c8fc3529a6c3d6e8f49179bb8dabb') in 0.032085 seconds
-  Import took 0.037547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonNightmare/Albino.prefab
-  artifactKey: Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonNightmare/Albino.prefab using Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b6abfe4f2a1c3951e315571f844df5') in 0.063063 seconds
-  Import took 0.073261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Asset Store Downloads/FakeWeapon/Prefabs/Bullet.prefab
-  artifactKey: Guid(db66784c8d34c294eb4993aa3ae726e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FakeWeapon/Prefabs/Bullet.prefab using Guid(db66784c8d34c294eb4993aa3ae726e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4181cd363676567c9fdd01e1970a278a') in 0.039826 seconds
-  Import took 0.045409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000626 seconds.
-  path: Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Bridge.prefab
-  artifactKey: Guid(4634910a8580fb149a1d17bf36f23b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Bridge.prefab using Guid(4634910a8580fb149a1d17bf36f23b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be6fce8c64667f63c56a45ed0cb2b5d') in 0.159031 seconds
-  Import took 0.164988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Plants/Bush01.prefab
-  artifactKey: Guid(4c9eeb66e4e34be43b04b66ff0e5bb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Plants/Bush01.prefab using Guid(4c9eeb66e4e34be43b04b66ff0e5bb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d89a5ddfe582ba1b3b71d0c67c8709') in 0.157497 seconds
-  Import took 0.161866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Arrow_Explosive.prefab
-  artifactKey: Guid(a7ef2398046494d0cadc6b5c28cfa84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Arrow_Explosive.prefab using Guid(a7ef2398046494d0cadc6b5c28cfa84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194913abe9aaef8d05aadfbfa5332bbb') in 0.020052 seconds
-  Import took 0.024148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/_GameAssets/Prefabs/Ballesta.prefab
-  artifactKey: Guid(d2e8551a3bab98935ba5e3df884e5fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Prefabs/Ballesta.prefab using Guid(d2e8551a3bab98935ba5e3df884e5fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caf328b2a2b9d49b243faecc220d3bc') in 0.020215 seconds
-  Import took 0.024635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Bomb.prefab
-  artifactKey: Guid(aa64b9ae639024c5097e12b27ac1d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Bomb.prefab using Guid(aa64b9ae639024c5097e12b27ac1d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d819bbb90caf9cd493f07bca4c4a2ab') in 0.058387 seconds
-  Import took 0.064105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x4.prefab
-  artifactKey: Guid(ed7eb847871ac0048b5421b78b46dc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x4.prefab using Guid(ed7eb847871ac0048b5421b78b46dc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4378b5a003cad8f2c744c1ec98bd95') in 0.023281 seconds
-  Import took 0.027616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Plants/Bush02.prefab
-  artifactKey: Guid(5279a4d472407d847a1cf22b68805c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Plants/Bush02.prefab using Guid(5279a4d472407d847a1cf22b68805c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfa18907608b498d2a7f93cc2aa48d9') in 0.043306 seconds
-  Import took 0.047474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Asset Store Downloads/cemetery halloween set/Prefab/bush_03.prefab
-  artifactKey: Guid(37898355f3308664e8a88f210fe2ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/cemetery halloween set/Prefab/bush_03.prefab using Guid(37898355f3308664e8a88f210fe2ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6250f04a5856e56eaec4d52867c963') in 0.080751 seconds
-  Import took 0.086669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab
-  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonTerrorBringer/Blue.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120b8cc9c17f9acd85c234398094cacb') in 0.204390 seconds
-  Import took 0.210218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Asset Store Downloads/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab
-  artifactKey: Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab using Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03e8f6937d2a9ce1aca576f74dd177a') in 0.014783 seconds
-  Import took 0.021661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Pieced Prefabs/Castle 2.prefab
-  artifactKey: Guid(9cabcd906e1301e43a847741b5dc182d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Pieced Prefabs/Castle 2.prefab using Guid(9cabcd906e1301e43a847741b5dc182d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c83a3ef8b269f9da64433b2a514665') in 0.043562 seconds
-  Import took 0.049648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x4.prefab
-  artifactKey: Guid(e48df4623a44f7c47a9537638f0a8da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x4.prefab using Guid(e48df4623a44f7c47a9537638f0a8da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6722c9d86d800cd2f8f8998a84631cbf') in 0.025998 seconds
-  Import took 0.031932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x2.prefab
-  artifactKey: Guid(b85eaadde47cd974aa25d9bd3ae6b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x2.prefab using Guid(b85eaadde47cd974aa25d9bd3ae6b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9376f5d4be081e69dd4c2b957eb41295') in 0.024109 seconds
-  Import took 0.030093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x2.prefab
-  artifactKey: Guid(68a43b2c8026e4c40a17f6abf6d0b57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x2.prefab using Guid(68a43b2c8026e4c40a17f6abf6d0b57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59777bfdbda7c77a90215ab4ae801e98') in 0.019082 seconds
-  Import took 0.024923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Asset Store Downloads/cemetery halloween set/Prefab/bush_02.prefab
-  artifactKey: Guid(11656c9fe6039134697fe0c8b8f7883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/cemetery halloween set/Prefab/bush_02.prefab using Guid(11656c9fe6039134697fe0c8b8f7883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30acf1ec35356d9aa03b178fc0032fb') in 0.055742 seconds
-  Import took 0.065392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Asset Store Downloads/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab
-  artifactKey: Guid(21543d2b66928224f8a9536ff3811682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab using Guid(21543d2b66928224f8a9536ff3811682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a656eb3592c3964760df0317e5379218') in 0.013565 seconds
-  Import took 0.017963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Arrow_Piercing.prefab
-  artifactKey: Guid(84ad69e92e6fe401c8848494bcedac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Arrow_Piercing.prefab using Guid(84ad69e92e6fe401c8848494bcedac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6f820336c23e9206ea1bcb85f6afa') in 0.027205 seconds
-  Import took 0.032119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x3.prefab
-  artifactKey: Guid(0bc834feaf2e37b448339ec3bc3c287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x3.prefab using Guid(0bc834feaf2e37b448339ec3bc3c287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2891d7dcbab243def8ebfb1ed37dc667') in 0.028609 seconds
-  Import took 0.032947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Bow.prefab
-  artifactKey: Guid(8093457b576f04fbfa270bca1b2553a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Bow.prefab using Guid(8093457b576f04fbfa270bca1b2553a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a2fa07b14a8a789d27a6591248411b') in 0.043132 seconds
-  Import took 0.047820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Arrow_Regular.prefab
-  artifactKey: Guid(802986766a97b4a108b97eb5fdf6e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Low-Poly Weapons/Prefabs/Arrow_Regular.prefab using Guid(802986766a97b4a108b97eb5fdf6e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a051a47bfc8ac113f17ea5757e1b9a65') in 0.023691 seconds
-  Import took 0.028068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Asset Store Downloads/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
-  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50066fa35fde8cbd2ca639bd71fd2558') in 0.081196 seconds
-  Import took 0.086363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Asset Store Downloads/cemetery halloween set/Prefab/bush_01.prefab
-  artifactKey: Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/cemetery halloween set/Prefab/bush_01.prefab using Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f2a84521b95aae8434c2fd2ab8b15e') in 0.049475 seconds
-  Import took 0.055078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Asset Store Downloads/FakeWeapon/Prefabs/BulletShell.prefab
-  artifactKey: Guid(eaeef803815700644bc9615b170f22f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FakeWeapon/Prefabs/BulletShell.prefab using Guid(eaeef803815700644bc9615b170f22f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29efe36f524a763aeb76f75ac00b5c16') in 0.025507 seconds
-  Import took 0.030732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2.prefab
-  artifactKey: Guid(7511850bb05cc1248b3f19f5e6191a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2.prefab using Guid(7511850bb05cc1248b3f19f5e6191a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a921aa57c20ad078d59c49700e91ed1') in 0.028996 seconds
-  Import took 0.034543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/_GameAssets/Prefabs/Caja municion.prefab
-  artifactKey: Guid(0d4730eb2b39e8d67b721ef043664825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Prefabs/Caja municion.prefab using Guid(0d4730eb2b39e8d67b721ef043664825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69f51646ea764c014f5bbb74bf93b9e') in 0.032097 seconds
-  Import took 0.036116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Pieced Prefabs/Castle 1.prefab
-  artifactKey: Guid(b386562e148b0a34bb5a0ae3fd143c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Pieced Prefabs/Castle 1.prefab using Guid(b386562e148b0a34bb5a0ae3fd143c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda9fbc764054b0531ae273ee9d5e423') in 0.070235 seconds
-  Import took 0.077743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Asset Store Downloads/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab
-  artifactKey: Guid(ab33e6080ae416b4d899f39fa8951b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab using Guid(ab33e6080ae416b4d899f39fa8951b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b96170555fac7e26a2e417027cf67b3') in 0.067288 seconds
-  Import took 0.071955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Pieced Prefabs/Castle 1.prefab
-  artifactKey: Guid(b386562e148b0a34bb5a0ae3fd143c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Pieced Prefabs/Castle 1.prefab using Guid(b386562e148b0a34bb5a0ae3fd143c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda9fbc764054b0531ae273ee9d5e423') in 0.039567 seconds
-  Import took 0.048648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Asset Store Downloads/Witch House/Witchs_house/Prefabs/Broom.prefab
-  artifactKey: Guid(57b30364b5b0f4c4692a46782c14d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Witch House/Witchs_house/Prefabs/Broom.prefab using Guid(57b30364b5b0f4c4692a46782c14d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f44d66d2528d28852341a61424729a') in 0.104492 seconds
-  Import took 0.111072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x3.prefab
-  artifactKey: Guid(c2da72f7b69838b43ab073c8a36cc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 2x2x3.prefab using Guid(c2da72f7b69838b43ab073c8a36cc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e92ca71ae19d91643f510af1590c67') in 0.022741 seconds
-  Import took 0.027407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Asset Store Downloads/Witch House/Witchs_house/Prefabs/axe.prefab
-  artifactKey: Guid(a966a24842bb4d84783e345d8ccccdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Witch House/Witchs_house/Prefabs/axe.prefab using Guid(a966a24842bb4d84783e345d8ccccdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dd57f60e3e6d0fa643507093647162') in 0.031569 seconds
-  Import took 0.036288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Asset Store Downloads/RootVegetables/Prefabs/Beet.prefab
-  artifactKey: Guid(081319ef3e436a44295662d8fa47dd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/RootVegetables/Prefabs/Beet.prefab using Guid(081319ef3e436a44295662d8fa47dd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb53c9229731e0765d9366f2a679e7b8') in 0.015236 seconds
-  Import took 0.020773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab
-  artifactKey: Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonSoulEater/Blue.prefab using Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afdce51f30f55cc732e9a9d13e58ce5') in 0.208767 seconds
-  Import took 0.216055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Plants/Birch.prefab
-  artifactKey: Guid(a35ad1ca558615943a3a42547e7bef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/GlowingForest/Glowing_Forest/Prefabs/Plants/Birch.prefab using Guid(a35ad1ca558615943a3a42547e7bef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff944ddf0bc9dcbb3df9ef90a6ba3737') in 0.015541 seconds
-  Import took 0.019590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Asset Store Downloads/Witch House/Witchs_house/Prefabs/Board.prefab
-  artifactKey: Guid(9ddfbd2a91f28cb418b79fb4678c09dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Witch House/Witchs_house/Prefabs/Board.prefab using Guid(9ddfbd2a91f28cb418b79fb4678c09dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d093c93b0199a55970cedbd619428a4') in 0.029792 seconds
-  Import took 0.034708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000781 seconds.
-  path: Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x3.prefab
-  artifactKey: Guid(fbafc2fd3b91e6847bf2c9297dab99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/Cartoon Castle Building Kit/Prefabs/Blocks Prefabs/Castle Block 1x3.prefab using Guid(fbafc2fd3b91e6847bf2c9297dab99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b60e18af43bbe1c27d59af51a2260f') in 0.020814 seconds
-  Import took 0.026326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Asset Store Downloads/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab
-  artifactKey: Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab using Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae991e74026fbafc4cca1221a0beff33') in 0.021941 seconds
-  Import took 0.028038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab
-  artifactKey: Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Store Downloads/FourEvilDragonsHP/Prefab/DragonNightmare/Blue.prefab using Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925c7a5c30fe11a14d87583d5d8fb53') in 0.067897 seconds
-  Import took 0.073784 seconds .
+  Time since last request: 0.000681 seconds.
+  path: Assets/_GameAssets/Script/Weapons/BallisticProyectile.cs
+  artifactKey: Guid(389e7838fa1deb1ccac6de83c60a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Weapons/BallisticProyectile.cs using Guid(389e7838fa1deb1ccac6de83c60a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6d9cdc03b41c0db23a65efa8fcea34') in 0.001751 seconds
+  Import took 0.005724 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005053 seconds.
+Registered in 0.005585 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -958,29 +310,179 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.215 seconds
+- Completed reload, in  1.212 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2567.
+Total: 2.985100 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.110400 ms  DeleteObjects: 0.557900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.195703 seconds.
+  path: Assets/_GameAssets/Script/Weapons/BallisticProyectile.cs
+  artifactKey: Guid(389e7838fa1deb1ccac6de83c60a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Weapons/BallisticProyectile.cs using Guid(389e7838fa1deb1ccac6de83c60a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b30aa72c28ccd4a941286333e64efe') in 0.008085 seconds
+  Import took 0.012204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.123418 seconds.
+  path: Assets/_GameAssets/Prefabs/Esfera energia.prefab
+  artifactKey: Guid(ab65a0347815010118321180f28311cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Esfera energia.prefab using Guid(ab65a0347815010118321180f28311cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54613998e2ff3879dc67adf3eb06367c') in 0.298901 seconds
+  Import took 0.303298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.692252 seconds.
+  path: Assets/_GameAssets/Prefabs/Mano.prefab
+  artifactKey: Guid(75ce6e4c3a0e373c8b8b843dc759895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Mano.prefab using Guid(75ce6e4c3a0e373c8b8b843dc759895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4921f891b11c87d60080235a5ffc53') in 0.065929 seconds
+  Import took 0.071425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.230630 seconds.
+  path: Assets/_GameAssets/Prefabs/Tree 1.prefab
+  artifactKey: Guid(149c0d4ae9998bc6b826be894d6acef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Tree 1.prefab using Guid(149c0d4ae9998bc6b826be894d6acef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162f467104e011af476b29d17b604dc3') in 0.253146 seconds
+  Import took 0.258467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.575233 seconds.
+  path: Assets/_GameAssets/Prefabs/Varita.prefab
+  artifactKey: Guid(bace9c8ed0df0d93cbcded6197d4769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Varita.prefab using Guid(bace9c8ed0df0d93cbcded6197d4769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a9028cc27074bb9afbb8c1a18863d0') in 0.020764 seconds
+  Import took 0.025563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1975 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 139.5 MB.
 System memory in use after: 139.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2599.
-Total: 3.362000 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.410800 ms  DeleteObjects: 0.585800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 3.727200 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.757700 ms  DeleteObjects: 0.602400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 382.349370 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a06d5f954193ced7b9c51d8692ad16') in 0.035447 seconds
-  Import took 0.040588 seconds .
+  Time since last request: 17.928586 seconds.
+  path: Assets/_GameAssets/Prefabs/Desatascador.prefab
+  artifactKey: Guid(67549bc9cc3c7407583581f72b9c216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Desatascador.prefab using Guid(67549bc9cc3c7407583581f72b9c216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433d57e66071fb6219f9492662eebf1b') in 0.098879 seconds
+  Import took 0.105976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.770917 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4779b34d20745ced929dcfefe9c4348f') in 0.049077 seconds
+  Import took 0.058172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.258951 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf618f5a627892eeff918930d34ed26') in 0.044954 seconds
+  Import took 0.051692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.990810 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c949b7180847016afbb378ae86576') in 0.040599 seconds
+  Import took 0.045675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.950722 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbd713f008faff1936f01e21a01a415') in 0.039959 seconds
+  Import took 0.045898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.170901 seconds.
+  path: Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab
+  artifactKey: Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Enemies/Dragon Boss.prefab using Guid(d9c67733feb446e459101c16572488f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2065c084cba57f3fbd20c75d3a49b3c9') in 0.049215 seconds
+  Import took 0.056303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.130070 seconds.
+  path: Assets/_GameAssets/Script/FXs/ZigZagAmortiguado.cs
+  artifactKey: Guid(6e0d9e252b73c5227b581707362edc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/FXs/ZigZagAmortiguado.cs using Guid(6e0d9e252b73c5227b581707362edc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b7ecdfb8af3d443455973212893e15') in 0.010363 seconds
+  Import took 0.016697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/_GameAssets/Script/FXs/ZigZagAmortiguado.cs
+  artifactKey: Guid(6e0d9e252b73c5227b581707362edc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/FXs/ZigZagAmortiguado.cs using Guid(6e0d9e252b73c5227b581707362edc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b7ecdfb8af3d443455973212893e15') in 0.002372 seconds
+  Import took 0.007511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.522475 seconds.
+  path: Assets/_GameAssets/Script/FXs/ControladorSonidoAmbiente.cs
+  artifactKey: Guid(ea6d24267d28cb770aa3e4455ec5b8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/FXs/ControladorSonidoAmbiente.cs using Guid(ea6d24267d28cb770aa3e4455ec5b8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4c689cb25e02323e2353e59e05ba7f') in 0.009083 seconds
+  Import took 0.015647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 669.186296 seconds.
+  path: Assets/_GameAssets/Script/Objects
+  artifactKey: Guid(df8c32d3dbf2bef70b4e6ab8ef8d6ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Objects using Guid(df8c32d3dbf2bef70b4e6ab8ef8d6ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4f0b875b31cf34b23acf40aadd1c5') in 0.009245 seconds
+  Import took 0.015461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.182850 seconds.
+  path: Assets/_GameAssets/Script/Objects/AmmoRecharge.cs
+  artifactKey: Guid(266365fc1f408244d8dca9d24faabf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Objects/AmmoRecharge.cs using Guid(266365fc1f408244d8dca9d24faabf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad15077894cb31b6bf6c2390b91aec5') in 0.007726 seconds
+  Import took 0.011818 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003051 seconds.
+Registered in 0.003847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -996,33 +498,71 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
+- Completed reload, in  1.095 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.4 MB.
-System memory in use after: 139.1 MB.
+Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.7 MB.
+System memory in use after: 139.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2602.
-Total: 2.960200 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.134300 ms  DeleteObjects: 0.535400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2620.
+Total: 3.006800 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.194000 ms  DeleteObjects: 0.534300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.7 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2623.
+Total: 3.057300 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.135500 ms  DeleteObjects: 0.616500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.007337 seconds.
-  path: Assets/_GameAssets/Prefabs/Desatascador.prefab
-  artifactKey: Guid(67549bc9cc3c7407583581f72b9c216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GameAssets/Prefabs/Desatascador.prefab using Guid(67549bc9cc3c7407583581f72b9c216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c778684077cb5405c6218d3a3a6db7') in 0.059004 seconds
-  Import took 0.062807 seconds .
+  Time since last request: 160.349464 seconds.
+  path: Assets/_GameAssets/Script/Objects/AmmoRecharge.cs
+  artifactKey: Guid(266365fc1f408244d8dca9d24faabf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Script/Objects/AmmoRecharge.cs using Guid(266365fc1f408244d8dca9d24faabf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337fe7d59d39e22e2a07522497e122fd') in 0.004797 seconds
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.482800 seconds.
+  path: Assets/_GameAssets/Prefabs/Ammo Pickup.prefab
+  artifactKey: Guid(838dd54921d1c9e448583f8128d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Ammo Pickup.prefab using Guid(838dd54921d1c9e448583f8128d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abed01a6e98aa5ded9db6e6c16599849') in 0.100303 seconds
+  Import took 0.104536 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003886 seconds.
+Registered in 0.006162 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1034,45 +574,15 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
+- Completed reload, in  1.425 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.5 MB.
-System memory in use after: 139.2 MB.
+Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2606.
-Total: 3.159900 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.095400 ms MarkObjects: 2.258100 ms  DeleteObjects: 0.585400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003381 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.5 MB.
-System memory in use after: 139.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2609.
-Total: 3.565800 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.116500 ms MarkObjects: 2.623800 ms  DeleteObjects: 0.595800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 4.130500 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.095100 ms MarkObjects: 3.195500 ms  DeleteObjects: 0.605300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
