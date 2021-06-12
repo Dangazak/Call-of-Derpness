@@ -106,6 +106,7 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
      <Compile Include="Assets\_GameAssets\Script\UI\MinimapManager.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\SwitchActivation.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\_GameAssets\Script\Enemies\GoofyEnemy.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
@@ -126,6 +127,8 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\AutoMoveAndRotate.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\ZigZagAmortiguado.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Objects\DamageArea.cs" />
+     <Compile Include="Assets\Asset Store Downloads\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\_GameAssets\Script\Test\TriggerExitTest.cs" />
@@ -138,6 +141,7 @@
      <Compile Include="Assets\_GameAssets\Script\Weapons\Crossbow.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\_GameAssets\Script\FXs\DissolveChanger.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\AlwaysRotate.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
@@ -149,10 +153,8 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\Asset Store Downloads\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
-     <Compile Include="Assets\_GameAssets\Script\Objects\DamageArea.cs" />
-     <Compile Include="Assets\_GameAssets\Script\FXs\AlwaysRotate.cs" />
-     <Compile Include="Assets\_GameAssets\Script\FXs\SwitchActivation.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Weapons\LightningBolt.cs" />
+     <Compile Include="Assets\_GameAssets\Script\FXs\DeactivateOnTimer.cs" />
      <None Include="Assets\Asset Store Downloads\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />

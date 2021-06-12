@@ -8,7 +8,7 @@ public abstract class Weapon : MonoBehaviour
     public int Ammo;
     //[SerializeField] int maxMagAmmo;
     //[SerializeField] int magAmmo;
-    public float damage;
+    public int damage;
     public float cadence;
     public Animator animator;
     //[SerializeField] bool auto = false;
