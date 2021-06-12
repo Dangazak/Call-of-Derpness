@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Asset Store Downloads\LightningBolt\Editor\LightningBoltEditor.cs" />
      <Compile Include="Assets\Asset Store Downloads\ParticleFX\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
@@ -43,7 +44,7 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
-     <Compile Include="Assets\Asset Store Downloads\LightningBolt\Editor\LightningBoltEditor.cs" />
+     <Compile Include="Assets\Asset Store Downloads\DarkFantasyKit [Free]\Readme\Parts\Editor\ReadmeEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
