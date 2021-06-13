@@ -45,7 +45,7 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Inflinge un da�o al enemigo
     /// </summary>
-    public void ReceiveDamage(int dmg, Vector3 point, Vector3 normal)
+    public virtual void ReceiveDamage(int dmg, Vector3 point, Vector3 normal)
     {
         health -= dmg;
         if (health <= 0)
@@ -71,7 +71,7 @@ public abstract class Enemy : MonoBehaviour
     /// <summary>
     /// Mata al enemigo
     /// </summary>
-    public void Death()
+    public virtual void Death()
     {
         gameManager.EnemyKilled();
         Destroy(gameObject);

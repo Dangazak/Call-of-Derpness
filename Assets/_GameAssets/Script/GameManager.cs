@@ -6,17 +6,14 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     public static GameManager Instance { get { return _instance; } }
-
     public delegate void DelegatedLifeUpdate();
     public event DelegatedLifeUpdate LifeUpdateEvent;
-
     private int maxLife = 100;
     private int life = 100;
     public delegate void DelegatedAmmoUpdate();
     public event DelegatedLifeUpdate AmmoUpdateEvent;
     private int ammo = 50;
     private int maxAmmo = 50;
-
     private int remainingEnemies;
     private void Awake()
     {
@@ -79,7 +76,7 @@ public class GameManager : MonoBehaviour
         remainingEnemies--;
         if (remainingEnemies <= 0)
         {
-            //activate final boss
+            DragonBoss.finalBoss.GetComponent<DragonBoss>().AwakeTheDragon();
         }
     }
     public void AddEnemy()
