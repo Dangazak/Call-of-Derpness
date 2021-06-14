@@ -12,6 +12,7 @@ public class HealthBarUpdater : MonoBehaviour
     [SerializeField] Enemy enemy;
     void Update()
     {
-        slider.value = (float)enemy.health / (float)enemy.maxHealth;
+        if (slider != null)
+            slider.value = (float)enemy.health / (float)enemy.maxHealth;
     }
 }

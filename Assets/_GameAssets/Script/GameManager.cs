@@ -8,13 +8,11 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get { return _instance; } }
     public delegate void DelegatedLifeUpdate();
     public event DelegatedLifeUpdate LifeUpdateEvent;
-    private int maxLife = 100;
-    private int life = 100;
     public delegate void DelegatedAmmoUpdate();
-    public event DelegatedLifeUpdate AmmoUpdateEvent;
-    private int ammo = 50;
-    private int maxAmmo = 50;
-    private int remainingEnemies;
+    public event DelegatedAmmoUpdate AmmoUpdateEvent;
+    public delegate void DelegatedManaUpdate();
+    public event DelegatedManaUpdate ManaUpdateEvent;
+    private int maxLife = 100, life = 100, ammo = 50, maxAmmo = 50, mana = 100, maxMana = 50, remainingEnemies;
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -41,7 +39,8 @@ public class GameManager : MonoBehaviour
         if (life <= 0)
         {
             life = 0;
-            //GameOver
+            FindObjectOfType<UIManager>().GameOverScreen();
+            Time.timeScale = 0;
         }
         if (LifeUpdateEvent != null) LifeUpdateEvent();
     }
@@ -65,6 +64,18 @@ public class GameManager : MonoBehaviour
         if (AmmoUpdateEvent != null)
             AmmoUpdateEvent();
     }
+    public int GetMana()
+    {
+        return mana;
+    }
+    public void AddMana(int Amount)
+    {
+        mana += Amount;
+        if (mana > maxMana)
+            mana = maxMana;
+        if (ManaUpdateEvent != null)
+            ManaUpdateEvent();
+    }
     public void UseAmmo()
     {
         ammo--;
@@ -75,12 +86,21 @@ public class GameManager : MonoBehaviour
     {
         remainingEnemies--;
         if (remainingEnemies <= 0)
-        {
             DragonBoss.finalBoss.AwakeTheDragon();
-        }
     }
     public void AddEnemy()
     {
         remainingEnemies++;
+    }
+    public void Reset()
+    {
+        maxLife = 100;
+        life = 100;
+        ammo = 50;
+        maxAmmo = 50;
+        mana = 100;
+        maxMana = 50;
+        remainingEnemies = 0;
+        Time.timeScale = 1;
     }
 }

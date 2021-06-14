@@ -26,6 +26,8 @@ public class DragonBoss : Enemy
     public override void Update()
     {
         base.Update();
+        if (player == null)
+            return;
         if (chasing)
         {
             if (distanceToPlayer < attackingDistance)

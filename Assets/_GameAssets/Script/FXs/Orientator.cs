@@ -20,6 +20,8 @@ public class Orientator : MonoBehaviour
     }
     void Update()
     {
+        if (transform == null || target == null)
+            return;
         Vector3 targetPos = new Vector3(target.position.x, transform.position.y, target.position.z);
         transform.LookAt(targetPos);
     }

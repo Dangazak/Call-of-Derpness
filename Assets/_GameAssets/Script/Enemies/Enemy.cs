@@ -29,7 +29,8 @@ public abstract class Enemy : MonoBehaviour
     }
     public virtual void Update()
     {
-        distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+        if (player != null)
+            distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
     }
     /// <summary>
     /// Determina si el player est� a la vista o no
