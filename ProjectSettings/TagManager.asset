@@ -8,6 +8,7 @@ TagManager:
   - Guts
   - Water
   - Enemy
+  - Boss
   layers:
   - Default
   - TransparentFX

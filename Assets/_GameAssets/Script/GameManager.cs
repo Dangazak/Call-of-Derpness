@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
         remainingEnemies--;
         if (remainingEnemies <= 0)
         {
-            DragonBoss.finalBoss.GetComponent<DragonBoss>().AwakeTheDragon();
+            DragonBoss.finalBoss.AwakeTheDragon();
         }
     }
     public void AddEnemy()

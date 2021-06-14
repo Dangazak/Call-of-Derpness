@@ -6,14 +6,22 @@ public class DragonBoss : Enemy
 {
     const string ANIM_AWAKE = "Awake", ANIM_ATTACKING = "Attacking", ANIM_DIE = "Die";
     [SerializeField] Animator animator;
-    public static GameObject finalBoss;
+    public static DragonBoss finalBoss;
     bool isAwake, turning, flyingOver, chasing;
     [SerializeField] float flyUpAmaount, turningDistance, attackingDistance, rotationRate, speed, minAngleToPlayer;
     [SerializeField] GameObject hpBar;
     override public void Start()
     {
         base.Start();
-        finalBoss = gameObject;
+        if (finalBoss == null)
+        {
+            finalBoss = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
     }
     public override void Update()
     {
@@ -82,9 +90,7 @@ public class DragonBoss : Enemy
     public override void ReceiveDamage(int dmg, Vector3 point, Vector3 normal)
     {
         if (isAwake)
-        {
             base.ReceiveDamage(dmg, point, normal);
-        }
     }
     public void EndAttack()
     {

@@ -36,7 +36,9 @@ public class BallisticProyectile : MonoBehaviour
     }
     private bool IsEnemy(GameObject candidate)
     {
-        return candidate.CompareTag("Enemy");
+        if (candidate.CompareTag("Enemy") || candidate.CompareTag("Boss"))
+            return true;
+        return false;
     }
     private bool IsPlayer(GameObject candidate)
     {

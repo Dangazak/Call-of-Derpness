@@ -71,6 +71,8 @@ public class LightningBolt : Weapon
     }
     private bool IsEnemy(GameObject candidate)
     {
-        return candidate.CompareTag("Enemy");
+        if (candidate.CompareTag("Enemy") || candidate.CompareTag("Boss"))
+            return true;
+        return false;
     }
 }

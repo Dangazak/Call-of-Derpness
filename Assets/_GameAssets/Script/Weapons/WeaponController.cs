@@ -4,19 +4,56 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
+    const string ANIM_LIGHTNING = "ChangeToLightning";
+    const string ANIM_CROSSBOW = "ChangeToCrossbow";
     [SerializeField] GameObject[] weaponArray;
     int activeWeapon;
     [SerializeField] Animator handAndWeaponAnimator;
     [SerializeField] GameObject[] icons;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Weapon[] scripts;
+    bool weaponChangeLock;
+    [SerializeField] float weaponChangeCooldown;
+
+    private void Update()
     {
+        //if(Input.mouseScrollDelta)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && !weaponChangeLock)
+        {
+            activeWeapon = 0;
+            ActivateWeapon(activeWeapon);
+            weaponChangeLock = true;
+            StartCoroutine(UnlockWeaponChange());
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && !weaponChangeLock)
+        {
+            activeWeapon = 1;
+            ActivateWeapon(activeWeapon);
+            weaponChangeLock = true;
+            StartCoroutine(UnlockWeaponChange());
+        }
 
     }
-
-    // Update is called once per frame
-    void Update()
+    void ActivateWeapon(int weaponIndex)
     {
-
+        for (int i = 0; i < weaponArray.Length; i++)
+        {
+            if (i == weaponIndex)
+            {
+                weaponArray[i].SetActive(true);
+                icons[i].SetActive(true);
+                scripts[i].enabled = true;
+            }
+            else
+            {
+                weaponArray[i].SetActive(false);
+                icons[i].SetActive(false);
+                scripts[i].enabled = false;
+            }
+        }
+    }
+    IEnumerator UnlockWeaponChange()
+    {
+        yield return new WaitForSeconds(weaponChangeCooldown);
+        weaponChangeLock = false;
     }
 }

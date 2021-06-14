@@ -10,6 +10,6 @@ public class DragonBossAnimationEvents : MonoBehaviour
     }
     public void EndAttack()
     {
-        DragonBoss.finalBoss.GetComponent<DragonBoss>().EndAttack();
+        DragonBoss.finalBoss.EndAttack();
     }
 }
