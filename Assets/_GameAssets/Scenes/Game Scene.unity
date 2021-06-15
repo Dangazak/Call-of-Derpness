@@ -14665,6 +14665,51 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &562217590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 562217592}
+  - component: {fileID: 562217591}
+  m_Layer: 0
+  m_Name: Plungers Object Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &562217591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562217590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e7c84aa2f444941a7c182157627af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 2866368174552731481, guid: 67549bc9cc3c7407583581f72b9c216d, type: 3}
+  numberOfObjects: 8
+--- !u!4 &562217592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562217590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &564525784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21752,7 +21797,7 @@ GameObject:
   - component: {fileID: 1031519814}
   - component: {fileID: 1031519813}
   m_Layer: 5
-  m_Name: MapBG
+  m_Name: Crossair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21790,7 +21835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.19339621, b: 0.19339621, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -36673,8 +36718,8 @@ GameObject:
   - component: {fileID: 2002716710}
   - component: {fileID: 2002716711}
   - component: {fileID: 2002716713}
-  - component: {fileID: 2002716712}
   - component: {fileID: 2002716714}
+  - component: {fileID: 2002716712}
   m_Layer: 8
   m_Name: Models
   m_TagString: Untagged
@@ -36732,6 +36777,7 @@ MonoBehaviour:
   handAndWeaponAnimator: {fileID: 2002716710}
   icons: []
   scripts: []
+  availableWeapons: 
   weaponChangeCooldown: 0
 --- !u!82 &2002716712
 AudioSource:
@@ -36852,7 +36898,7 @@ MonoBehaviour:
   jammingSound: {fileID: 8300000, guid: 42cbfb138227a5e149d92d6e2d2f4835, type: 3}
   reloadSound: {fileID: 8300000, guid: d1ad2bc01b971cf40862e817642dd817, type: 3}
   canShoot: 0
-  proyectilePrefab: {fileID: 2866368174552731481, guid: 67549bc9cc3c7407583581f72b9c216d, type: 3}
+  pool: {fileID: 562217591}
   shotForce: 9
 --- !u!114 &2002716714
 MonoBehaviour:

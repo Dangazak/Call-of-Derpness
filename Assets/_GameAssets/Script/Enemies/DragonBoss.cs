@@ -13,15 +13,14 @@ public class DragonBoss : Enemy
     override public void Start()
     {
         base.Start();
-        if (finalBoss == null)
-        {
-            finalBoss = this;
-        }
+        //if (finalBoss == null){
+        finalBoss = this;
+        /*}
         else
         {
             Destroy(gameObject);
         }
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);*/
     }
     public override void Update()
     {

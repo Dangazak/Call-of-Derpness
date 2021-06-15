@@ -5,7 +5,7 @@ using UnityEngine;
 public class Crossbow : Weapon
 {
     const string SHOOT = "Shoot";
-    [SerializeField] GameObject proyectilePrefab;
+    [SerializeField] ObjectPools pool;
     [SerializeField] [Range(5, 50)] float shotForce;
     GameManager gameManager;
 
@@ -27,7 +27,7 @@ public class Crossbow : Weapon
 
     private void InstantiateBullet()
     {
-        GameObject bullet = Instantiate(proyectilePrefab, shootPoint.position, shootPoint.rotation);
+        GameObject bullet = pool.CreateObject(shootPoint.position, shootPoint.rotation);//Instantiate(proyectilePrefab, shootPoint.position, shootPoint.rotation);
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
         if (rb == null)
         {

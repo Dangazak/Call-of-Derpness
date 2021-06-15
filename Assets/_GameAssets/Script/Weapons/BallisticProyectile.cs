@@ -7,7 +7,7 @@ public class BallisticProyectile : MonoBehaviour
     public int damage;
     public bool isSticky;
 
-    private bool damgeActive = true;
+    public bool damgeActive = true;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -17,22 +17,28 @@ public class BallisticProyectile : MonoBehaviour
         {
             collision.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, collision.GetContact(0).point, collision.GetContact(0).normal);
             damgeActive = false;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             return;
         }
         if (isSticky)
         {
+            if (IsEnemy(collision.gameObject))
+                return;
             gameObject.transform.SetParent(collision.gameObject.transform);
             gameObject.transform.rotation = Quaternion.LookRotation(collision.GetContact(0).normal);
             gameObject.transform.Rotate(0, 180, 0);
             gameObject.transform.position = collision.GetContact(0).point;
-            Destroy(gameObject.GetComponentInParent<Rigidbody>());
-            Destroy(this);
+            Rigidbody rb = gameObject.GetComponent<Rigidbody>();
+            rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
+            rb.isKinematic = true;
+            rb.velocity = Vector3.zero;
+            gameObject.GetComponent<Collider>().enabled = false;
         }
         else
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
+        damgeActive = false;
     }
     private bool IsEnemy(GameObject candidate)
     {
@@ -43,5 +49,15 @@ public class BallisticProyectile : MonoBehaviour
     private bool IsPlayer(GameObject candidate)
     {
         return candidate.CompareTag("Player");
+    }
+    public void ResetProjectile()
+    {
+        damgeActive = true;
+        transform.SetParent(null);
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.velocity = Vector3.zero;
+        rb.isKinematic = false;
+        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        GetComponent<Collider>().enabled = true;
     }
 }

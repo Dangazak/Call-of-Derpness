@@ -11,26 +11,46 @@ public class WeaponController : MonoBehaviour
     [SerializeField] Animator handAndWeaponAnimator;
     [SerializeField] GameObject[] icons;
     [SerializeField] Weapon[] scripts;
+    [SerializeField] bool[] availableWeapons;
     bool weaponChangeLock;
     [SerializeField] float weaponChangeCooldown;
 
     private void Update()
     {
         //if(Input.mouseScrollDelta)
-        if (Input.GetKeyDown(KeyCode.Alpha1) && !weaponChangeLock)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && !weaponChangeLock && availableWeapons[0])
         {
             activeWeapon = 0;
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
             StartCoroutine(UnlockWeaponChange());
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && !weaponChangeLock)
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && !weaponChangeLock && availableWeapons[1])
         {
             activeWeapon = 1;
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
             StartCoroutine(UnlockWeaponChange());
         }
+        else if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        {
+            activeWeaponUp();
+            while (!availableWeapons[activeWeapon])
+                activeWeaponUp();
+            ActivateWeapon(activeWeapon);
+            weaponChangeLock = true;
+            StartCoroutine(UnlockWeaponChange());
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        {
+            activeWeaponDown();
+            while (!availableWeapons[activeWeapon])
+                activeWeaponDown();
+            ActivateWeapon(activeWeapon);
+            weaponChangeLock = true;
+            StartCoroutine(UnlockWeaponChange());
+        }
+
 
     }
     void ActivateWeapon(int weaponIndex)
@@ -50,6 +70,18 @@ public class WeaponController : MonoBehaviour
                 scripts[i].enabled = false;
             }
         }
+    }
+    void activeWeaponUp()
+    {
+        activeWeapon++;
+        if (activeWeapon >= weaponArray.Length)
+            activeWeapon = 0;
+    }
+    void activeWeaponDown()
+    {
+        activeWeapon--;
+        if (activeWeapon < 0)
+            activeWeapon = weaponArray.Length - 1;
     }
     IEnumerator UnlockWeaponChange()
     {

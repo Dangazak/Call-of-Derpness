@@ -51,4 +51,10 @@ public class UIManager : MonoBehaviour
         ammoTypeText.text = "A M M O";
         AmmoUpdate();
     }
+    private void OnDisable()
+    {
+        gameManager.LifeUpdateEvent -= HealthBarUpdate;
+        gameManager.AmmoUpdateEvent -= AmmoUpdate;
+        gameManager.ManaUpdateEvent -= ManaUpdate;
+    }
 }
