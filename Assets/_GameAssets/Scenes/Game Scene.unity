@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 9fc0d4010bbf28b4594072e72b8655ab
+  m_OcclusionCullingData: {fileID: 36300000, guid: 8bc485b7998818a4a8eb6a0f3eef653e, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -16231,6 +16231,7 @@ MonoBehaviour:
   endText: {fileID: 2062888963}
   ammoTypeText: {fileID: 1475487029}
   endPanel: {fileID: 1154558833}
+  manaActive: 0
 --- !u!1 &680757986
 GameObject:
   m_ObjectHideFlags: 0
@@ -36888,6 +36889,7 @@ GameObject:
   - component: {fileID: 2002716713}
   - component: {fileID: 2002716714}
   - component: {fileID: 2002716712}
+  - component: {fileID: 2002716715}
   m_Layer: 8
   m_Name: Models
   m_TagString: Untagged
@@ -36945,11 +36947,12 @@ MonoBehaviour:
   icons:
   - {fileID: 852302492}
   - {fileID: 1578269695}
-  scripts:
+  weaponScripts:
   - {fileID: 2002716713}
   - {fileID: 2002716714}
   availableWeapons: 0101
   weaponChangeCooldown: 1.5
+  uiManager: {fileID: 675884576}
 --- !u!82 &2002716712
 AudioSource:
   m_ObjectHideFlags: 0
@@ -37085,7 +37088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxAmmo: 100
   Ammo: 50
-  damage: 20
+  damage: 25
   cadence: 1
   animator: {fileID: 2002716710}
   shootPoint: {fileID: 110732093}
@@ -37100,9 +37103,24 @@ MonoBehaviour:
   startPoint: {fileID: 1918999902}
   endPoint: {fileID: 1928687382}
   distance: 10
+  manaCost: 25
   layerMask:
     serializedVersion: 2
     m_Bits: 1
+--- !u!114 &2002716715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002716708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eecdc31e5846974fa1d351ec9a0b4ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 675884576}
+  rechargeRate: 1
 --- !u!1001 &2006691129
 PrefabInstance:
   m_ObjectHideFlags: 0

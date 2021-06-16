@@ -375,6 +375,7 @@ MonoBehaviour:
   distanceToPlayer: 0
   player: {fileID: 0}
   gameManager: {fileID: 0}
+  hpUpdater: {fileID: 8472896102024208537}
   minAngle: 0
   maxAngle: 50
   speed: 3

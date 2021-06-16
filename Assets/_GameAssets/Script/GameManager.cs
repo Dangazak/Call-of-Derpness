@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public event DelegatedAmmoUpdate AmmoUpdateEvent;
     public delegate void DelegatedManaUpdate();
     public event DelegatedManaUpdate ManaUpdateEvent;
-    private int maxLife = 100, life = 100, ammo = 50, maxAmmo = 50, mana = 100, maxMana = 50, remainingEnemies;
+    private int maxLife = 100, life = 100, ammo = 50, maxAmmo = 50, mana = 100, maxMana = 100, remainingEnemies;
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -68,11 +68,19 @@ public class GameManager : MonoBehaviour
     {
         return mana;
     }
-    public void AddMana(int Amount)
+    public void AddMana(int Amount, bool display)
     {
         mana += Amount;
         if (mana > maxMana)
             mana = maxMana;
+        if (ManaUpdateEvent != null && display)
+            ManaUpdateEvent();
+    }
+    public void UseMana(int Amount)
+    {
+        mana -= Amount;
+        if (mana < 0)
+            mana = 0;
         if (ManaUpdateEvent != null)
             ManaUpdateEvent();
     }

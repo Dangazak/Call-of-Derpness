@@ -13,6 +13,7 @@ public abstract class Enemy : MonoBehaviour
     [HideInInspector]
     public GameObject player;
     public GameManager gameManager;
+    public HealthBarUpdater hpUpdater;
 
     void Awake()
     {
@@ -67,6 +68,7 @@ public abstract class Enemy : MonoBehaviour
             }
 
         }
+        hpUpdater.UpdateHP();
     }
 
     /// <summary>

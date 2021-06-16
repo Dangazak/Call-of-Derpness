@@ -13,6 +13,7 @@ public class WeaponController : MonoBehaviour
     [SerializeField] bool[] availableWeapons;
     bool weaponChangeLock;
     [SerializeField] float weaponChangeCooldown;
+    [SerializeField] UIManager uiManager;
 
     private void Update()
     {
@@ -68,9 +69,15 @@ public class WeaponController : MonoBehaviour
             }
         }
         if (weaponIndex == 0)
+        {
             handAndWeaponAnimator.SetTrigger(ANIM_CROSSBOW);
+            uiManager.ChangeToAmmo();
+        }
         else if (weaponIndex == 1)
+        {
             handAndWeaponAnimator.SetTrigger(ANIM_LIGHTNING);
+            uiManager.ChangeToMana();
+        }
     }
     void ActiveWeaponUp()
     {

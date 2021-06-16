@@ -11,6 +11,7 @@ public class LightningBolt : Weapon
     [SerializeField] Transform startPoint;
     [SerializeField] Transform endPoint;
     [SerializeField] float distance;
+    [SerializeField] int manaCost;
     [SerializeField] LayerMask layerMask;
     Ray ray;
     RaycastHit hitInfo;
@@ -36,7 +37,7 @@ public class LightningBolt : Weapon
     }
     public override void Shoot()
     {
-        if (gameManager.GetAmmo() > 0)//Change to mana
+        if (gameManager.GetMana() >= manaCost)
         {
             canShoot = false;
             PlayShootSound();
@@ -55,8 +56,8 @@ public class LightningBolt : Weapon
                 impact = shootPoint.position + shootPoint.forward * distance;
                 ActivateLightning(impact, false);
             }
-            //animator.SetTrigger(SHOOT); //Add animation
-            gameManager.UseAmmo();//Change to mana
+            animator.SetTrigger(SHOOT);
+            gameManager.UseMana(manaCost);
         }
     }
 

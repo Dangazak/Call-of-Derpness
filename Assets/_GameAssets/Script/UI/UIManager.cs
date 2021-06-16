@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Text ammoTypeText;
     [SerializeField] GameObject endPanel;
     private GameManager gameManager;
+    public bool manaActive;
     private void Start()
     {
         gameManager = GameManager.Instance;
@@ -45,11 +46,13 @@ public class UIManager : MonoBehaviour
     {
         ammoTypeText.text = "M A N A";
         ManaUpdate();
+        manaActive = true;
     }
     public void ChangeToAmmo()
     {
         ammoTypeText.text = "A M M O";
         AmmoUpdate();
+        manaActive = false;
     }
     private void OnDisable()
     {
