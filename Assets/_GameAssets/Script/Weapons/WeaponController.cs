@@ -6,11 +6,10 @@ public class WeaponController : MonoBehaviour
 {
     const string ANIM_LIGHTNING = "ChangeToLightning";
     const string ANIM_CROSSBOW = "ChangeToCrossbow";
-    [SerializeField] GameObject[] weaponArray;
     int activeWeapon;
     [SerializeField] Animator handAndWeaponAnimator;
     [SerializeField] GameObject[] icons;
-    [SerializeField] Weapon[] scripts;
+    [SerializeField] Weapon[] weaponScripts;
     [SerializeField] bool[] availableWeapons;
     bool weaponChangeLock;
     [SerializeField] float weaponChangeCooldown;
@@ -32,20 +31,20 @@ public class WeaponController : MonoBehaviour
             weaponChangeLock = true;
             StartCoroutine(UnlockWeaponChange());
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        else if (Input.GetAxis("Mouse ScrollWheel") > 0f && !weaponChangeLock)
         {
-            activeWeaponUp();
+            ActiveWeaponUp();
             while (!availableWeapons[activeWeapon])
-                activeWeaponUp();
+                ActiveWeaponUp();
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
             StartCoroutine(UnlockWeaponChange());
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f && !weaponChangeLock)
         {
-            activeWeaponDown();
+            ActiveWeaponDown();
             while (!availableWeapons[activeWeapon])
-                activeWeaponDown();
+                ActiveWeaponDown();
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
             StartCoroutine(UnlockWeaponChange());
@@ -55,33 +54,35 @@ public class WeaponController : MonoBehaviour
     }
     void ActivateWeapon(int weaponIndex)
     {
-        for (int i = 0; i < weaponArray.Length; i++)
+        for (int i = 0; i < weaponScripts.Length; i++)
         {
             if (i == weaponIndex)
             {
-                weaponArray[i].SetActive(true);
                 icons[i].SetActive(true);
-                scripts[i].enabled = true;
+                weaponScripts[i].enabled = true;
             }
             else
             {
-                weaponArray[i].SetActive(false);
                 icons[i].SetActive(false);
-                scripts[i].enabled = false;
+                weaponScripts[i].enabled = false;
             }
         }
+        if (weaponIndex == 0)
+            handAndWeaponAnimator.SetTrigger(ANIM_CROSSBOW);
+        else if (weaponIndex == 1)
+            handAndWeaponAnimator.SetTrigger(ANIM_LIGHTNING);
     }
-    void activeWeaponUp()
+    void ActiveWeaponUp()
     {
         activeWeapon++;
-        if (activeWeapon >= weaponArray.Length)
+        if (activeWeapon >= weaponScripts.Length)
             activeWeapon = 0;
     }
-    void activeWeaponDown()
+    void ActiveWeaponDown()
     {
         activeWeapon--;
         if (activeWeapon < 0)
-            activeWeapon = weaponArray.Length - 1;
+            activeWeapon = weaponScripts.Length - 1;
     }
     IEnumerator UnlockWeaponChange()
     {
