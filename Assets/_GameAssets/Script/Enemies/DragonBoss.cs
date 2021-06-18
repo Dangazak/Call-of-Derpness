@@ -112,6 +112,7 @@ public class DragonBoss : Enemy
         turning = false;
         flyingOver = false;
         chasing = false;
+        GetComponent<Rigidbody>().isKinematic = false;
     }
     public override void Attack() { } //Attack handled by animation
 }

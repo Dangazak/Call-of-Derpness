@@ -29,7 +29,7 @@ public abstract class MobileEnemy : Enemy
     {
         Ray ray = new Ray(transform.position, -transform.up);
         RaycastHit hitInfo;
-        Physics.Raycast(ray, out hitInfo);
+        Physics.Raycast(ray, out hitInfo, 1);
         transform.up = hitInfo.normal;
         int det = Random.Range(0, 100);
         int sign = det > 50 ? 1 : -1;

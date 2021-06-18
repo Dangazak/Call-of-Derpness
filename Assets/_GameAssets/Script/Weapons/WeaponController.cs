@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     const string ANIM_LIGHTNING = "ChangeToLightning";
+    const string ANIM_FIREBALL = "ChangeToFireball";
     const string ANIM_CROSSBOW = "ChangeToCrossbow";
     int activeWeapon;
     [SerializeField] Animator handAndWeaponAnimator;
@@ -76,6 +77,11 @@ public class WeaponController : MonoBehaviour
         else if (weaponIndex == 1)
         {
             handAndWeaponAnimator.SetTrigger(ANIM_LIGHTNING);
+            uiManager.ChangeToMana();
+        }
+        else if (weaponIndex == 2)
+        {
+            handAndWeaponAnimator.SetTrigger(ANIM_FIREBALL);
             uiManager.ChangeToMana();
         }
     }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23320235798237312}
   - component: {fileID: 136367590879483440}
   - component: {fileID: 8382197242483031663}
+  - component: {fileID: 8247393408238370183}
   m_Layer: 0
   m_Name: Birch_tree1
   m_TagString: Untagged
@@ -125,3 +126,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 23320235798237312}
   m_Enabled: 1
+--- !u!54 &8247393408238370183
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216688828669844}
+  serializedVersion: 2
+  m_Mass: 1000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

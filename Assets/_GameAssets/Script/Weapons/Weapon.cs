@@ -4,8 +4,8 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
-    public int maxAmmo;
-    public int Ammo;
+    //public int maxAmmo;
+    //public int Ammo;
     //[SerializeField] int maxMagAmmo;
     //[SerializeField] int magAmmo;
     public int damage;

@@ -27,11 +27,13 @@ public class UIManager : MonoBehaviour
     }
     private void AmmoUpdate()
     {
-        ammoText.text = gameManager.GetAmmo().ToString();
+        if (!manaActive)
+            ammoText.text = gameManager.GetAmmo().ToString();
     }
     private void ManaUpdate()
     {
-        ammoText.text = gameManager.GetMana().ToString();
+        if (manaActive)
+            ammoText.text = gameManager.GetMana().ToString();
     }
     public void GameOverScreen()
     {
@@ -45,14 +47,14 @@ public class UIManager : MonoBehaviour
     public void ChangeToMana()
     {
         ammoTypeText.text = "M A N A";
-        ManaUpdate();
         manaActive = true;
+        ManaUpdate();
     }
     public void ChangeToAmmo()
     {
         ammoTypeText.text = "A M M O";
-        AmmoUpdate();
         manaActive = false;
+        AmmoUpdate();
     }
     private void OnDisable()
     {
