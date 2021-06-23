@@ -48,7 +48,7 @@ public class LightningBolt : Weapon
                 ActivateLightning(impact, true);
                 if (IsEnemy(hitInfo.collider.gameObject))
                 {
-                    hitInfo.collider.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, impact, hitInfo.normal);
+                    hitInfo.collider.gameObject.GetComponentInParent<Enemy>().ReceiveDamage(damage, impact, hitInfo.normal);
                 }
             }
             else

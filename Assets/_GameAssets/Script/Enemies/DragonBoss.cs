@@ -101,6 +101,7 @@ public class DragonBoss : Enemy
     }
     public void AwakeTheDragon()
     {
+        FindObjectOfType<AudioManager>().ActivateFinalBossMusic();
         isAwake = true;
         chasing = true;
         animator.SetTrigger(ANIM_AWAKE);

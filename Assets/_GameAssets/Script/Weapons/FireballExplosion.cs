@@ -31,11 +31,11 @@ public class FireballExplosion : MonoBehaviour
         Vector3 distanceVector = impactPoint - transform.position;
         float distance = distanceVector.magnitude;
         if (distance <= 0.1f)
-            enemy.GetComponent<Enemy>().ReceiveDamage((int)damage, impactPoint, -Camera.main.transform.forward);
+            enemy.GetComponentInParent<Enemy>().ReceiveDamage((int)damage, impactPoint, -Camera.main.transform.forward);
         else if (distance <= maxSize)
         {
             float distanceDamage = damage * (1 - distance / maxSize);
-            enemy.GetComponent<Enemy>().ReceiveDamage((int)distanceDamage, impactPoint, -Camera.main.transform.forward);
+            enemy.GetComponentInParent<Enemy>().ReceiveDamage((int)distanceDamage, impactPoint, -Camera.main.transform.forward);
         }
     }
     bool IsDamaged(GameObject candidate)

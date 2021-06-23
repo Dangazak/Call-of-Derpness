@@ -16,6 +16,7 @@ public class AmmoRecharge : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             gameManager.AddAmmo(rechargeAmount);
+            FindObjectOfType<AudioManager>().PlayAmmoSound();
             Destroy(gameObject);
         }
     }

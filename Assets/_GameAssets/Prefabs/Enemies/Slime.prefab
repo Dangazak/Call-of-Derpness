@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
-  prefabPSDamage: {fileID: 3863781810665373380, guid: 4ac2d943597590968bc9c8b755f5057b, type: 3}
+  prefabPSDamage: {fileID: 7549266675624400826, guid: c8cc9a180956d2a4cb15aaa16965d8fd, type: 3}
   prefabPSDeath: {fileID: 2669200668914909159, guid: 87b549f97e5827b08898fb1bb6234a02, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}

@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Text endText;
     [SerializeField] Text ammoTypeText;
     [SerializeField] GameObject endPanel;
+    [SerializeField] AudioManager audioManager;
     private GameManager gameManager;
     public bool manaActive;
     private void Start()
@@ -38,11 +39,13 @@ public class UIManager : MonoBehaviour
     }
     public void GameOverScreen()
     {
+        audioManager.PlayGameOverMusic();
         endPanel.SetActive(true);
         UnlockMouse();
     }
     public void VictoryScreen()
     {
+        audioManager.PlayVictoryMusic();
         endText.text = "V   I   C   T   O   R   Y";
         endPanel.SetActive(true);
         UnlockMouse();

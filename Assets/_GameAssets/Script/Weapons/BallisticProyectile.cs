@@ -15,7 +15,7 @@ public class BallisticProyectile : MonoBehaviour
         if (IsPlayer(collision.gameObject)) return;
         if (IsEnemy(collision.gameObject) && damgeActive)
         {
-            collision.gameObject.GetComponent<Enemy>().ReceiveDamage(damage, collision.GetContact(0).point, collision.GetContact(0).normal);
+            collision.gameObject.GetComponentInParent<Enemy>().ReceiveDamage(damage, collision.GetContact(0).point, collision.GetContact(0).normal);
             damgeActive = false;
             gameObject.SetActive(false);
             return;

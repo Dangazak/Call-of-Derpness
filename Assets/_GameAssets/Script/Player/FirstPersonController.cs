@@ -27,10 +27,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private float m_StepInterval;
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip[] m_FootstepSoundsWater;    // an array of footstep sounds that will be randomly selected from.
-        [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
-        [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
-        public enum TipoSuelo { Normal, Agua }
-        TipoSuelo sueloSeleccionado = TipoSuelo.Normal;
+        [SerializeField] private AudioClip[] m_FootstepSoundsCastle;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip m_JumpSound, m_JumpSoundNormal, m_JumpSoundCastle;           // the sound played when character leaves the ground.
+        [SerializeField] private AudioClip m_LandSound, m_LandSoundNormal, m_LandSoundCastle;           // the sound played when character touches back on ground.
+        public enum FloorType { Normal, Water, Castle }
+        FloorType selectedFloor = FloorType.Normal;
         // [Range(0.9f,1)]
         // //[ToolTip("Pitch mínimo")]
         // public float minPitch;
@@ -123,13 +124,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_MoveDir.y = -m_StickToGroundForce;
 
-                if (m_Jump)
+                if (m_Jump && selectedFloor != FloorType.Water)
                 {
                     m_MoveDir.y = m_JumpSpeed;
                     PlayJumpSound();
                     m_Jump = false;
                     m_Jumping = true;
                 }
+                else if (m_Jump && selectedFloor == FloorType.Water)
+                    m_Jump = false;
             }
             else
             {
@@ -179,9 +182,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // pick & play a random footstep sound from the array,
             // excluding sound at index 0
             int n;
-            switch (sueloSeleccionado)
+            switch (selectedFloor)
             {
-                case (TipoSuelo.Normal):
+                case (FloorType.Normal):
                     n = Random.Range(1, m_FootstepSounds.Length);
                     m_AudioSource.clip = m_FootstepSounds[n];
                     //m_AudioSource.pitch = Random.Range(minPitch, maxPitch);
@@ -191,7 +194,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     m_FootstepSounds[n] = m_FootstepSounds[0];
                     m_FootstepSounds[0] = m_AudioSource.clip;
                     break;
-                case (TipoSuelo.Agua):
+                case (FloorType.Water):
                     n = Random.Range(1, m_FootstepSoundsWater.Length);
                     m_AudioSource.clip = m_FootstepSoundsWater[n];
                     m_AudioSource.PlayOneShot(m_AudioSource.clip);
@@ -199,20 +202,32 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     m_FootstepSoundsWater[n] = m_FootstepSoundsWater[0];
                     m_FootstepSoundsWater[0] = m_AudioSource.clip;
                     break;
+                case (FloorType.Castle):
+                    n = Random.Range(1, m_FootstepSoundsCastle.Length);
+                    m_AudioSource.clip = m_FootstepSoundsCastle[n];
+                    m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                    // move picked sound to index 0 so it's not picked next time
+                    m_FootstepSoundsCastle[n] = m_FootstepSoundsCastle[0];
+                    m_FootstepSoundsCastle[0] = m_AudioSource.clip;
+                    break;
             }
         }
         void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.CompareTag("Water"))
             {
-                sueloSeleccionado = TipoSuelo.Agua;
+                selectedFloor = FloorType.Water;
+            }
+            else if (other.gameObject.CompareTag("Castle"))
+            {
+                selectedFloor = FloorType.Castle;
             }
         }
         void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.CompareTag("Water"))
+            if (other.gameObject.CompareTag("Water") || other.gameObject.CompareTag("Castle"))
             {
-                sueloSeleccionado = TipoSuelo.Normal;
+                selectedFloor = FloorType.Normal;
             }
         }
         private void UpdateCameraPosition(float speed)

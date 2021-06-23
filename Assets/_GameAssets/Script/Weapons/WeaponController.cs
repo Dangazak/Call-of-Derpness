@@ -15,6 +15,7 @@ public class WeaponController : MonoBehaviour
     bool weaponChangeLock;
     [SerializeField] float weaponChangeCooldown;
     [SerializeField] UIManager uiManager;
+    [SerializeField] AudioManager audioManager;
 
     private void Update()
     {
@@ -63,6 +64,7 @@ public class WeaponController : MonoBehaviour
     }
     void ActivateWeapon(int weaponIndex)
     {
+        audioManager.PlayChangeWeaponSound();
         for (int i = 0; i < weaponScripts.Length; i++)
         {
             if (i == weaponIndex)

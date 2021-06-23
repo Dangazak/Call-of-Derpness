@@ -10,6 +10,7 @@ public class SwitchActivation : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && !triggered)
         {
+            FindObjectOfType<AudioManager>().PlayKeyMusic();
             triggered = true;
             for (int i = 0; i < gameObjectsToSwitch.Length; i++)
             {

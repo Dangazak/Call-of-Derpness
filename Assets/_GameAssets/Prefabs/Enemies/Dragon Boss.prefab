@@ -671,11 +671,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 500
   maxHealth: 500
-  prefabPSDamage: {fileID: 3863781810665373380, guid: 4ac2d943597590968bc9c8b755f5057b, type: 3}
+  prefabPSDamage: {fileID: 55282967885434147, guid: c56bf5f47f8e5d94cbd80b18f9e7ac77, type: 3}
   prefabPSDeath: {fileID: 6164469955533058167, guid: a3c97153363a7e8afa31cceb99eb9b13, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}
   gameManager: {fileID: 0}
+  hpUpdater: {fileID: 0}
   animator: {fileID: 9137159604447285490}
   flyUpAmaount: 5
   turningDistance: 50
