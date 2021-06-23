@@ -38878,7 +38878,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3141950811756784480
 MonoBehaviour:
@@ -38893,7 +38893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  maxSize: 2
+  maxSize: 3
   maxEnemies: 10
 --- !u!114 &7440309391344530720
 MonoBehaviour:

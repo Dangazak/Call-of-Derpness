@@ -33,6 +33,13 @@ public class WeaponController : MonoBehaviour
             weaponChangeLock = true;
             StartCoroutine(UnlockWeaponChange());
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && !weaponChangeLock && availableWeapons[2])
+        {
+            activeWeapon = 2;
+            ActivateWeapon(activeWeapon);
+            weaponChangeLock = true;
+            StartCoroutine(UnlockWeaponChange());
+        }
         else if (Input.GetAxis("Mouse ScrollWheel") > 0f && !weaponChangeLock)
         {
             ActiveWeaponUp();

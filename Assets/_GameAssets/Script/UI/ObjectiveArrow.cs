@@ -17,12 +17,9 @@ public class ObjectiveArrow : MonoBehaviour
             targetEnemy = GameObject.FindGameObjectWithTag("Enemy");
             if (targetEnemy == null)
             {
-                Destroy(gameObject);
+                targetEnemy = FindObjectOfType<DragonBoss>().gameObject;
             }
-            else
-            {
-                LookAtTarget(targetEnemy.transform.position);
-            }
+            LookAtTarget(targetEnemy.transform.position);
         }
         else
         {

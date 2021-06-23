@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -110,5 +112,7 @@ public class GameManager : MonoBehaviour
         maxMana = 50;
         remainingEnemies = 0;
         Time.timeScale = 1;
+        FirstPersonController fps = FindObjectOfType<FirstPersonController>();
+        fps.mouseLookCustom.lockCursor = true;
     }
 }

@@ -25,7 +25,7 @@ public class Fireball : MonoBehaviour
     void Explode()
     {
         GameObject explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
-        explosion.transform.localScale = transform.localScale;
+        //explosion.transform.localScale = transform.localScale;
         explosion.GetComponent<FireballExplosion>().damage = damage;
         Destroy(gameObject);
     }

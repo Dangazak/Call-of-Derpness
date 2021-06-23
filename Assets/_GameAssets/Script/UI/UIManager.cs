@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class UIManager : MonoBehaviour
 {
@@ -38,11 +39,13 @@ public class UIManager : MonoBehaviour
     public void GameOverScreen()
     {
         endPanel.SetActive(true);
+        UnlockMouse();
     }
     public void VictoryScreen()
     {
         endText.text = "V   I   C   T   O   R   Y";
         endPanel.SetActive(true);
+        UnlockMouse();
     }
     public void ChangeToMana()
     {
@@ -61,5 +64,10 @@ public class UIManager : MonoBehaviour
         gameManager.LifeUpdateEvent -= HealthBarUpdate;
         gameManager.AmmoUpdateEvent -= AmmoUpdate;
         gameManager.ManaUpdateEvent -= ManaUpdate;
+    }
+    private void UnlockMouse()
+    {
+        FirstPersonController fps = FindObjectOfType<FirstPersonController>();
+        fps.mouseLookCustom.lockCursor = false;
     }
 }

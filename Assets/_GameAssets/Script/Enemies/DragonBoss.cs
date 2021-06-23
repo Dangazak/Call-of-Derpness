@@ -96,7 +96,8 @@ public class DragonBoss : Enemy
     public void EndAttack()
     {
         flyingOver = true;
-        transform.LookAt(player.transform.position + Vector3.up * flyUpAmaount, Vector3.up);
+        //transform.LookAt(player.transform.position + Vector3.up * flyUpAmaount, Vector3.up);
+        transform.up = (Vector3.up * 2) - transform.forward;
     }
     public void AwakeTheDragon()
     {

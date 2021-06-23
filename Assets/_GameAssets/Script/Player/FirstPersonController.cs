@@ -277,7 +277,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_MouseLook.LookRotation(transform, m_Camera.transform);
         }
 
-
+        public MouseLook mouseLookCustom
+        {
+            get { return m_MouseLook; }
+        }
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
             Rigidbody body = hit.collider.attachedRigidbody;
