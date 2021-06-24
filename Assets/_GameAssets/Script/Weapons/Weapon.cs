@@ -55,5 +55,9 @@ public abstract class Weapon : MonoBehaviour
     {
         canShoot = true;
     }
+    public void DeactivateShooting()
+    {
+        canShoot = false;
+    }
     public abstract void Shoot();
 }
