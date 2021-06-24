@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Controls an arrow in the minimap that points at an objective
 public class ObjectiveArrow : MonoBehaviour
 {
     [SerializeField] Transform keyPosition;

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Controls weapon switching
 public class WeaponController : MonoBehaviour
 {
     const string ANIM_LIGHTNING = "ChangeToLightning";

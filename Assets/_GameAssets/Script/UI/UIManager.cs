@@ -7,7 +7,6 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] Slider sliderHP;
-    //[SerializeField] private GameObject botonReiniciar;
     [SerializeField] Text ammoText;
     [SerializeField] Text endText;
     [SerializeField] Text ammoTypeText;
@@ -41,14 +40,14 @@ public class UIManager : MonoBehaviour
     {
         audioManager.PlayGameOverMusic();
         endPanel.SetActive(true);
-        UnlockMouse();
+        //UnlockMouse();
     }
     public void VictoryScreen()
     {
         audioManager.PlayVictoryMusic();
         endText.text = "V   I   C   T   O   R   Y";
         endPanel.SetActive(true);
-        UnlockMouse();
+        //UnlockMouse();
     }
     public void ChangeToMana()
     {

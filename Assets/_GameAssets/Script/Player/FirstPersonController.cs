@@ -28,8 +28,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip[] m_FootstepSoundsWater;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip[] m_FootstepSoundsCastle;    // an array of footstep sounds that will be randomly selected from.
-        [SerializeField] private AudioClip m_JumpSound, m_JumpSoundNormal, m_JumpSoundCastle;           // the sound played when character leaves the ground.
-        [SerializeField] private AudioClip m_LandSound, m_LandSoundNormal, m_LandSoundCastle;           // the sound played when character touches back on ground.
+        [SerializeField] private AudioClip m_JumpSoundNormal, m_JumpSoundCastle;           // the sound played when character leaves the ground.
+        [SerializeField] private AudioClip m_LandSoundNormal, m_LandSoundCastle;           // the sound played when character touches back on ground.
         public enum FloorType { Normal, Water, Castle }
         FloorType selectedFloor = FloorType.Normal;
         // [Range(0.9f,1)]
@@ -97,7 +97,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayLandingSound()
         {
-            m_AudioSource.clip = m_LandSound;
+            if (selectedFloor == FloorType.Castle)
+            {
+                m_AudioSource.clip = m_LandSoundCastle;
+            }
+            else
+            {
+                m_AudioSource.clip = m_LandSoundNormal;
+            }
             m_AudioSource.Play();
             m_NextStep = m_StepCycle + .5f;
         }
@@ -149,7 +156,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayJumpSound()
         {
-            m_AudioSource.clip = m_JumpSound;
+            if (selectedFloor == FloorType.Castle)
+            {
+                m_AudioSource.clip = m_JumpSoundCastle;
+            }
+            else
+            {
+                m_AudioSource.clip = m_JumpSoundNormal;
+            }
             m_AudioSource.Play();
         }
 

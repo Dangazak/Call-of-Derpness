@@ -13,7 +13,8 @@ public class MinimapManager : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.M)){
+        if (Input.GetKeyDown(KeyCode.M))
+        {
             minimap.SetActive(!minimap.activeSelf);
         }
         transform.position =

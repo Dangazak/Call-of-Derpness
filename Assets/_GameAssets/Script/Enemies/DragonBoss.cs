@@ -8,7 +8,7 @@ public class DragonBoss : Enemy
     [SerializeField] Animator animator;
     public static DragonBoss finalBoss;
     bool isAwake, turning, flyingOver, chasing;
-    [SerializeField] float flyUpAmaount, turningDistance, attackingDistance, rotationRate, speed, minAngleToPlayer;
+    [SerializeField] float turningDistance, attackingDistance, rotationRate, speed, minAngleToPlayer, flyUpRotation;
     [SerializeField] GameObject hpBar;
     override public void Start()
     {
@@ -96,8 +96,7 @@ public class DragonBoss : Enemy
     public void EndAttack()
     {
         flyingOver = true;
-        //transform.LookAt(player.transform.position + Vector3.up * flyUpAmaount, Vector3.up);
-        transform.up = (Vector3.up * 2) - transform.forward;
+        transform.Rotate(-flyUpRotation, 0, 0);
     }
     public void AwakeTheDragon()
     {

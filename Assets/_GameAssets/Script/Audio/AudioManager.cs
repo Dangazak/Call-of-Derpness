@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Stores audio clips that can be called from other scripts
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;

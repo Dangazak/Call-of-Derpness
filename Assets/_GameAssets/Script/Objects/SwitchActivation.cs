@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Deactivates an array of objects when you enter a trigger collider
 public class SwitchActivation : MonoBehaviour
 {
     [SerializeField] GameObject[] gameObjectsToSwitch;

@@ -15,7 +15,7 @@ public class ManaRegeneration : MonoBehaviour
     }
     void Update()
     {
-        if (!chargeStopped)
+        if (!chargeStopped && !Input.GetButton("Fire1"))
         {
             manaBuffer += (rechargeRate * Time.deltaTime);
             int mana = (int)Mathf.Floor(manaBuffer);

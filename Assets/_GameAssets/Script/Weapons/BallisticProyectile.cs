@@ -11,7 +11,6 @@ public class BallisticProyectile : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        //Debug.Log(collision.gameObject.name);
         if (IsPlayer(collision.gameObject)) return;
         if (IsEnemy(collision.gameObject) && damgeActive)
         {

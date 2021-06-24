@@ -18,19 +18,6 @@ public class ObjectPools : MonoBehaviour
             objectPool[i].SetActive(false);
         }
     }
-    /*void ResetObjectWithRigidbody(GameObject objectToReset)
-    {
-        Rigidbody rb = objectToReset.GetComponent<Rigidbody>();
-        if (rb == null)
-        {
-            Debug.Log("Rigidbody not found, plunger needs Rigidbody");
-            return;
-        }
-        rb.velocity = Vector3.zero;
-        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
-        rb.isKinematic = false;
-        objectToReset.SetActive(true);
-    }*/
     public GameObject CreateObject(Vector3 position, Quaternion rotation)
     {
         GameObject tempGameObject = objectPool[activeIndex];
