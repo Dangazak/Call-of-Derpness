@@ -50,9 +50,9 @@ public class FireballWand : Weapon
     }
     public override void Shoot()
     {
+        PlayShootSound();
         GameObject fireballInstance = Instantiate(fireball, shootPoint.transform.position, shootPoint.transform.rotation); //player.transform.position, player.transform.rotation);
         float fireballScale = minFireballSize + (1 - minFireballSize) * charge / maxChargeTime;
-        //fireball.transform.localScale = new Vector3(1, 1, 1) * fireballScale;
         Fireball fireballScript = fireballInstance.GetComponent<Fireball>();
         fireballScript.damage = damage * fireballScale;
         fireballScript.distance = distance;
