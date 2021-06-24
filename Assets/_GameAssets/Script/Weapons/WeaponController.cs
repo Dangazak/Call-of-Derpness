@@ -23,6 +23,8 @@ public class WeaponController : MonoBehaviour
         //if(Input.mouseScrollDelta)
         if (Input.GetKeyDown(KeyCode.Alpha1) && !weaponChangeLock && availableWeapons[0])
         {
+            if (activeWeapon == 0)
+                return;
             activeWeapon = 0;
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
@@ -30,6 +32,8 @@ public class WeaponController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && !weaponChangeLock && availableWeapons[1])
         {
+            if (activeWeapon == 1)
+                return;
             activeWeapon = 1;
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
@@ -37,6 +41,8 @@ public class WeaponController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && !weaponChangeLock && availableWeapons[2])
         {
+            if (activeWeapon == 2)
+                return;
             activeWeapon = 2;
             ActivateWeapon(activeWeapon);
             weaponChangeLock = true;
@@ -65,7 +71,6 @@ public class WeaponController : MonoBehaviour
     }
     void ActivateWeapon(int weaponIndex)
     {
-        audioManager.PlayChangeWeaponSound();
         for (int i = 0; i < weaponScripts.Length; i++)
         {
             if (i == weaponIndex)
@@ -94,6 +99,7 @@ public class WeaponController : MonoBehaviour
             handAndWeaponAnimator.SetTrigger(ANIM_FIREBALL);
             uiManager.ChangeToMana();
         }
+        audioManager.PlayChangeWeaponSound();
     }
     void ActiveWeaponUp()
     {
