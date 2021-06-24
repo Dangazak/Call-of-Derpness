@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 708e9bf1b60ad0c41988a13273ff22fc, type: 2}
   m_LightingSettings: {fileID: 56008237}
 --- !u!196 &4
 NavMeshSettings:
@@ -1056,7 +1056,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -1.7684368e-25, z: 4.5905e-41, w: -8.079826}
+  m_BoundingSphereOverride: {x: 0, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1951,7 +1951,7 @@ GameObject:
   - component: {fileID: 92759609}
   - component: {fileID: 92759608}
   - component: {fileID: 92759607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Initial music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2634,7 +2634,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.3174e-41, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1.7034298e+25, y: 3.0710039e+32, z: 1.8175575e+31, w: 4.5448016e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3071,19 +3071,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108399763469733722, guid: 98fab9660836e4763ae7ed8bf6765b90, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -4.8108253
+      value: 8.3e-44
       objectReference: {fileID: 0}
     - target: {fileID: 108399763469733722, guid: 98fab9660836e4763ae7ed8bf6765b90, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 6.43e-43
       objectReference: {fileID: 0}
     - target: {fileID: 108399763469733722, guid: 98fab9660836e4763ae7ed8bf6765b90, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: -37.67279
       objectReference: {fileID: 0}
     - target: {fileID: 108399763469733722, guid: 98fab9660836e4763ae7ed8bf6765b90, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5905e-41
+      value: 6.43e-43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98fab9660836e4763ae7ed8bf6765b90, type: 3}
@@ -4989,7 +4989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209617710}
   - component: {fileID: 209617709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Controlador sonido ambiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5375,7 +5375,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.0103e-41, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 6.43e-43, y: -2.194952, z: 6.43e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -6032,7 +6032,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1.1e-43, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -7341,7 +7341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -7.683529
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.x
@@ -7349,7 +7349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: -2.0972068e-22
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -8391,7 +8391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -2.947733
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.x
@@ -8399,7 +8399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: -2.0972068e-22
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -9164,7 +9164,7 @@ GameObject:
   - component: {fileID: 447230318}
   - component: {fileID: 447230317}
   - component: {fileID: 447230316}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider Rio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10551,7 +10551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476070423}
   - component: {fileID: 476070424}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mountain sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12149,7 +12149,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 2.611069e+20, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -14864,7 +14864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689313844}
   - component: {fileID: 689313845}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Forest sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15408,7 +15408,7 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 5
+  m_BounceIntensity: 4
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
@@ -19102,7 +19102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873387973}
   - component: {fileID: 873387974}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Initial ambient sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19268,7 +19268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 880385517}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20221,7 +20221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 929638064}
   - component: {fileID: 929638065}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21785,19 +21785,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -50.889008
+      value: 9.1858e-41
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 9.1858e-41
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: 4.959117e-39
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5905e-41
+      value: 1.5078841e-19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
@@ -24631,7 +24631,7 @@ GameObject:
   - component: {fileID: 1120217257}
   - component: {fileID: 1120217260}
   - component: {fileID: 1120217259}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Castle Audio Trigger
   m_TagString: Castle
   m_Icon: {fileID: 0}
@@ -25940,7 +25940,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 9.1858e-41, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -27179,7 +27179,7 @@ GameObject:
   - component: {fileID: 1215361434}
   - component: {fileID: 1215361433}
   - component: {fileID: 1215361435}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27609,19 +27609,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6966547510275304836, guid: 6ebfe67d6092425af8547691a5a649d0, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -25.238663
+      value: 9.1858e-41
       objectReference: {fileID: 0}
     - target: {fileID: 6966547510275304836, guid: 6ebfe67d6092425af8547691a5a649d0, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 2.4257473e-29
       objectReference: {fileID: 0}
     - target: {fileID: 6966547510275304836, guid: 6ebfe67d6092425af8547691a5a649d0, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: 2.2e-44
       objectReference: {fileID: 0}
     - target: {fileID: 6966547510275304836, guid: 6ebfe67d6092425af8547691a5a649d0, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5905e-41
+      value: 2.4405384e-30
       objectReference: {fileID: 0}
     - target: {fileID: 7002709793311107698, guid: 6ebfe67d6092425af8547691a5a649d0, type: 3}
       propertyPath: m_Name
@@ -28838,19 +28838,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012766779308, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -50.468475
+      value: 9.1858e-41
       objectReference: {fileID: 0}
     - target: {fileID: 108000012766779308, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 2.4257473e-29
       objectReference: {fileID: 0}
     - target: {fileID: 108000012766779308, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: 2.2e-44
       objectReference: {fileID: 0}
     - target: {fileID: 108000012766779308, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5905e-41
+      value: 2.4405384e-30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36355a8acffc1a3429cbacaa0d858a24, type: 3}
@@ -28968,7 +28968,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.0856e-41, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 7e-45, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -30682,7 +30682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -3.6559849
+      value: 6e-44
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.x
@@ -30690,11 +30690,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: 2.7e-44
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5905e-41
+      value: 2.8204e-41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
@@ -30965,7 +30965,7 @@ GameObject:
   - component: {fileID: 1438241385}
   - component: {fileID: 1438241389}
   - component: {fileID: 1438241388}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: River sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34309,7 +34309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -37.794464
+      value: 2.2e-44
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.x
@@ -34317,11 +34317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1.7684368e-25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000012041925654, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5905e-41
+      value: 2.4435958e-30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca32c1122ba07f94f8e1633d85222ccb, type: 3}
@@ -40006,7 +40006,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 2.6622e-41, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -42801,7 +42801,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 6.4e-44, z: 2.0372e-41, w: 6e-44}
+  m_BoundingSphereOverride: {x: 6.7094695e+22, y: -2.0972068e-22, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -43708,7 +43708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123233524}
   - component: {fileID: 2123233525}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pond sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
