@@ -20,10 +20,12 @@ public class AudioManager : MonoBehaviour
     }
     public void PlayGameOverMusic()
     {
+        musicAudioSource.Stop();
         musicAudioSource.PlayOneShot(gameOverMusic);
     }
     public void PlayVictoryMusic()
     {
+        musicAudioSource.Stop();
         musicAudioSource.PlayOneShot(victoryMusic);
     }
     public void PlayAmmoSound()
