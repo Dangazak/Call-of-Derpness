@@ -29,10 +29,10 @@ public class LightningBolt : Weapon
             {
                 Shoot();
             }
-            //else
-            //{
-            //    PlayJammingSound();
-            //}
+            else
+            {
+                PlayJammingSound();
+            }
         }
     }
     public override void Shoot()
@@ -58,6 +58,10 @@ public class LightningBolt : Weapon
             }
             animator.SetTrigger(SHOOT);
             gameManager.UseMana(manaCost);
+        }
+        else
+        {
+            PlayJammingSound();
         }
     }
 

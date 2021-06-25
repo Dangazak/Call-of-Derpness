@@ -5,6 +5,7 @@ using UnityEngine;
 public class FireballWand : Weapon
 {
     const string CHARGE = "Charge";
+    const string SHOOT = "Shoot";
     [SerializeField] GameObject fireball; //, player;
     [SerializeField] float distance, minFireballSize, manaCost, maxChargeTime;
     GameManager gameManager;
@@ -22,14 +23,20 @@ public class FireballWand : Weapon
             {
                 Charge();
             }
-            //else
-            //{
-            //    PlayJammingSound();
-            //}
+            else
+            {
+                PlayJammingSound();
+            }
         }
         else if (Input.GetButtonUp("Fire1") && charge > 0.1f)
         {
             Shoot();
+        }
+        else if (Input.GetButtonUp("Fire1"))
+        {
+            charge = 0;
+            PlayJammingSound();
+            animator.SetBool(CHARGE, false);
         }
     }
     public void Charge()
@@ -56,10 +63,16 @@ public class FireballWand : Weapon
         Fireball fireballScript = fireballInstance.GetComponent<Fireball>();
         fireballScript.damage = damage * fireballScale;
         fireballScript.distance = distance;
-        animator.SetBool(CHARGE, false);
+        animator.SetTrigger(SHOOT);
+        StartCoroutine(StopCharge());
         charge = 0;
         manaBuffer = 0;
         canShoot = false;
         Invoke("ActivateShooting", cadence);
+    }
+    IEnumerator StopCharge()
+    {
+        yield return null;
+        animator.SetBool(CHARGE, false);
     }
 }
