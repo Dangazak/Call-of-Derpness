@@ -49,5 +49,11 @@ public abstract class MobileEnemy : Enemy
     {
         base.Update();
         Attack();
+        StayOnBounds();
+    }
+    void StayOnBounds()
+    {
+        if (transform.position.x > 500 || transform.position.x < 0 || transform.position.y < 12 || transform.position.z > 500 || transform.position.z < 0)
+            transform.position = new Vector3(317, 32, 314);
     }
 }

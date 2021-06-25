@@ -28,6 +28,8 @@ public class LightningBolt : Weapon
             if (canShoot)
             {
                 Shoot();
+                jamSoundJustPlayed = true;
+                StartCoroutine(UnlockJamSound());
             }
             else
             {

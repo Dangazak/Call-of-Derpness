@@ -18,7 +18,7 @@ public abstract class Weapon : MonoBehaviour
     public AudioClip jammingSound;
     public AudioClip reloadSound;
     public bool canShoot = false;
-    bool jamSoundJustPlayed;
+    public bool jamSoundJustPlayed;
 
     void Awake()
     {
@@ -49,7 +49,7 @@ public abstract class Weapon : MonoBehaviour
             StartCoroutine(UnlockJamSound());
         }
     }
-    IEnumerator UnlockJamSound()
+    public IEnumerator UnlockJamSound()
     {
         yield return new WaitForSeconds(1f);
         jamSoundJustPlayed = false;
