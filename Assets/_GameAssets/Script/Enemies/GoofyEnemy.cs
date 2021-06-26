@@ -7,6 +7,6 @@ public class GoofyEnemy : MobileEnemy
     public override void Update()
     {
         base.Update();
-        Move();
+        Rotate();
     }
 }

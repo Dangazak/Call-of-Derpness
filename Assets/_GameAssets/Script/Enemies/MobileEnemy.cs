@@ -19,8 +19,6 @@ public abstract class MobileEnemy : Enemy
     {
         if (distanceToPlayer <= distExplo)
         {
-            //Destroy(gameObject);
-            //Instantiate(prefabPSDeath,transform.position,transform.rotation);
             gameManager.TakeDamage(damage);
             Death();
         }
@@ -31,20 +29,17 @@ public abstract class MobileEnemy : Enemy
         RaycastHit hitInfo;
         Physics.Raycast(ray, out hitInfo, 1);
         transform.up = hitInfo.normal;
-        int det = Random.Range(0, 100);
-        int sign = det > 50 ? 1 : -1;
-        transform.Rotate(0, Random.Range(minAngle, maxAngle) * sign, 0);
     }
     public override void Start()
     {
         base.Start();
         gameManager.AddEnemy();
-        InvokeRepeating("Rotate", timeToRotation, timeToRotation);
+        //InvokeRepeating("Rotate", timeToRotation, timeToRotation);
     }
-    public void Move()
+    /*public void Move()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
-    }
+    }*/
     public override void Update()
     {
         base.Update();

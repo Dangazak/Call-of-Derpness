@@ -4,21 +4,16 @@ using UnityEngine;
 
 public class SmartEnemy : MobileEnemy
 {
-    
-    [Range(1,25)]
+
+    [Range(1, 25)]
     public float distChase;
+    [SerializeField] EnemyNavigation navigation;
     public override void Update()
     {
         base.Update();
-        if(distanceToPlayer <= distChase){
-            Vector3 target = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
-            transform.LookAt(target);
+        if (distanceToPlayer <= distChase)
+        {
+            navigation.SetChaseTarget(player);
         }
-        Move();
-    }
-    public override void Rotate()
-    {
-        if(distanceToPlayer <= distChase) return;
-        base.Rotate();
     }
 }

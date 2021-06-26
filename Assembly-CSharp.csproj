@@ -127,6 +127,7 @@
      <Compile Include="Assets\Asset Store Downloads\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\_GameAssets\Script\UI\ExitAplication.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\EventSystemChecker.cs" />
      <Compile Include="Assets\_GameAssets\Script\UI\ObjectiveArrow.cs" />
@@ -148,7 +149,7 @@
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\FPSCounter.cs" />
      <Compile Include="Assets\Asset Store Downloads\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\_GameAssets\Script\UI\ExitAplication.cs" />
+     <Compile Include="Assets\_GameAssets\Script\Enemies\EnemyNavigation.cs" />
      <None Include="Assets\Asset Store Downloads\Terrain Tools\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset Store Downloads\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
